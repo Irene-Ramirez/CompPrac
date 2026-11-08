@@ -89,6 +89,55 @@
     </div>
     </section>
 
+<!-- SECTION 3: Commodity Analysis -->
+<section class="dashboard-section" id="commodity-section">
+
+    <h2>3. JAXPORT Commodity Analysis</h2>
+
+    <p>
+        Explore the top commodity groups handled by Jacksonville
+        between 2021 and 2025, measured by container volume (TEUs).
+    </p>
+
+    <div class="commodity-filters">
+
+        <div>
+            <label for="commodity-year-filter">Select Year:</label>
+            <select id="commodity-year-filter">
+                <option value="all">All Years</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="commodity-direction-filter">
+                Trade Direction:
+            </label>
+            <select id="commodity-direction-filter">
+                <option value="all">Imports + Exports</option>
+                <option value="I">Imports</option>
+                <option value="E">Exports</option>
+            </select>
+        </div>
+
+    </div>
+
+    <div id="commodity-chart"></div>
+
+    <div class="finding">
+        <h3>Key Finding</h3>
+        <p id="commodity-finding">
+            Loading commodity analysis...
+        </p>
+    </div>
+
+    <p class="data-note">
+        Commodity groups use HS2 classifications. Results reflect
+        the Jacksonville trade records in this dataset and may not
+        represent the port's complete official throughput.
+    </p>
+
+    </section>
+
     </main>
 </body>
 </html>

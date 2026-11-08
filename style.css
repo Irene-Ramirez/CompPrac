@@ -113,3 +113,51 @@ select {
     border-left: 4px solid #167c9b;
     border-radius: 6px;
 }
+
+
+/* SECTION 3: Commodity Analysis */
+
+#commodity-section {
+    margin-top: 35px;
+}
+
+.commodity-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin: 20px 0;
+}
+
+.commodity-filters > div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.commodity-filters select {
+    padding: 9px 12px;
+    border: 1px solid #ccd6e2;
+    border-radius: 6px;
+    background: white;
+    color: #243247;
+    font-size: 15px;
+}
+
+#commodity-chart {
+    width: 100%;
+    min-height: 540px;
+}
+
+#commodity-section .finding {
+    margin-top: 20px;
+    padding: 18px;
+    background: #eef5fa;
+    border-left: 4px solid #167c9b;
+    border-radius: 6px;
+}
+
+.data-note {
+    margin-top: 16px;
+    font-size: 13px;
+    color: #66758a;
+}

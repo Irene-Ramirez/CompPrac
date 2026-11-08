@@ -1,0 +1,5896 @@
+[
+  {
+    "year":2021,
+    "hs2":"00",
+    "hs2_description":"Miscellaneous Cargo",
+    "direction":"E",
+    "teus":1606.75
+  },
+  {
+    "year":2021,
+    "hs2":"00",
+    "hs2_description":"Miscellaneous Cargo",
+    "direction":"I",
+    "teus":613.83
+  },
+  {
+    "year":2021,
+    "hs2":"02",
+    "hs2_description":"Meat And Edible Meat Offal",
+    "direction":"E",
+    "teus":6750.91
+  },
+  {
+    "year":2021,
+    "hs2":"02",
+    "hs2_description":"Meat And Edible Meat Offal",
+    "direction":"I",
+    "teus":141.0
+  },
+  {
+    "year":2021,
+    "hs2":"03",
+    "hs2_description":"Fish And Crustaceans, Molluscs And Other Aquatic I",
+    "direction":"E",
+    "teus":55.46
+  },
+  {
+    "year":2021,
+    "hs2":"03",
+    "hs2_description":"Fish And Crustaceans, Molluscs And Other Aquatic I",
+    "direction":"I",
+    "teus":1408.42
+  },
+  {
+    "year":2021,
+    "hs2":"04",
+    "hs2_description":"Dairy Produce; Birds' Eggs; Natural Honey; Edible",
+    "direction":"E",
+    "teus":167.51
+  },
+  {
+    "year":2021,
+    "hs2":"04",
+    "hs2_description":"Dairy Produce; Birds' Eggs; Natural Honey; Edible",
+    "direction":"I",
+    "teus":196.0
+  },
+  {
+    "year":2021,
+    "hs2":"05",
+    "hs2_description":"Products Of Animal Origin, Nesoi",
+    "direction":"E",
+    "teus":19.66
+  },
+  {
+    "year":2021,
+    "hs2":"05",
+    "hs2_description":"Products Of Animal Origin, Nesoi",
+    "direction":"I",
+    "teus":3.0
+  },
+  {
+    "year":2021,
+    "hs2":"06",
+    "hs2_description":"Live Trees And Other Plants; Bulbs, Roots And The",
+    "direction":"E",
+    "teus":2.07
+  },
+  {
+    "year":2021,
+    "hs2":"06",
+    "hs2_description":"Live Trees And Other Plants; Bulbs, Roots And The",
+    "direction":"I",
+    "teus":2.0
+  },
+  {
+    "year":2021,
+    "hs2":"07",
+    "hs2_description":"Edible Vegetables And Certain Roots And Tubers",
+    "direction":"E",
+    "teus":97.53
+  },
+  {
+    "year":2021,
+    "hs2":"07",
+    "hs2_description":"Edible Vegetables And Certain Roots And Tubers",
+    "direction":"I",
+    "teus":262.0
+  },
+  {
+    "year":2021,
+    "hs2":"08",
+    "hs2_description":"Edible Fruit And Nuts; Peel Of Citrus Fruit Or Mel",
+    "direction":"E",
+    "teus":26.19
+  },
+  {
+    "year":2021,
+    "hs2":"08",
+    "hs2_description":"Edible Fruit And Nuts; Peel Of Citrus Fruit Or Mel",
+    "direction":"I",
+    "teus":6138.75
+  },
+  {
+    "year":2021,
+    "hs2":"09",
+    "hs2_description":"Coffee, Tea, Mate And Spices",
+    "direction":"E",
+    "teus":38.52
+  },
+  {
+    "year":2021,
+    "hs2":"09",
+    "hs2_description":"Coffee, Tea, Mate And Spices",
+    "direction":"I",
+    "teus":2641.25
+  },
+  {
+    "year":2021,
+    "hs2":"10",
+    "hs2_description":"Cereals",
+    "direction":"E",
+    "teus":192.78
+  },
+  {
+    "year":2021,
+    "hs2":"10",
+    "hs2_description":"Cereals",
+    "direction":"I",
+    "teus":1336.99
+  },
+  {
+    "year":2021,
+    "hs2":"11",
+    "hs2_description":"Milling Industry Products; Malt; Starches; Inulin;",
+    "direction":"E",
+    "teus":24.5
+  },
+  {
+    "year":2021,
+    "hs2":"11",
+    "hs2_description":"Milling Industry Products; Malt; Starches; Inulin;",
+    "direction":"I",
+    "teus":9.25
+  },
+  {
+    "year":2021,
+    "hs2":"12",
+    "hs2_description":"Oil Seeds And Oleaginous Fruits; Miscellaneous Gra",
+    "direction":"E",
+    "teus":121.98
+  },
+  {
+    "year":2021,
+    "hs2":"12",
+    "hs2_description":"Oil Seeds And Oleaginous Fruits; Miscellaneous Gra",
+    "direction":"I",
+    "teus":9.0
+  },
+  {
+    "year":2021,
+    "hs2":"13",
+    "hs2_description":"Lac; Gums; Resins And Other Vegetable Saps And Ext",
+    "direction":"E",
+    "teus":3.13
+  },
+  {
+    "year":2021,
+    "hs2":"13",
+    "hs2_description":"Lac; Gums; Resins And Other Vegetable Saps And Ext",
+    "direction":"I",
+    "teus":1.0
+  },
+  {
+    "year":2021,
+    "hs2":"14",
+    "hs2_description":"Vegetable Plaiting Materials And Vegetable Product",
+    "direction":"E",
+    "teus":2.0
+  },
+  {
+    "year":2021,
+    "hs2":"14",
+    "hs2_description":"Vegetable Plaiting Materials And Vegetable Product",
+    "direction":"I",
+    "teus":13.0
+  },
+  {
+    "year":2021,
+    "hs2":"15",
+    "hs2_description":"Animal Or Vegetable Fats And Oils And Their Cleava",
+    "direction":"E",
+    "teus":336.33
+  },
+  {
+    "year":2021,
+    "hs2":"15",
+    "hs2_description":"Animal Or Vegetable Fats And Oils And Their Cleava",
+    "direction":"I",
+    "teus":67.66
+  },
+  {
+    "year":2021,
+    "hs2":"16",
+    "hs2_description":"Edible Preparations Of Meat, Fish, Crustaceans, Mo",
+    "direction":"E",
+    "teus":13.14
+  },
+  {
+    "year":2021,
+    "hs2":"16",
+    "hs2_description":"Edible Preparations Of Meat, Fish, Crustaceans, Mo",
+    "direction":"I",
+    "teus":305.34
+  },
+  {
+    "year":2021,
+    "hs2":"17",
+    "hs2_description":"Sugars And Sugar Confectionary",
+    "direction":"E",
+    "teus":187.76
+  },
+  {
+    "year":2021,
+    "hs2":"17",
+    "hs2_description":"Sugars And Sugar Confectionary",
+    "direction":"I",
+    "teus":418.01
+  },
+  {
+    "year":2021,
+    "hs2":"18",
+    "hs2_description":"Cocoa And Cocoa Preparations",
+    "direction":"E",
+    "teus":54.17
+  },
+  {
+    "year":2021,
+    "hs2":"18",
+    "hs2_description":"Cocoa And Cocoa Preparations",
+    "direction":"I",
+    "teus":13.0
+  },
+  {
+    "year":2021,
+    "hs2":"19",
+    "hs2_description":"Preparations Of Cereals, Flour, Starch Or Milk; Ba",
+    "direction":"E",
+    "teus":206.32
+  },
+  {
+    "year":2021,
+    "hs2":"19",
+    "hs2_description":"Preparations Of Cereals, Flour, Starch Or Milk; Ba",
+    "direction":"I",
+    "teus":544.02
+  },
+  {
+    "year":2021,
+    "hs2":"20",
+    "hs2_description":"Preparations Of Vegetables, Fruit, Nuts, Or Other",
+    "direction":"E",
+    "teus":76.02
+  },
+  {
+    "year":2021,
+    "hs2":"20",
+    "hs2_description":"Preparations Of Vegetables, Fruit, Nuts, Or Other",
+    "direction":"I",
+    "teus":3062.01
+  },
+  {
+    "year":2021,
+    "hs2":"21",
+    "hs2_description":"Miscellaneous Edible Preparations",
+    "direction":"E",
+    "teus":2412.69
+  },
+  {
+    "year":2021,
+    "hs2":"21",
+    "hs2_description":"Miscellaneous Edible Preparations",
+    "direction":"I",
+    "teus":141.56
+  },
+  {
+    "year":2021,
+    "hs2":"22",
+    "hs2_description":"Beverages, Spirits And Vinegar",
+    "direction":"E",
+    "teus":767.78
+  },
+  {
+    "year":2021,
+    "hs2":"22",
+    "hs2_description":"Beverages, Spirits And Vinegar",
+    "direction":"I",
+    "teus":3337.25
+  },
+  {
+    "year":2021,
+    "hs2":"23",
+    "hs2_description":"Residues And Waste From The Food Industries; Prepa",
+    "direction":"E",
+    "teus":355.06
+  },
+  {
+    "year":2021,
+    "hs2":"23",
+    "hs2_description":"Residues And Waste From The Food Industries; Prepa",
+    "direction":"I",
+    "teus":10.75
+  },
+  {
+    "year":2021,
+    "hs2":"24",
+    "hs2_description":"Tobacco And Manufactured Tobacco Substitutes",
+    "direction":"E",
+    "teus":241.33
+  },
+  {
+    "year":2021,
+    "hs2":"24",
+    "hs2_description":"Tobacco And Manufactured Tobacco Substitutes",
+    "direction":"I",
+    "teus":5.0
+  },
+  {
+    "year":2021,
+    "hs2":"25",
+    "hs2_description":"Salt; Sulfur; Earths And Stone; Plastering Materia",
+    "direction":"E",
+    "teus":266.25
+  },
+  {
+    "year":2021,
+    "hs2":"25",
+    "hs2_description":"Salt; Sulfur; Earths And Stone; Plastering Materia",
+    "direction":"I",
+    "teus":1035.25
+  },
+  {
+    "year":2021,
+    "hs2":"26",
+    "hs2_description":"Ores, Slag And Ash",
+    "direction":"E",
+    "teus":0.82
+  },
+  {
+    "year":2021,
+    "hs2":"26",
+    "hs2_description":"Ores, Slag And Ash",
+    "direction":"I",
+    "teus":4.0
+  },
+  {
+    "year":2021,
+    "hs2":"27",
+    "hs2_description":"Mineral Fuels, Mineral Oils And Products Of Their",
+    "direction":"E",
+    "teus":300.24
+  },
+  {
+    "year":2021,
+    "hs2":"27",
+    "hs2_description":"Mineral Fuels, Mineral Oils And Products Of Their",
+    "direction":"I",
+    "teus":56.67
+  },
+  {
+    "year":2021,
+    "hs2":"28",
+    "hs2_description":"Inorganic Chemicals; Organic Or Inorganic Compound",
+    "direction":"E",
+    "teus":629.33
+  },
+  {
+    "year":2021,
+    "hs2":"28",
+    "hs2_description":"Inorganic Chemicals; Organic Or Inorganic Compound",
+    "direction":"I",
+    "teus":408.88
+  },
+  {
+    "year":2021,
+    "hs2":"29",
+    "hs2_description":"Organic Chemicals",
+    "direction":"E",
+    "teus":1127.75
+  },
+  {
+    "year":2021,
+    "hs2":"29",
+    "hs2_description":"Organic Chemicals",
+    "direction":"I",
+    "teus":198.75
+  },
+  {
+    "year":2021,
+    "hs2":"30",
+    "hs2_description":"Pharmaceutical Products",
+    "direction":"E",
+    "teus":151.54
+  },
+  {
+    "year":2021,
+    "hs2":"30",
+    "hs2_description":"Pharmaceutical Products",
+    "direction":"I",
+    "teus":187.75
+  },
+  {
+    "year":2021,
+    "hs2":"31",
+    "hs2_description":"Fertilizers",
+    "direction":"E",
+    "teus":30.39
+  },
+  {
+    "year":2021,
+    "hs2":"31",
+    "hs2_description":"Fertilizers",
+    "direction":"I",
+    "teus":10.5
+  },
+  {
+    "year":2021,
+    "hs2":"32",
+    "hs2_description":"Tanning Or Dyeing Extracts; Tannins And Derivative",
+    "direction":"E",
+    "teus":420.67
+  },
+  {
+    "year":2021,
+    "hs2":"32",
+    "hs2_description":"Tanning Or Dyeing Extracts; Tannins And Derivative",
+    "direction":"I",
+    "teus":17.88
+  },
+  {
+    "year":2021,
+    "hs2":"33",
+    "hs2_description":"Essential Oils And Resinoids; Perfumery, Cosmetic",
+    "direction":"E",
+    "teus":319.77
+  },
+  {
+    "year":2021,
+    "hs2":"33",
+    "hs2_description":"Essential Oils And Resinoids; Perfumery, Cosmetic",
+    "direction":"I",
+    "teus":893.75
+  },
+  {
+    "year":2021,
+    "hs2":"34",
+    "hs2_description":"Soap Etc.; Lubricating Products; Waxes, Polishing",
+    "direction":"E",
+    "teus":226.05
+  },
+  {
+    "year":2021,
+    "hs2":"34",
+    "hs2_description":"Soap Etc.; Lubricating Products; Waxes, Polishing",
+    "direction":"I",
+    "teus":92.0
+  },
+  {
+    "year":2021,
+    "hs2":"35",
+    "hs2_description":"Albuminoidal Substances; Modified Starches; Glues;",
+    "direction":"E",
+    "teus":375.49
+  },
+  {
+    "year":2021,
+    "hs2":"35",
+    "hs2_description":"Albuminoidal Substances; Modified Starches; Glues;",
+    "direction":"I",
+    "teus":336.92
+  },
+  {
+    "year":2021,
+    "hs2":"36",
+    "hs2_description":"Explosives; Pyrotechnic Products; Matches; Pyropho",
+    "direction":"E",
+    "teus":44.38
+  },
+  {
+    "year":2021,
+    "hs2":"37",
+    "hs2_description":"Photographic Or Cinematographic Goods",
+    "direction":"E",
+    "teus":212.63
+  },
+  {
+    "year":2021,
+    "hs2":"38",
+    "hs2_description":"Miscellaneous Chemical Products",
+    "direction":"E",
+    "teus":3032.83
+  },
+  {
+    "year":2021,
+    "hs2":"38",
+    "hs2_description":"Miscellaneous Chemical Products",
+    "direction":"I",
+    "teus":472.01
+  },
+  {
+    "year":2021,
+    "hs2":"39",
+    "hs2_description":"Plastics And Articles Thereof",
+    "direction":"E",
+    "teus":8777.97
+  },
+  {
+    "year":2021,
+    "hs2":"39",
+    "hs2_description":"Plastics And Articles Thereof",
+    "direction":"I",
+    "teus":1208.63
+  },
+  {
+    "year":2021,
+    "hs2":"40",
+    "hs2_description":"Rubber And Articles Thereof",
+    "direction":"E",
+    "teus":744.58
+  },
+  {
+    "year":2021,
+    "hs2":"40",
+    "hs2_description":"Rubber And Articles Thereof",
+    "direction":"I",
+    "teus":6474.51
+  },
+  {
+    "year":2021,
+    "hs2":"41",
+    "hs2_description":"Raw Hides And Skins (other Than Furskins) And Leat",
+    "direction":"E",
+    "teus":11.15
+  },
+  {
+    "year":2021,
+    "hs2":"41",
+    "hs2_description":"Raw Hides And Skins (other Than Furskins) And Leat",
+    "direction":"I",
+    "teus":64.06
+  },
+  {
+    "year":2021,
+    "hs2":"42",
+    "hs2_description":"Articles Of Leather; Saddlery And Harness; Travel",
+    "direction":"E",
+    "teus":213.12
+  },
+  {
+    "year":2021,
+    "hs2":"42",
+    "hs2_description":"Articles Of Leather; Saddlery And Harness; Travel",
+    "direction":"I",
+    "teus":118.44
+  },
+  {
+    "year":2021,
+    "hs2":"44",
+    "hs2_description":"Wood And Articles Of Wood; Wood Charcoal",
+    "direction":"E",
+    "teus":505.44
+  },
+  {
+    "year":2021,
+    "hs2":"44",
+    "hs2_description":"Wood And Articles Of Wood; Wood Charcoal",
+    "direction":"I",
+    "teus":11811.73
+  },
+  {
+    "year":2021,
+    "hs2":"45",
+    "hs2_description":"Cork And Articles Of Cork",
+    "direction":"E",
+    "teus":1.92
+  },
+  {
+    "year":2021,
+    "hs2":"46",
+    "hs2_description":"Manufactures Of Straw, Esparto Or Other Plaiting M",
+    "direction":"I",
+    "teus":6.0
+  },
+  {
+    "year":2021,
+    "hs2":"47",
+    "hs2_description":"Pulp Of Wood Or Other Fibrous Cellulosic Material;",
+    "direction":"E",
+    "teus":1479.38
+  },
+  {
+    "year":2021,
+    "hs2":"47",
+    "hs2_description":"Pulp Of Wood Or Other Fibrous Cellulosic Material;",
+    "direction":"I",
+    "teus":345.01
+  },
+  {
+    "year":2021,
+    "hs2":"48",
+    "hs2_description":"Paper And Paperboard; Articles Of Paper Pulp, Pape",
+    "direction":"E",
+    "teus":1489.68
+  },
+  {
+    "year":2021,
+    "hs2":"48",
+    "hs2_description":"Paper And Paperboard; Articles Of Paper Pulp, Pape",
+    "direction":"I",
+    "teus":1775.66
+  },
+  {
+    "year":2021,
+    "hs2":"49",
+    "hs2_description":"Printed Books, Newspapers, Pictures And Other Prin",
+    "direction":"E",
+    "teus":23.07
+  },
+  {
+    "year":2021,
+    "hs2":"49",
+    "hs2_description":"Printed Books, Newspapers, Pictures And Other Prin",
+    "direction":"I",
+    "teus":0.66
+  },
+  {
+    "year":2021,
+    "hs2":"52",
+    "hs2_description":"Cotton, Including Yarns And Woven Fabrics Thereof",
+    "direction":"E",
+    "teus":83.97
+  },
+  {
+    "year":2021,
+    "hs2":"52",
+    "hs2_description":"Cotton, Including Yarns And Woven Fabrics Thereof",
+    "direction":"I",
+    "teus":205.0
+  },
+  {
+    "year":2021,
+    "hs2":"53",
+    "hs2_description":"Vegetable Textile Fibers Nesoi; Yarns And Woven Fa",
+    "direction":"E",
+    "teus":4.18
+  },
+  {
+    "year":2021,
+    "hs2":"53",
+    "hs2_description":"Vegetable Textile Fibers Nesoi; Yarns And Woven Fa",
+    "direction":"I",
+    "teus":42.0
+  },
+  {
+    "year":2021,
+    "hs2":"54",
+    "hs2_description":"Manmade Filaments, Including Yarns And Woven Fabri",
+    "direction":"E",
+    "teus":56.19
+  },
+  {
+    "year":2021,
+    "hs2":"54",
+    "hs2_description":"Manmade Filaments, Including Yarns And Woven Fabri",
+    "direction":"I",
+    "teus":3.0
+  },
+  {
+    "year":2021,
+    "hs2":"55",
+    "hs2_description":"Manmade Staple Fibers, Including Yarns And Woven F",
+    "direction":"E",
+    "teus":59.18
+  },
+  {
+    "year":2021,
+    "hs2":"55",
+    "hs2_description":"Manmade Staple Fibers, Including Yarns And Woven F",
+    "direction":"I",
+    "teus":7.25
+  },
+  {
+    "year":2021,
+    "hs2":"56",
+    "hs2_description":"Wadding, Felt And Nonwovens; Special Yarns; Twine,",
+    "direction":"E",
+    "teus":44.69
+  },
+  {
+    "year":2021,
+    "hs2":"56",
+    "hs2_description":"Wadding, Felt And Nonwovens; Special Yarns; Twine,",
+    "direction":"I",
+    "teus":148.0
+  },
+  {
+    "year":2021,
+    "hs2":"57",
+    "hs2_description":"Carpets And Other Textile Floor Coverings",
+    "direction":"E",
+    "teus":6.11
+  },
+  {
+    "year":2021,
+    "hs2":"57",
+    "hs2_description":"Carpets And Other Textile Floor Coverings",
+    "direction":"I",
+    "teus":38.67
+  },
+  {
+    "year":2021,
+    "hs2":"58",
+    "hs2_description":"Special Woven Fabrics; Tufted Textile Fabrics; Lac",
+    "direction":"E",
+    "teus":0.45
+  },
+  {
+    "year":2021,
+    "hs2":"59",
+    "hs2_description":"Impregnated, Coated, Covered Or Laminated Textile",
+    "direction":"E",
+    "teus":133.74
+  },
+  {
+    "year":2021,
+    "hs2":"59",
+    "hs2_description":"Impregnated, Coated, Covered Or Laminated Textile",
+    "direction":"I",
+    "teus":4.0
+  },
+  {
+    "year":2021,
+    "hs2":"60",
+    "hs2_description":"Knitted Or Crocheted Fabrics",
+    "direction":"E",
+    "teus":5.45
+  },
+  {
+    "year":2021,
+    "hs2":"60",
+    "hs2_description":"Knitted Or Crocheted Fabrics",
+    "direction":"I",
+    "teus":4.0
+  },
+  {
+    "year":2021,
+    "hs2":"61",
+    "hs2_description":"Articles Of Apparel And Clothing Accessories, Knit",
+    "direction":"E",
+    "teus":21.93
+  },
+  {
+    "year":2021,
+    "hs2":"61",
+    "hs2_description":"Articles Of Apparel And Clothing Accessories, Knit",
+    "direction":"I",
+    "teus":1681.76
+  },
+  {
+    "year":2021,
+    "hs2":"62",
+    "hs2_description":"Articles Of Apparel And Clothing Accessories, Not",
+    "direction":"E",
+    "teus":313.38
+  },
+  {
+    "year":2021,
+    "hs2":"62",
+    "hs2_description":"Articles Of Apparel And Clothing Accessories, Not",
+    "direction":"I",
+    "teus":192.93
+  },
+  {
+    "year":2021,
+    "hs2":"63",
+    "hs2_description":"Made-up Textile Articles Nesoi; Needlecraft Sets;",
+    "direction":"E",
+    "teus":214.69
+  },
+  {
+    "year":2021,
+    "hs2":"63",
+    "hs2_description":"Made-up Textile Articles Nesoi; Needlecraft Sets;",
+    "direction":"I",
+    "teus":549.55
+  },
+  {
+    "year":2021,
+    "hs2":"64",
+    "hs2_description":"Footwear, Gaiters And The Like; Parts Of Such Arti",
+    "direction":"E",
+    "teus":22.38
+  },
+  {
+    "year":2021,
+    "hs2":"64",
+    "hs2_description":"Footwear, Gaiters And The Like; Parts Of Such Arti",
+    "direction":"I",
+    "teus":212.51
+  },
+  {
+    "year":2021,
+    "hs2":"65",
+    "hs2_description":"Headgear And Parts Thereof",
+    "direction":"E",
+    "teus":2.0
+  },
+  {
+    "year":2021,
+    "hs2":"65",
+    "hs2_description":"Headgear And Parts Thereof",
+    "direction":"I",
+    "teus":20.5
+  },
+  {
+    "year":2021,
+    "hs2":"66",
+    "hs2_description":"Umbrellas, Sun Umbrellas, Walking-sticks, Seat-sti",
+    "direction":"E",
+    "teus":0.2
+  },
+  {
+    "year":2021,
+    "hs2":"66",
+    "hs2_description":"Umbrellas, Sun Umbrellas, Walking-sticks, Seat-sti",
+    "direction":"I",
+    "teus":2.0
+  },
+  {
+    "year":2021,
+    "hs2":"67",
+    "hs2_description":"Prepared Feathers And Down And Articles Thereof; A",
+    "direction":"E",
+    "teus":8.81
+  },
+  {
+    "year":2021,
+    "hs2":"68",
+    "hs2_description":"Articles Of Stone, Plaster, Cement, Asbestos, Mica",
+    "direction":"E",
+    "teus":342.08
+  },
+  {
+    "year":2021,
+    "hs2":"68",
+    "hs2_description":"Articles Of Stone, Plaster, Cement, Asbestos, Mica",
+    "direction":"I",
+    "teus":2268.32
+  },
+  {
+    "year":2021,
+    "hs2":"69",
+    "hs2_description":"Ceramic Products",
+    "direction":"E",
+    "teus":22.77
+  },
+  {
+    "year":2021,
+    "hs2":"69",
+    "hs2_description":"Ceramic Products",
+    "direction":"I",
+    "teus":208.63
+  },
+  {
+    "year":2021,
+    "hs2":"70",
+    "hs2_description":"Glass And Glassware",
+    "direction":"E",
+    "teus":427.38
+  },
+  {
+    "year":2021,
+    "hs2":"70",
+    "hs2_description":"Glass And Glassware",
+    "direction":"I",
+    "teus":142.74
+  },
+  {
+    "year":2021,
+    "hs2":"71",
+    "hs2_description":"Natural Or Cultured Pearls, Precious Or Semiprecio",
+    "direction":"E",
+    "teus":18.87
+  },
+  {
+    "year":2021,
+    "hs2":"71",
+    "hs2_description":"Natural Or Cultured Pearls, Precious Or Semiprecio",
+    "direction":"I",
+    "teus":17.16
+  },
+  {
+    "year":2021,
+    "hs2":"72",
+    "hs2_description":"Iron And Steel",
+    "direction":"E",
+    "teus":212.33
+  },
+  {
+    "year":2021,
+    "hs2":"72",
+    "hs2_description":"Iron And Steel",
+    "direction":"I",
+    "teus":317.2
+  },
+  {
+    "year":2021,
+    "hs2":"73",
+    "hs2_description":"Articles Of Iron Or Steel",
+    "direction":"E",
+    "teus":1192.43
+  },
+  {
+    "year":2021,
+    "hs2":"73",
+    "hs2_description":"Articles Of Iron Or Steel",
+    "direction":"I",
+    "teus":1302.23
+  },
+  {
+    "year":2021,
+    "hs2":"74",
+    "hs2_description":"Copper And Articles Thereof",
+    "direction":"E",
+    "teus":218.94
+  },
+  {
+    "year":2021,
+    "hs2":"74",
+    "hs2_description":"Copper And Articles Thereof",
+    "direction":"I",
+    "teus":138.64
+  },
+  {
+    "year":2021,
+    "hs2":"75",
+    "hs2_description":"Nickel And Articles Thereof",
+    "direction":"E",
+    "teus":2.45
+  },
+  {
+    "year":2021,
+    "hs2":"76",
+    "hs2_description":"Aluminum And Articles Thereof",
+    "direction":"E",
+    "teus":245.46
+  },
+  {
+    "year":2021,
+    "hs2":"76",
+    "hs2_description":"Aluminum And Articles Thereof",
+    "direction":"I",
+    "teus":1291.08
+  },
+  {
+    "year":2021,
+    "hs2":"78",
+    "hs2_description":"Lead And Articles Thereof",
+    "direction":"E",
+    "teus":8.29
+  },
+  {
+    "year":2021,
+    "hs2":"78",
+    "hs2_description":"Lead And Articles Thereof",
+    "direction":"I",
+    "teus":4.0
+  },
+  {
+    "year":2021,
+    "hs2":"79",
+    "hs2_description":"Zinc And Articles Thereof",
+    "direction":"E",
+    "teus":6.08
+  },
+  {
+    "year":2021,
+    "hs2":"81",
+    "hs2_description":"Base Metals Nesoi; Cermets; Articles Thereof",
+    "direction":"E",
+    "teus":4.58
+  },
+  {
+    "year":2021,
+    "hs2":"81",
+    "hs2_description":"Base Metals Nesoi; Cermets; Articles Thereof",
+    "direction":"I",
+    "teus":2.0
+  },
+  {
+    "year":2021,
+    "hs2":"82",
+    "hs2_description":"Tools, Implements, Cutlery, Spoons And Forks, Of B",
+    "direction":"E",
+    "teus":50.69
+  },
+  {
+    "year":2021,
+    "hs2":"82",
+    "hs2_description":"Tools, Implements, Cutlery, Spoons And Forks, Of B",
+    "direction":"I",
+    "teus":31.9
+  },
+  {
+    "year":2021,
+    "hs2":"83",
+    "hs2_description":"Miscellaneous Articles Of Base Metal",
+    "direction":"E",
+    "teus":444.2
+  },
+  {
+    "year":2021,
+    "hs2":"83",
+    "hs2_description":"Miscellaneous Articles Of Base Metal",
+    "direction":"I",
+    "teus":68.13
+  },
+  {
+    "year":2021,
+    "hs2":"84",
+    "hs2_description":"Nuclear Reactors, Boilers, Machinery And Mechanica",
+    "direction":"E",
+    "teus":4830.28
+  },
+  {
+    "year":2021,
+    "hs2":"84",
+    "hs2_description":"Nuclear Reactors, Boilers, Machinery And Mechanica",
+    "direction":"I",
+    "teus":745.98
+  },
+  {
+    "year":2021,
+    "hs2":"85",
+    "hs2_description":"Electrical Machinery And Equipment And Parts There",
+    "direction":"E",
+    "teus":215.74
+  },
+  {
+    "year":2021,
+    "hs2":"85",
+    "hs2_description":"Electrical Machinery And Equipment And Parts There",
+    "direction":"I",
+    "teus":220.51
+  },
+  {
+    "year":2021,
+    "hs2":"86",
+    "hs2_description":"Railway Or Tramway Locomotives, Rolling Stock, Tra",
+    "direction":"E",
+    "teus":795.12
+  },
+  {
+    "year":2021,
+    "hs2":"86",
+    "hs2_description":"Railway Or Tramway Locomotives, Rolling Stock, Tra",
+    "direction":"I",
+    "teus":55.76
+  },
+  {
+    "year":2021,
+    "hs2":"87",
+    "hs2_description":"Vehicles, Other Than Railway Or Tramway Rolling St",
+    "direction":"E",
+    "teus":9496.03
+  },
+  {
+    "year":2021,
+    "hs2":"87",
+    "hs2_description":"Vehicles, Other Than Railway Or Tramway Rolling St",
+    "direction":"I",
+    "teus":262.66
+  },
+  {
+    "year":2021,
+    "hs2":"88",
+    "hs2_description":"Aircraft, Spacecraft, And Parts Thereof",
+    "direction":"E",
+    "teus":31.54
+  },
+  {
+    "year":2021,
+    "hs2":"88",
+    "hs2_description":"Aircraft, Spacecraft, And Parts Thereof",
+    "direction":"I",
+    "teus":34.0
+  },
+  {
+    "year":2021,
+    "hs2":"89",
+    "hs2_description":"Ships, Boats And Floating Structures",
+    "direction":"E",
+    "teus":12.34
+  },
+  {
+    "year":2021,
+    "hs2":"89",
+    "hs2_description":"Ships, Boats And Floating Structures",
+    "direction":"I",
+    "teus":7.5
+  },
+  {
+    "year":2021,
+    "hs2":"90",
+    "hs2_description":"Optical, Photographic, Cinematographic, Measuring,",
+    "direction":"E",
+    "teus":245.5
+  },
+  {
+    "year":2021,
+    "hs2":"90",
+    "hs2_description":"Optical, Photographic, Cinematographic, Measuring,",
+    "direction":"I",
+    "teus":966.46
+  },
+  {
+    "year":2021,
+    "hs2":"91",
+    "hs2_description":"Clocks And Watches And Parts Thereof",
+    "direction":"E",
+    "teus":0.17
+  },
+  {
+    "year":2021,
+    "hs2":"92",
+    "hs2_description":"Musical Instruments; Parts And Accessories Thereof",
+    "direction":"E",
+    "teus":0.37
+  },
+  {
+    "year":2021,
+    "hs2":"93",
+    "hs2_description":"Arms And Ammunition; Parts And Accessories Thereof",
+    "direction":"E",
+    "teus":11.24
+  },
+  {
+    "year":2021,
+    "hs2":"93",
+    "hs2_description":"Arms And Ammunition; Parts And Accessories Thereof",
+    "direction":"I",
+    "teus":1.0
+  },
+  {
+    "year":2021,
+    "hs2":"94",
+    "hs2_description":"Furniture; Bedding, Cushions Etc.; Lamps And Light",
+    "direction":"E",
+    "teus":1162.78
+  },
+  {
+    "year":2021,
+    "hs2":"94",
+    "hs2_description":"Furniture; Bedding, Cushions Etc.; Lamps And Light",
+    "direction":"I",
+    "teus":3296.64
+  },
+  {
+    "year":2021,
+    "hs2":"95",
+    "hs2_description":"Toys, Games And Sports Equipment; Parts And Access",
+    "direction":"E",
+    "teus":216.81
+  },
+  {
+    "year":2021,
+    "hs2":"95",
+    "hs2_description":"Toys, Games And Sports Equipment; Parts And Access",
+    "direction":"I",
+    "teus":470.97
+  },
+  {
+    "year":2021,
+    "hs2":"96",
+    "hs2_description":"Miscellaneous Manufactured Articles",
+    "direction":"E",
+    "teus":125.57
+  },
+  {
+    "year":2021,
+    "hs2":"96",
+    "hs2_description":"Miscellaneous Manufactured Articles",
+    "direction":"I",
+    "teus":211.0
+  },
+  {
+    "year":2021,
+    "hs2":"97",
+    "hs2_description":"Works Of Art, Collectors' Pieces And Antiques",
+    "direction":"E",
+    "teus":1.19
+  },
+  {
+    "year":2021,
+    "hs2":"97",
+    "hs2_description":"Works Of Art, Collectors' Pieces And Antiques",
+    "direction":"I",
+    "teus":2.0
+  },
+  {
+    "year":2021,
+    "hs2":"98",
+    "hs2_description":"Special Classification Provisions, Nesoi",
+    "direction":"E",
+    "teus":26.65
+  },
+  {
+    "year":2021,
+    "hs2":"98",
+    "hs2_description":"Special Classification Provisions, Nesoi",
+    "direction":"I",
+    "teus":333.56
+  },
+  {
+    "year":2022,
+    "hs2":"00",
+    "hs2_description":"Miscellaneous Cargo",
+    "direction":"E",
+    "teus":1249.93
+  },
+  {
+    "year":2022,
+    "hs2":"00",
+    "hs2_description":"Miscellaneous Cargo",
+    "direction":"I",
+    "teus":219.37
+  },
+  {
+    "year":2022,
+    "hs2":"01",
+    "hs2_description":"Live Animals",
+    "direction":"E",
+    "teus":1.13
+  },
+  {
+    "year":2022,
+    "hs2":"02",
+    "hs2_description":"Meat And Edible Meat Offal",
+    "direction":"E",
+    "teus":4713.39
+  },
+  {
+    "year":2022,
+    "hs2":"02",
+    "hs2_description":"Meat And Edible Meat Offal",
+    "direction":"I",
+    "teus":332.0
+  },
+  {
+    "year":2022,
+    "hs2":"03",
+    "hs2_description":"Fish And Crustaceans, Molluscs And Other Aquatic I",
+    "direction":"E",
+    "teus":3.81
+  },
+  {
+    "year":2022,
+    "hs2":"03",
+    "hs2_description":"Fish And Crustaceans, Molluscs And Other Aquatic I",
+    "direction":"I",
+    "teus":2274.0
+  },
+  {
+    "year":2022,
+    "hs2":"04",
+    "hs2_description":"Dairy Produce; Birds' Eggs; Natural Honey; Edible",
+    "direction":"E",
+    "teus":230.37
+  },
+  {
+    "year":2022,
+    "hs2":"04",
+    "hs2_description":"Dairy Produce; Birds' Eggs; Natural Honey; Edible",
+    "direction":"I",
+    "teus":372.5
+  },
+  {
+    "year":2022,
+    "hs2":"05",
+    "hs2_description":"Products Of Animal Origin, Nesoi",
+    "direction":"E",
+    "teus":34.0
+  },
+  {
+    "year":2022,
+    "hs2":"06",
+    "hs2_description":"Live Trees And Other Plants; Bulbs, Roots And The",
+    "direction":"E",
+    "teus":1.75
+  },
+  {
+    "year":2022,
+    "hs2":"06",
+    "hs2_description":"Live Trees And Other Plants; Bulbs, Roots And The",
+    "direction":"I",
+    "teus":2.0
+  },
+  {
+    "year":2022,
+    "hs2":"07",
+    "hs2_description":"Edible Vegetables And Certain Roots And Tubers",
+    "direction":"E",
+    "teus":71.0
+  },
+  {
+    "year":2022,
+    "hs2":"07",
+    "hs2_description":"Edible Vegetables And Certain Roots And Tubers",
+    "direction":"I",
+    "teus":274.5
+  },
+  {
+    "year":2022,
+    "hs2":"08",
+    "hs2_description":"Edible Fruit And Nuts; Peel Of Citrus Fruit Or Mel",
+    "direction":"E",
+    "teus":29.75
+  },
+  {
+    "year":2022,
+    "hs2":"08",
+    "hs2_description":"Edible Fruit And Nuts; Peel Of Citrus Fruit Or Mel",
+    "direction":"I",
+    "teus":6186.25
+  },
+  {
+    "year":2022,
+    "hs2":"09",
+    "hs2_description":"Coffee, Tea, Mate And Spices",
+    "direction":"E",
+    "teus":28.17
+  },
+  {
+    "year":2022,
+    "hs2":"09",
+    "hs2_description":"Coffee, Tea, Mate And Spices",
+    "direction":"I",
+    "teus":1766.0
+  },
+  {
+    "year":2022,
+    "hs2":"10",
+    "hs2_description":"Cereals",
+    "direction":"E",
+    "teus":71.75
+  },
+  {
+    "year":2022,
+    "hs2":"10",
+    "hs2_description":"Cereals",
+    "direction":"I",
+    "teus":1353.75
+  },
+  {
+    "year":2022,
+    "hs2":"11",
+    "hs2_description":"Milling Industry Products; Malt; Starches; Inulin;",
+    "direction":"E",
+    "teus":37.65
+  },
+  {
+    "year":2022,
+    "hs2":"11",
+    "hs2_description":"Milling Industry Products; Malt; Starches; Inulin;",
+    "direction":"I",
+    "teus":384.0
+  },
+  {
+    "year":2022,
+    "hs2":"12",
+    "hs2_description":"Oil Seeds And Oleaginous Fruits; Miscellaneous Gra",
+    "direction":"E",
+    "teus":495.72
+  },
+  {
+    "year":2022,
+    "hs2":"12",
+    "hs2_description":"Oil Seeds And Oleaginous Fruits; Miscellaneous Gra",
+    "direction":"I",
+    "teus":34.0
+  },
+  {
+    "year":2022,
+    "hs2":"13",
+    "hs2_description":"Lac; Gums; Resins And Other Vegetable Saps And Ext",
+    "direction":"E",
+    "teus":22.5
+  },
+  {
+    "year":2022,
+    "hs2":"13",
+    "hs2_description":"Lac; Gums; Resins And Other Vegetable Saps And Ext",
+    "direction":"I",
+    "teus":3.0
+  },
+  {
+    "year":2022,
+    "hs2":"14",
+    "hs2_description":"Vegetable Plaiting Materials And Vegetable Product",
+    "direction":"E",
+    "teus":0.25
+  },
+  {
+    "year":2022,
+    "hs2":"14",
+    "hs2_description":"Vegetable Plaiting Materials And Vegetable Product",
+    "direction":"I",
+    "teus":20.25
+  },
+  {
+    "year":2022,
+    "hs2":"15",
+    "hs2_description":"Animal Or Vegetable Fats And Oils And Their Cleava",
+    "direction":"E",
+    "teus":143.5
+  },
+  {
+    "year":2022,
+    "hs2":"15",
+    "hs2_description":"Animal Or Vegetable Fats And Oils And Their Cleava",
+    "direction":"I",
+    "teus":127.25
+  },
+  {
+    "year":2022,
+    "hs2":"16",
+    "hs2_description":"Edible Preparations Of Meat, Fish, Crustaceans, Mo",
+    "direction":"E",
+    "teus":22.0
+  },
+  {
+    "year":2022,
+    "hs2":"16",
+    "hs2_description":"Edible Preparations Of Meat, Fish, Crustaceans, Mo",
+    "direction":"I",
+    "teus":314.5
+  },
+  {
+    "year":2022,
+    "hs2":"17",
+    "hs2_description":"Sugars And Sugar Confectionary",
+    "direction":"E",
+    "teus":101.34
+  },
+  {
+    "year":2022,
+    "hs2":"17",
+    "hs2_description":"Sugars And Sugar Confectionary",
+    "direction":"I",
+    "teus":266.68
+  },
+  {
+    "year":2022,
+    "hs2":"18",
+    "hs2_description":"Cocoa And Cocoa Preparations",
+    "direction":"E",
+    "teus":32.0
+  },
+  {
+    "year":2022,
+    "hs2":"18",
+    "hs2_description":"Cocoa And Cocoa Preparations",
+    "direction":"I",
+    "teus":40.0
+  },
+  {
+    "year":2022,
+    "hs2":"19",
+    "hs2_description":"Preparations Of Cereals, Flour, Starch Or Milk; Ba",
+    "direction":"E",
+    "teus":480.51
+  },
+  {
+    "year":2022,
+    "hs2":"19",
+    "hs2_description":"Preparations Of Cereals, Flour, Starch Or Milk; Ba",
+    "direction":"I",
+    "teus":532.12
+  },
+  {
+    "year":2022,
+    "hs2":"20",
+    "hs2_description":"Preparations Of Vegetables, Fruit, Nuts, Or Other",
+    "direction":"E",
+    "teus":527.4
+  },
+  {
+    "year":2022,
+    "hs2":"20",
+    "hs2_description":"Preparations Of Vegetables, Fruit, Nuts, Or Other",
+    "direction":"I",
+    "teus":4678.18
+  },
+  {
+    "year":2022,
+    "hs2":"21",
+    "hs2_description":"Miscellaneous Edible Preparations",
+    "direction":"E",
+    "teus":1787.36
+  },
+  {
+    "year":2022,
+    "hs2":"21",
+    "hs2_description":"Miscellaneous Edible Preparations",
+    "direction":"I",
+    "teus":377.5
+  },
+  {
+    "year":2022,
+    "hs2":"22",
+    "hs2_description":"Beverages, Spirits And Vinegar",
+    "direction":"E",
+    "teus":816.74
+  },
+  {
+    "year":2022,
+    "hs2":"22",
+    "hs2_description":"Beverages, Spirits And Vinegar",
+    "direction":"I",
+    "teus":2469.01
+  },
+  {
+    "year":2022,
+    "hs2":"23",
+    "hs2_description":"Residues And Waste From The Food Industries; Prepa",
+    "direction":"E",
+    "teus":579.75
+  },
+  {
+    "year":2022,
+    "hs2":"23",
+    "hs2_description":"Residues And Waste From The Food Industries; Prepa",
+    "direction":"I",
+    "teus":13.0
+  },
+  {
+    "year":2022,
+    "hs2":"24",
+    "hs2_description":"Tobacco And Manufactured Tobacco Substitutes",
+    "direction":"E",
+    "teus":211.16
+  },
+  {
+    "year":2022,
+    "hs2":"24",
+    "hs2_description":"Tobacco And Manufactured Tobacco Substitutes",
+    "direction":"I",
+    "teus":9.0
+  },
+  {
+    "year":2022,
+    "hs2":"25",
+    "hs2_description":"Salt; Sulfur; Earths And Stone; Plastering Materia",
+    "direction":"E",
+    "teus":216.43
+  },
+  {
+    "year":2022,
+    "hs2":"25",
+    "hs2_description":"Salt; Sulfur; Earths And Stone; Plastering Materia",
+    "direction":"I",
+    "teus":1613.35
+  },
+  {
+    "year":2022,
+    "hs2":"26",
+    "hs2_description":"Ores, Slag And Ash",
+    "direction":"E",
+    "teus":1.0
+  },
+  {
+    "year":2022,
+    "hs2":"26",
+    "hs2_description":"Ores, Slag And Ash",
+    "direction":"I",
+    "teus":2.0
+  },
+  {
+    "year":2022,
+    "hs2":"27",
+    "hs2_description":"Mineral Fuels, Mineral Oils And Products Of Their",
+    "direction":"E",
+    "teus":250.61
+  },
+  {
+    "year":2022,
+    "hs2":"27",
+    "hs2_description":"Mineral Fuels, Mineral Oils And Products Of Their",
+    "direction":"I",
+    "teus":187.5
+  },
+  {
+    "year":2022,
+    "hs2":"28",
+    "hs2_description":"Inorganic Chemicals; Organic Or Inorganic Compound",
+    "direction":"E",
+    "teus":503.69
+  },
+  {
+    "year":2022,
+    "hs2":"28",
+    "hs2_description":"Inorganic Chemicals; Organic Or Inorganic Compound",
+    "direction":"I",
+    "teus":393.13
+  },
+  {
+    "year":2022,
+    "hs2":"29",
+    "hs2_description":"Organic Chemicals",
+    "direction":"E",
+    "teus":1047.85
+  },
+  {
+    "year":2022,
+    "hs2":"29",
+    "hs2_description":"Organic Chemicals",
+    "direction":"I",
+    "teus":211.03
+  },
+  {
+    "year":2022,
+    "hs2":"30",
+    "hs2_description":"Pharmaceutical Products",
+    "direction":"E",
+    "teus":266.72
+  },
+  {
+    "year":2022,
+    "hs2":"30",
+    "hs2_description":"Pharmaceutical Products",
+    "direction":"I",
+    "teus":955.13
+  },
+  {
+    "year":2022,
+    "hs2":"31",
+    "hs2_description":"Fertilizers",
+    "direction":"E",
+    "teus":138.33
+  },
+  {
+    "year":2022,
+    "hs2":"31",
+    "hs2_description":"Fertilizers",
+    "direction":"I",
+    "teus":21.0
+  },
+  {
+    "year":2022,
+    "hs2":"32",
+    "hs2_description":"Tanning Or Dyeing Extracts; Tannins And Derivative",
+    "direction":"E",
+    "teus":351.8
+  },
+  {
+    "year":2022,
+    "hs2":"32",
+    "hs2_description":"Tanning Or Dyeing Extracts; Tannins And Derivative",
+    "direction":"I",
+    "teus":15.75
+  },
+  {
+    "year":2022,
+    "hs2":"33",
+    "hs2_description":"Essential Oils And Resinoids; Perfumery, Cosmetic",
+    "direction":"E",
+    "teus":372.59
+  },
+  {
+    "year":2022,
+    "hs2":"33",
+    "hs2_description":"Essential Oils And Resinoids; Perfumery, Cosmetic",
+    "direction":"I",
+    "teus":1371.78
+  },
+  {
+    "year":2022,
+    "hs2":"34",
+    "hs2_description":"Soap Etc.; Lubricating Products; Waxes, Polishing",
+    "direction":"E",
+    "teus":230.17
+  },
+  {
+    "year":2022,
+    "hs2":"34",
+    "hs2_description":"Soap Etc.; Lubricating Products; Waxes, Polishing",
+    "direction":"I",
+    "teus":214.6
+  },
+  {
+    "year":2022,
+    "hs2":"35",
+    "hs2_description":"Albuminoidal Substances; Modified Starches; Glues;",
+    "direction":"E",
+    "teus":487.33
+  },
+  {
+    "year":2022,
+    "hs2":"35",
+    "hs2_description":"Albuminoidal Substances; Modified Starches; Glues;",
+    "direction":"I",
+    "teus":144.75
+  },
+  {
+    "year":2022,
+    "hs2":"36",
+    "hs2_description":"Explosives; Pyrotechnic Products; Matches; Pyropho",
+    "direction":"E",
+    "teus":14.28
+  },
+  {
+    "year":2022,
+    "hs2":"36",
+    "hs2_description":"Explosives; Pyrotechnic Products; Matches; Pyropho",
+    "direction":"I",
+    "teus":4.78
+  },
+  {
+    "year":2022,
+    "hs2":"37",
+    "hs2_description":"Photographic Or Cinematographic Goods",
+    "direction":"E",
+    "teus":92.0
+  },
+  {
+    "year":2022,
+    "hs2":"38",
+    "hs2_description":"Miscellaneous Chemical Products",
+    "direction":"E",
+    "teus":3256.41
+  },
+  {
+    "year":2022,
+    "hs2":"38",
+    "hs2_description":"Miscellaneous Chemical Products",
+    "direction":"I",
+    "teus":668.9
+  },
+  {
+    "year":2022,
+    "hs2":"39",
+    "hs2_description":"Plastics And Articles Thereof",
+    "direction":"E",
+    "teus":8089.07
+  },
+  {
+    "year":2022,
+    "hs2":"39",
+    "hs2_description":"Plastics And Articles Thereof",
+    "direction":"I",
+    "teus":1630.26
+  },
+  {
+    "year":2022,
+    "hs2":"40",
+    "hs2_description":"Rubber And Articles Thereof",
+    "direction":"E",
+    "teus":1914.08
+  },
+  {
+    "year":2022,
+    "hs2":"40",
+    "hs2_description":"Rubber And Articles Thereof",
+    "direction":"I",
+    "teus":8815.09
+  },
+  {
+    "year":2022,
+    "hs2":"41",
+    "hs2_description":"Raw Hides And Skins (other Than Furskins) And Leat",
+    "direction":"I",
+    "teus":8.69
+  },
+  {
+    "year":2022,
+    "hs2":"42",
+    "hs2_description":"Articles Of Leather; Saddlery And Harness; Travel",
+    "direction":"E",
+    "teus":209.15
+  },
+  {
+    "year":2022,
+    "hs2":"42",
+    "hs2_description":"Articles Of Leather; Saddlery And Harness; Travel",
+    "direction":"I",
+    "teus":426.65
+  },
+  {
+    "year":2022,
+    "hs2":"44",
+    "hs2_description":"Wood And Articles Of Wood; Wood Charcoal",
+    "direction":"E",
+    "teus":145.71
+  },
+  {
+    "year":2022,
+    "hs2":"44",
+    "hs2_description":"Wood And Articles Of Wood; Wood Charcoal",
+    "direction":"I",
+    "teus":12095.23
+  },
+  {
+    "year":2022,
+    "hs2":"45",
+    "hs2_description":"Cork And Articles Of Cork",
+    "direction":"E",
+    "teus":14.0
+  },
+  {
+    "year":2022,
+    "hs2":"45",
+    "hs2_description":"Cork And Articles Of Cork",
+    "direction":"I",
+    "teus":1.0
+  },
+  {
+    "year":2022,
+    "hs2":"46",
+    "hs2_description":"Manufactures Of Straw, Esparto Or Other Plaiting M",
+    "direction":"E",
+    "teus":2.0
+  },
+  {
+    "year":2022,
+    "hs2":"46",
+    "hs2_description":"Manufactures Of Straw, Esparto Or Other Plaiting M",
+    "direction":"I",
+    "teus":13.54
+  },
+  {
+    "year":2022,
+    "hs2":"47",
+    "hs2_description":"Pulp Of Wood Or Other Fibrous Cellulosic Material;",
+    "direction":"E",
+    "teus":2004.0
+  },
+  {
+    "year":2022,
+    "hs2":"47",
+    "hs2_description":"Pulp Of Wood Or Other Fibrous Cellulosic Material;",
+    "direction":"I",
+    "teus":309.5
+  },
+  {
+    "year":2022,
+    "hs2":"48",
+    "hs2_description":"Paper And Paperboard; Articles Of Paper Pulp, Pape",
+    "direction":"E",
+    "teus":1524.79
+  },
+  {
+    "year":2022,
+    "hs2":"48",
+    "hs2_description":"Paper And Paperboard; Articles Of Paper Pulp, Pape",
+    "direction":"I",
+    "teus":3140.21
+  },
+  {
+    "year":2022,
+    "hs2":"49",
+    "hs2_description":"Printed Books, Newspapers, Pictures And Other Prin",
+    "direction":"E",
+    "teus":69.13
+  },
+  {
+    "year":2022,
+    "hs2":"49",
+    "hs2_description":"Printed Books, Newspapers, Pictures And Other Prin",
+    "direction":"I",
+    "teus":12.0
+  },
+  {
+    "year":2022,
+    "hs2":"52",
+    "hs2_description":"Cotton, Including Yarns And Woven Fabrics Thereof",
+    "direction":"E",
+    "teus":64.25
+  },
+  {
+    "year":2022,
+    "hs2":"52",
+    "hs2_description":"Cotton, Including Yarns And Woven Fabrics Thereof",
+    "direction":"I",
+    "teus":652.88
+  },
+  {
+    "year":2022,
+    "hs2":"53",
+    "hs2_description":"Vegetable Textile Fibers Nesoi; Yarns And Woven Fa",
+    "direction":"E",
+    "teus":18.0
+  },
+  {
+    "year":2022,
+    "hs2":"53",
+    "hs2_description":"Vegetable Textile Fibers Nesoi; Yarns And Woven Fa",
+    "direction":"I",
+    "teus":16.88
+  },
+  {
+    "year":2022,
+    "hs2":"54",
+    "hs2_description":"Manmade Filaments, Including Yarns And Woven Fabri",
+    "direction":"E",
+    "teus":37.06
+  },
+  {
+    "year":2022,
+    "hs2":"54",
+    "hs2_description":"Manmade Filaments, Including Yarns And Woven Fabri",
+    "direction":"I",
+    "teus":4.0
+  },
+  {
+    "year":2022,
+    "hs2":"55",
+    "hs2_description":"Manmade Staple Fibers, Including Yarns And Woven F",
+    "direction":"E",
+    "teus":158.75
+  },
+  {
+    "year":2022,
+    "hs2":"55",
+    "hs2_description":"Manmade Staple Fibers, Including Yarns And Woven F",
+    "direction":"I",
+    "teus":152.0
+  },
+  {
+    "year":2022,
+    "hs2":"56",
+    "hs2_description":"Wadding, Felt And Nonwovens; Special Yarns; Twine,",
+    "direction":"E",
+    "teus":81.13
+  },
+  {
+    "year":2022,
+    "hs2":"56",
+    "hs2_description":"Wadding, Felt And Nonwovens; Special Yarns; Twine,",
+    "direction":"I",
+    "teus":108.75
+  },
+  {
+    "year":2022,
+    "hs2":"57",
+    "hs2_description":"Carpets And Other Textile Floor Coverings",
+    "direction":"I",
+    "teus":28.98
+  },
+  {
+    "year":2022,
+    "hs2":"58",
+    "hs2_description":"Special Woven Fabrics; Tufted Textile Fabrics; Lac",
+    "direction":"E",
+    "teus":2.39
+  },
+  {
+    "year":2022,
+    "hs2":"58",
+    "hs2_description":"Special Woven Fabrics; Tufted Textile Fabrics; Lac",
+    "direction":"I",
+    "teus":1.0
+  },
+  {
+    "year":2022,
+    "hs2":"59",
+    "hs2_description":"Impregnated, Coated, Covered Or Laminated Textile",
+    "direction":"E",
+    "teus":155.86
+  },
+  {
+    "year":2022,
+    "hs2":"60",
+    "hs2_description":"Knitted Or Crocheted Fabrics",
+    "direction":"E",
+    "teus":10.0
+  },
+  {
+    "year":2022,
+    "hs2":"60",
+    "hs2_description":"Knitted Or Crocheted Fabrics",
+    "direction":"I",
+    "teus":6.0
+  },
+  {
+    "year":2022,
+    "hs2":"61",
+    "hs2_description":"Articles Of Apparel And Clothing Accessories, Knit",
+    "direction":"E",
+    "teus":79.92
+  },
+  {
+    "year":2022,
+    "hs2":"61",
+    "hs2_description":"Articles Of Apparel And Clothing Accessories, Knit",
+    "direction":"I",
+    "teus":4319.65
+  },
+  {
+    "year":2022,
+    "hs2":"62",
+    "hs2_description":"Articles Of Apparel And Clothing Accessories, Not",
+    "direction":"E",
+    "teus":465.73
+  },
+  {
+    "year":2022,
+    "hs2":"62",
+    "hs2_description":"Articles Of Apparel And Clothing Accessories, Not",
+    "direction":"I",
+    "teus":1083.26
+  },
+  {
+    "year":2022,
+    "hs2":"63",
+    "hs2_description":"Made-up Textile Articles Nesoi; Needlecraft Sets;",
+    "direction":"E",
+    "teus":192.32
+  },
+  {
+    "year":2022,
+    "hs2":"63",
+    "hs2_description":"Made-up Textile Articles Nesoi; Needlecraft Sets;",
+    "direction":"I",
+    "teus":686.13
+  },
+  {
+    "year":2022,
+    "hs2":"64",
+    "hs2_description":"Footwear, Gaiters And The Like; Parts Of Such Arti",
+    "direction":"E",
+    "teus":7.76
+  },
+  {
+    "year":2022,
+    "hs2":"64",
+    "hs2_description":"Footwear, Gaiters And The Like; Parts Of Such Arti",
+    "direction":"I",
+    "teus":649.76
+  },
+  {
+    "year":2022,
+    "hs2":"65",
+    "hs2_description":"Headgear And Parts Thereof",
+    "direction":"E",
+    "teus":1.75
+  },
+  {
+    "year":2022,
+    "hs2":"65",
+    "hs2_description":"Headgear And Parts Thereof",
+    "direction":"I",
+    "teus":6.0
+  },
+  {
+    "year":2022,
+    "hs2":"66",
+    "hs2_description":"Umbrellas, Sun Umbrellas, Walking-sticks, Seat-sti",
+    "direction":"I",
+    "teus":2.57
+  },
+  {
+    "year":2022,
+    "hs2":"67",
+    "hs2_description":"Prepared Feathers And Down And Articles Thereof; A",
+    "direction":"E",
+    "teus":2.0
+  },
+  {
+    "year":2022,
+    "hs2":"67",
+    "hs2_description":"Prepared Feathers And Down And Articles Thereof; A",
+    "direction":"I",
+    "teus":15.35
+  },
+  {
+    "year":2022,
+    "hs2":"68",
+    "hs2_description":"Articles Of Stone, Plaster, Cement, Asbestos, Mica",
+    "direction":"E",
+    "teus":234.01
+  },
+  {
+    "year":2022,
+    "hs2":"68",
+    "hs2_description":"Articles Of Stone, Plaster, Cement, Asbestos, Mica",
+    "direction":"I",
+    "teus":1780.56
+  },
+  {
+    "year":2022,
+    "hs2":"69",
+    "hs2_description":"Ceramic Products",
+    "direction":"E",
+    "teus":36.95
+  },
+  {
+    "year":2022,
+    "hs2":"69",
+    "hs2_description":"Ceramic Products",
+    "direction":"I",
+    "teus":294.19
+  },
+  {
+    "year":2022,
+    "hs2":"70",
+    "hs2_description":"Glass And Glassware",
+    "direction":"E",
+    "teus":445.52
+  },
+  {
+    "year":2022,
+    "hs2":"70",
+    "hs2_description":"Glass And Glassware",
+    "direction":"I",
+    "teus":388.72
+  },
+  {
+    "year":2022,
+    "hs2":"71",
+    "hs2_description":"Natural Or Cultured Pearls, Precious Or Semiprecio",
+    "direction":"E",
+    "teus":17.73
+  },
+  {
+    "year":2022,
+    "hs2":"71",
+    "hs2_description":"Natural Or Cultured Pearls, Precious Or Semiprecio",
+    "direction":"I",
+    "teus":8.0
+  },
+  {
+    "year":2022,
+    "hs2":"72",
+    "hs2_description":"Iron And Steel",
+    "direction":"E",
+    "teus":40.94
+  },
+  {
+    "year":2022,
+    "hs2":"72",
+    "hs2_description":"Iron And Steel",
+    "direction":"I",
+    "teus":88.5
+  },
+  {
+    "year":2022,
+    "hs2":"73",
+    "hs2_description":"Articles Of Iron Or Steel",
+    "direction":"E",
+    "teus":1369.72
+  },
+  {
+    "year":2022,
+    "hs2":"73",
+    "hs2_description":"Articles Of Iron Or Steel",
+    "direction":"I",
+    "teus":1323.59
+  },
+  {
+    "year":2022,
+    "hs2":"74",
+    "hs2_description":"Copper And Articles Thereof",
+    "direction":"E",
+    "teus":421.0
+  },
+  {
+    "year":2022,
+    "hs2":"74",
+    "hs2_description":"Copper And Articles Thereof",
+    "direction":"I",
+    "teus":183.64
+  },
+  {
+    "year":2022,
+    "hs2":"75",
+    "hs2_description":"Nickel And Articles Thereof",
+    "direction":"E",
+    "teus":0.2
+  },
+  {
+    "year":2022,
+    "hs2":"76",
+    "hs2_description":"Aluminum And Articles Thereof",
+    "direction":"E",
+    "teus":1198.46
+  },
+  {
+    "year":2022,
+    "hs2":"76",
+    "hs2_description":"Aluminum And Articles Thereof",
+    "direction":"I",
+    "teus":1147.46
+  },
+  {
+    "year":2022,
+    "hs2":"79",
+    "hs2_description":"Zinc And Articles Thereof",
+    "direction":"E",
+    "teus":4.0
+  },
+  {
+    "year":2022,
+    "hs2":"80",
+    "hs2_description":"Tin And Articles Thereof",
+    "direction":"E",
+    "teus":3.5
+  },
+  {
+    "year":2022,
+    "hs2":"81",
+    "hs2_description":"Base Metals Nesoi; Cermets; Articles Thereof",
+    "direction":"E",
+    "teus":0.15
+  },
+  {
+    "year":2022,
+    "hs2":"82",
+    "hs2_description":"Tools, Implements, Cutlery, Spoons And Forks, Of B",
+    "direction":"E",
+    "teus":108.84
+  },
+  {
+    "year":2022,
+    "hs2":"82",
+    "hs2_description":"Tools, Implements, Cutlery, Spoons And Forks, Of B",
+    "direction":"I",
+    "teus":16.88
+  },
+  {
+    "year":2022,
+    "hs2":"83",
+    "hs2_description":"Miscellaneous Articles Of Base Metal",
+    "direction":"E",
+    "teus":418.12
+  },
+  {
+    "year":2022,
+    "hs2":"83",
+    "hs2_description":"Miscellaneous Articles Of Base Metal",
+    "direction":"I",
+    "teus":50.45
+  },
+  {
+    "year":2022,
+    "hs2":"84",
+    "hs2_description":"Nuclear Reactors, Boilers, Machinery And Mechanica",
+    "direction":"E",
+    "teus":6880.27
+  },
+  {
+    "year":2022,
+    "hs2":"84",
+    "hs2_description":"Nuclear Reactors, Boilers, Machinery And Mechanica",
+    "direction":"I",
+    "teus":2280.88
+  },
+  {
+    "year":2022,
+    "hs2":"85",
+    "hs2_description":"Electrical Machinery And Equipment And Parts There",
+    "direction":"E",
+    "teus":616.78
+  },
+  {
+    "year":2022,
+    "hs2":"85",
+    "hs2_description":"Electrical Machinery And Equipment And Parts There",
+    "direction":"I",
+    "teus":808.89
+  },
+  {
+    "year":2022,
+    "hs2":"86",
+    "hs2_description":"Railway Or Tramway Locomotives, Rolling Stock, Tra",
+    "direction":"E",
+    "teus":112.76
+  },
+  {
+    "year":2022,
+    "hs2":"86",
+    "hs2_description":"Railway Or Tramway Locomotives, Rolling Stock, Tra",
+    "direction":"I",
+    "teus":18.0
+  },
+  {
+    "year":2022,
+    "hs2":"87",
+    "hs2_description":"Vehicles, Other Than Railway Or Tramway Rolling St",
+    "direction":"E",
+    "teus":5401.92
+  },
+  {
+    "year":2022,
+    "hs2":"87",
+    "hs2_description":"Vehicles, Other Than Railway Or Tramway Rolling St",
+    "direction":"I",
+    "teus":313.2
+  },
+  {
+    "year":2022,
+    "hs2":"88",
+    "hs2_description":"Aircraft, Spacecraft, And Parts Thereof",
+    "direction":"E",
+    "teus":14.5
+  },
+  {
+    "year":2022,
+    "hs2":"88",
+    "hs2_description":"Aircraft, Spacecraft, And Parts Thereof",
+    "direction":"I",
+    "teus":60.5
+  },
+  {
+    "year":2022,
+    "hs2":"89",
+    "hs2_description":"Ships, Boats And Floating Structures",
+    "direction":"E",
+    "teus":2.0
+  },
+  {
+    "year":2022,
+    "hs2":"89",
+    "hs2_description":"Ships, Boats And Floating Structures",
+    "direction":"I",
+    "teus":3.98
+  },
+  {
+    "year":2022,
+    "hs2":"90",
+    "hs2_description":"Optical, Photographic, Cinematographic, Measuring,",
+    "direction":"E",
+    "teus":571.29
+  },
+  {
+    "year":2022,
+    "hs2":"90",
+    "hs2_description":"Optical, Photographic, Cinematographic, Measuring,",
+    "direction":"I",
+    "teus":1033.4
+  },
+  {
+    "year":2022,
+    "hs2":"92",
+    "hs2_description":"Musical Instruments; Parts And Accessories Thereof",
+    "direction":"E",
+    "teus":2.0
+  },
+  {
+    "year":2022,
+    "hs2":"92",
+    "hs2_description":"Musical Instruments; Parts And Accessories Thereof",
+    "direction":"I",
+    "teus":1.16
+  },
+  {
+    "year":2022,
+    "hs2":"93",
+    "hs2_description":"Arms And Ammunition; Parts And Accessories Thereof",
+    "direction":"E",
+    "teus":1.75
+  },
+  {
+    "year":2022,
+    "hs2":"94",
+    "hs2_description":"Furniture; Bedding, Cushions Etc.; Lamps And Light",
+    "direction":"E",
+    "teus":1119.32
+  },
+  {
+    "year":2022,
+    "hs2":"94",
+    "hs2_description":"Furniture; Bedding, Cushions Etc.; Lamps And Light",
+    "direction":"I",
+    "teus":3479.38
+  },
+  {
+    "year":2022,
+    "hs2":"95",
+    "hs2_description":"Toys, Games And Sports Equipment; Parts And Access",
+    "direction":"E",
+    "teus":185.04
+  },
+  {
+    "year":2022,
+    "hs2":"95",
+    "hs2_description":"Toys, Games And Sports Equipment; Parts And Access",
+    "direction":"I",
+    "teus":465.03
+  },
+  {
+    "year":2022,
+    "hs2":"96",
+    "hs2_description":"Miscellaneous Manufactured Articles",
+    "direction":"E",
+    "teus":344.79
+  },
+  {
+    "year":2022,
+    "hs2":"96",
+    "hs2_description":"Miscellaneous Manufactured Articles",
+    "direction":"I",
+    "teus":4.75
+  },
+  {
+    "year":2022,
+    "hs2":"98",
+    "hs2_description":"Special Classification Provisions, Nesoi",
+    "direction":"E",
+    "teus":2.0
+  },
+  {
+    "year":2022,
+    "hs2":"98",
+    "hs2_description":"Special Classification Provisions, Nesoi",
+    "direction":"I",
+    "teus":701.94
+  },
+  {
+    "year":2023,
+    "hs2":"00",
+    "hs2_description":"Miscellaneous Cargo",
+    "direction":"E",
+    "teus":1024.42
+  },
+  {
+    "year":2023,
+    "hs2":"00",
+    "hs2_description":"Miscellaneous Cargo",
+    "direction":"I",
+    "teus":131.8
+  },
+  {
+    "year":2023,
+    "hs2":"02",
+    "hs2_description":"Meat And Edible Meat Offal",
+    "direction":"E",
+    "teus":5813.94
+  },
+  {
+    "year":2023,
+    "hs2":"02",
+    "hs2_description":"Meat And Edible Meat Offal",
+    "direction":"I",
+    "teus":266.0
+  },
+  {
+    "year":2023,
+    "hs2":"03",
+    "hs2_description":"Fish And Crustaceans, Molluscs And Other Aquatic I",
+    "direction":"E",
+    "teus":47.5
+  },
+  {
+    "year":2023,
+    "hs2":"03",
+    "hs2_description":"Fish And Crustaceans, Molluscs And Other Aquatic I",
+    "direction":"I",
+    "teus":2008.0
+  },
+  {
+    "year":2023,
+    "hs2":"04",
+    "hs2_description":"Dairy Produce; Birds' Eggs; Natural Honey; Edible",
+    "direction":"E",
+    "teus":152.21
+  },
+  {
+    "year":2023,
+    "hs2":"04",
+    "hs2_description":"Dairy Produce; Birds' Eggs; Natural Honey; Edible",
+    "direction":"I",
+    "teus":377.0
+  },
+  {
+    "year":2023,
+    "hs2":"05",
+    "hs2_description":"Products Of Animal Origin, Nesoi",
+    "direction":"E",
+    "teus":41.0
+  },
+  {
+    "year":2023,
+    "hs2":"05",
+    "hs2_description":"Products Of Animal Origin, Nesoi",
+    "direction":"I",
+    "teus":2.0
+  },
+  {
+    "year":2023,
+    "hs2":"06",
+    "hs2_description":"Live Trees And Other Plants; Bulbs, Roots And The",
+    "direction":"I",
+    "teus":1.0
+  },
+  {
+    "year":2023,
+    "hs2":"07",
+    "hs2_description":"Edible Vegetables And Certain Roots And Tubers",
+    "direction":"E",
+    "teus":39.0
+  },
+  {
+    "year":2023,
+    "hs2":"07",
+    "hs2_description":"Edible Vegetables And Certain Roots And Tubers",
+    "direction":"I",
+    "teus":190.25
+  },
+  {
+    "year":2023,
+    "hs2":"08",
+    "hs2_description":"Edible Fruit And Nuts; Peel Of Citrus Fruit Or Mel",
+    "direction":"E",
+    "teus":160.43
+  },
+  {
+    "year":2023,
+    "hs2":"08",
+    "hs2_description":"Edible Fruit And Nuts; Peel Of Citrus Fruit Or Mel",
+    "direction":"I",
+    "teus":5696.25
+  },
+  {
+    "year":2023,
+    "hs2":"09",
+    "hs2_description":"Coffee, Tea, Mate And Spices",
+    "direction":"E",
+    "teus":29.0
+  },
+  {
+    "year":2023,
+    "hs2":"09",
+    "hs2_description":"Coffee, Tea, Mate And Spices",
+    "direction":"I",
+    "teus":1591.3
+  },
+  {
+    "year":2023,
+    "hs2":"10",
+    "hs2_description":"Cereals",
+    "direction":"E",
+    "teus":93.75
+  },
+  {
+    "year":2023,
+    "hs2":"10",
+    "hs2_description":"Cereals",
+    "direction":"I",
+    "teus":720.22
+  },
+  {
+    "year":2023,
+    "hs2":"11",
+    "hs2_description":"Milling Industry Products; Malt; Starches; Inulin;",
+    "direction":"E",
+    "teus":166.01
+  },
+  {
+    "year":2023,
+    "hs2":"11",
+    "hs2_description":"Milling Industry Products; Malt; Starches; Inulin;",
+    "direction":"I",
+    "teus":124.0
+  },
+  {
+    "year":2023,
+    "hs2":"12",
+    "hs2_description":"Oil Seeds And Oleaginous Fruits; Miscellaneous Gra",
+    "direction":"E",
+    "teus":263.0
+  },
+  {
+    "year":2023,
+    "hs2":"12",
+    "hs2_description":"Oil Seeds And Oleaginous Fruits; Miscellaneous Gra",
+    "direction":"I",
+    "teus":9.0
+  },
+  {
+    "year":2023,
+    "hs2":"13",
+    "hs2_description":"Lac; Gums; Resins And Other Vegetable Saps And Ext",
+    "direction":"E",
+    "teus":4.0
+  },
+  {
+    "year":2023,
+    "hs2":"13",
+    "hs2_description":"Lac; Gums; Resins And Other Vegetable Saps And Ext",
+    "direction":"I",
+    "teus":22.5
+  },
+  {
+    "year":2023,
+    "hs2":"14",
+    "hs2_description":"Vegetable Plaiting Materials And Vegetable Product",
+    "direction":"I",
+    "teus":1.0
+  },
+  {
+    "year":2023,
+    "hs2":"15",
+    "hs2_description":"Animal Or Vegetable Fats And Oils And Their Cleava",
+    "direction":"E",
+    "teus":200.09
+  },
+  {
+    "year":2023,
+    "hs2":"15",
+    "hs2_description":"Animal Or Vegetable Fats And Oils And Their Cleava",
+    "direction":"I",
+    "teus":44.53
+  },
+  {
+    "year":2023,
+    "hs2":"16",
+    "hs2_description":"Edible Preparations Of Meat, Fish, Crustaceans, Mo",
+    "direction":"E",
+    "teus":26.0
+  },
+  {
+    "year":2023,
+    "hs2":"16",
+    "hs2_description":"Edible Preparations Of Meat, Fish, Crustaceans, Mo",
+    "direction":"I",
+    "teus":143.01
+  },
+  {
+    "year":2023,
+    "hs2":"17",
+    "hs2_description":"Sugars And Sugar Confectionary",
+    "direction":"E",
+    "teus":206.5
+  },
+  {
+    "year":2023,
+    "hs2":"17",
+    "hs2_description":"Sugars And Sugar Confectionary",
+    "direction":"I",
+    "teus":421.25
+  },
+  {
+    "year":2023,
+    "hs2":"18",
+    "hs2_description":"Cocoa And Cocoa Preparations",
+    "direction":"E",
+    "teus":29.09
+  },
+  {
+    "year":2023,
+    "hs2":"18",
+    "hs2_description":"Cocoa And Cocoa Preparations",
+    "direction":"I",
+    "teus":22.0
+  },
+  {
+    "year":2023,
+    "hs2":"19",
+    "hs2_description":"Preparations Of Cereals, Flour, Starch Or Milk; Ba",
+    "direction":"E",
+    "teus":652.3
+  },
+  {
+    "year":2023,
+    "hs2":"19",
+    "hs2_description":"Preparations Of Cereals, Flour, Starch Or Milk; Ba",
+    "direction":"I",
+    "teus":632.75
+  },
+  {
+    "year":2023,
+    "hs2":"20",
+    "hs2_description":"Preparations Of Vegetables, Fruit, Nuts, Or Other",
+    "direction":"E",
+    "teus":540.49
+  },
+  {
+    "year":2023,
+    "hs2":"20",
+    "hs2_description":"Preparations Of Vegetables, Fruit, Nuts, Or Other",
+    "direction":"I",
+    "teus":4236.91
+  },
+  {
+    "year":2023,
+    "hs2":"21",
+    "hs2_description":"Miscellaneous Edible Preparations",
+    "direction":"E",
+    "teus":1310.54
+  },
+  {
+    "year":2023,
+    "hs2":"21",
+    "hs2_description":"Miscellaneous Edible Preparations",
+    "direction":"I",
+    "teus":121.0
+  },
+  {
+    "year":2023,
+    "hs2":"22",
+    "hs2_description":"Beverages, Spirits And Vinegar",
+    "direction":"E",
+    "teus":847.6
+  },
+  {
+    "year":2023,
+    "hs2":"22",
+    "hs2_description":"Beverages, Spirits And Vinegar",
+    "direction":"I",
+    "teus":2817.43
+  },
+  {
+    "year":2023,
+    "hs2":"23",
+    "hs2_description":"Residues And Waste From The Food Industries; Prepa",
+    "direction":"E",
+    "teus":254.25
+  },
+  {
+    "year":2023,
+    "hs2":"23",
+    "hs2_description":"Residues And Waste From The Food Industries; Prepa",
+    "direction":"I",
+    "teus":6.0
+  },
+  {
+    "year":2023,
+    "hs2":"24",
+    "hs2_description":"Tobacco And Manufactured Tobacco Substitutes",
+    "direction":"E",
+    "teus":126.05
+  },
+  {
+    "year":2023,
+    "hs2":"24",
+    "hs2_description":"Tobacco And Manufactured Tobacco Substitutes",
+    "direction":"I",
+    "teus":135.76
+  },
+  {
+    "year":2023,
+    "hs2":"25",
+    "hs2_description":"Salt; Sulfur; Earths And Stone; Plastering Materia",
+    "direction":"E",
+    "teus":209.17
+  },
+  {
+    "year":2023,
+    "hs2":"25",
+    "hs2_description":"Salt; Sulfur; Earths And Stone; Plastering Materia",
+    "direction":"I",
+    "teus":776.77
+  },
+  {
+    "year":2023,
+    "hs2":"26",
+    "hs2_description":"Ores, Slag And Ash",
+    "direction":"E",
+    "teus":1.75
+  },
+  {
+    "year":2023,
+    "hs2":"27",
+    "hs2_description":"Mineral Fuels, Mineral Oils And Products Of Their",
+    "direction":"E",
+    "teus":250.16
+  },
+  {
+    "year":2023,
+    "hs2":"27",
+    "hs2_description":"Mineral Fuels, Mineral Oils And Products Of Their",
+    "direction":"I",
+    "teus":72.61
+  },
+  {
+    "year":2023,
+    "hs2":"28",
+    "hs2_description":"Inorganic Chemicals; Organic Or Inorganic Compound",
+    "direction":"E",
+    "teus":507.8
+  },
+  {
+    "year":2023,
+    "hs2":"28",
+    "hs2_description":"Inorganic Chemicals; Organic Or Inorganic Compound",
+    "direction":"I",
+    "teus":149.24
+  },
+  {
+    "year":2023,
+    "hs2":"29",
+    "hs2_description":"Organic Chemicals",
+    "direction":"E",
+    "teus":860.56
+  },
+  {
+    "year":2023,
+    "hs2":"29",
+    "hs2_description":"Organic Chemicals",
+    "direction":"I",
+    "teus":253.67
+  },
+  {
+    "year":2023,
+    "hs2":"30",
+    "hs2_description":"Pharmaceutical Products",
+    "direction":"E",
+    "teus":230.01
+  },
+  {
+    "year":2023,
+    "hs2":"30",
+    "hs2_description":"Pharmaceutical Products",
+    "direction":"I",
+    "teus":1317.13
+  },
+  {
+    "year":2023,
+    "hs2":"31",
+    "hs2_description":"Fertilizers",
+    "direction":"E",
+    "teus":69.25
+  },
+  {
+    "year":2023,
+    "hs2":"31",
+    "hs2_description":"Fertilizers",
+    "direction":"I",
+    "teus":54.0
+  },
+  {
+    "year":2023,
+    "hs2":"32",
+    "hs2_description":"Tanning Or Dyeing Extracts; Tannins And Derivative",
+    "direction":"E",
+    "teus":197.79
+  },
+  {
+    "year":2023,
+    "hs2":"32",
+    "hs2_description":"Tanning Or Dyeing Extracts; Tannins And Derivative",
+    "direction":"I",
+    "teus":16.13
+  },
+  {
+    "year":2023,
+    "hs2":"33",
+    "hs2_description":"Essential Oils And Resinoids; Perfumery, Cosmetic",
+    "direction":"E",
+    "teus":387.25
+  },
+  {
+    "year":2023,
+    "hs2":"33",
+    "hs2_description":"Essential Oils And Resinoids; Perfumery, Cosmetic",
+    "direction":"I",
+    "teus":1557.81
+  },
+  {
+    "year":2023,
+    "hs2":"34",
+    "hs2_description":"Soap Etc.; Lubricating Products; Waxes, Polishing",
+    "direction":"E",
+    "teus":237.49
+  },
+  {
+    "year":2023,
+    "hs2":"34",
+    "hs2_description":"Soap Etc.; Lubricating Products; Waxes, Polishing",
+    "direction":"I",
+    "teus":10.0
+  },
+  {
+    "year":2023,
+    "hs2":"35",
+    "hs2_description":"Albuminoidal Substances; Modified Starches; Glues;",
+    "direction":"E",
+    "teus":227.25
+  },
+  {
+    "year":2023,
+    "hs2":"35",
+    "hs2_description":"Albuminoidal Substances; Modified Starches; Glues;",
+    "direction":"I",
+    "teus":113.25
+  },
+  {
+    "year":2023,
+    "hs2":"38",
+    "hs2_description":"Miscellaneous Chemical Products",
+    "direction":"E",
+    "teus":2359.4
+  },
+  {
+    "year":2023,
+    "hs2":"38",
+    "hs2_description":"Miscellaneous Chemical Products",
+    "direction":"I",
+    "teus":159.58
+  },
+  {
+    "year":2023,
+    "hs2":"39",
+    "hs2_description":"Plastics And Articles Thereof",
+    "direction":"E",
+    "teus":4244.5
+  },
+  {
+    "year":2023,
+    "hs2":"39",
+    "hs2_description":"Plastics And Articles Thereof",
+    "direction":"I",
+    "teus":1078.48
+  },
+  {
+    "year":2023,
+    "hs2":"40",
+    "hs2_description":"Rubber And Articles Thereof",
+    "direction":"E",
+    "teus":1233.79
+  },
+  {
+    "year":2023,
+    "hs2":"40",
+    "hs2_description":"Rubber And Articles Thereof",
+    "direction":"I",
+    "teus":5199.56
+  },
+  {
+    "year":2023,
+    "hs2":"41",
+    "hs2_description":"Raw Hides And Skins (other Than Furskins) And Leat",
+    "direction":"E",
+    "teus":5.3
+  },
+  {
+    "year":2023,
+    "hs2":"41",
+    "hs2_description":"Raw Hides And Skins (other Than Furskins) And Leat",
+    "direction":"I",
+    "teus":7.02
+  },
+  {
+    "year":2023,
+    "hs2":"42",
+    "hs2_description":"Articles Of Leather; Saddlery And Harness; Travel",
+    "direction":"E",
+    "teus":166.28
+  },
+  {
+    "year":2023,
+    "hs2":"42",
+    "hs2_description":"Articles Of Leather; Saddlery And Harness; Travel",
+    "direction":"I",
+    "teus":396.73
+  },
+  {
+    "year":2023,
+    "hs2":"44",
+    "hs2_description":"Wood And Articles Of Wood; Wood Charcoal",
+    "direction":"E",
+    "teus":193.12
+  },
+  {
+    "year":2023,
+    "hs2":"44",
+    "hs2_description":"Wood And Articles Of Wood; Wood Charcoal",
+    "direction":"I",
+    "teus":10743.52
+  },
+  {
+    "year":2023,
+    "hs2":"46",
+    "hs2_description":"Manufactures Of Straw, Esparto Or Other Plaiting M",
+    "direction":"E",
+    "teus":4.0
+  },
+  {
+    "year":2023,
+    "hs2":"46",
+    "hs2_description":"Manufactures Of Straw, Esparto Or Other Plaiting M",
+    "direction":"I",
+    "teus":6.15
+  },
+  {
+    "year":2023,
+    "hs2":"47",
+    "hs2_description":"Pulp Of Wood Or Other Fibrous Cellulosic Material;",
+    "direction":"E",
+    "teus":761.5
+  },
+  {
+    "year":2023,
+    "hs2":"47",
+    "hs2_description":"Pulp Of Wood Or Other Fibrous Cellulosic Material;",
+    "direction":"I",
+    "teus":320.0
+  },
+  {
+    "year":2023,
+    "hs2":"48",
+    "hs2_description":"Paper And Paperboard; Articles Of Paper Pulp, Pape",
+    "direction":"E",
+    "teus":434.66
+  },
+  {
+    "year":2023,
+    "hs2":"48",
+    "hs2_description":"Paper And Paperboard; Articles Of Paper Pulp, Pape",
+    "direction":"I",
+    "teus":1577.27
+  },
+  {
+    "year":2023,
+    "hs2":"49",
+    "hs2_description":"Printed Books, Newspapers, Pictures And Other Prin",
+    "direction":"E",
+    "teus":26.0
+  },
+  {
+    "year":2023,
+    "hs2":"49",
+    "hs2_description":"Printed Books, Newspapers, Pictures And Other Prin",
+    "direction":"I",
+    "teus":4.0
+  },
+  {
+    "year":2023,
+    "hs2":"50",
+    "hs2_description":"Silk, Including Yarns And Woven Fabrics Thereof",
+    "direction":"E",
+    "teus":1.0
+  },
+  {
+    "year":2023,
+    "hs2":"52",
+    "hs2_description":"Cotton, Including Yarns And Woven Fabrics Thereof",
+    "direction":"E",
+    "teus":80.35
+  },
+  {
+    "year":2023,
+    "hs2":"52",
+    "hs2_description":"Cotton, Including Yarns And Woven Fabrics Thereof",
+    "direction":"I",
+    "teus":247.38
+  },
+  {
+    "year":2023,
+    "hs2":"54",
+    "hs2_description":"Manmade Filaments, Including Yarns And Woven Fabri",
+    "direction":"E",
+    "teus":10.0
+  },
+  {
+    "year":2023,
+    "hs2":"54",
+    "hs2_description":"Manmade Filaments, Including Yarns And Woven Fabri",
+    "direction":"I",
+    "teus":2.0
+  },
+  {
+    "year":2023,
+    "hs2":"55",
+    "hs2_description":"Manmade Staple Fibers, Including Yarns And Woven F",
+    "direction":"E",
+    "teus":802.0
+  },
+  {
+    "year":2023,
+    "hs2":"55",
+    "hs2_description":"Manmade Staple Fibers, Including Yarns And Woven F",
+    "direction":"I",
+    "teus":36.0
+  },
+  {
+    "year":2023,
+    "hs2":"56",
+    "hs2_description":"Wadding, Felt And Nonwovens; Special Yarns; Twine,",
+    "direction":"E",
+    "teus":34.82
+  },
+  {
+    "year":2023,
+    "hs2":"56",
+    "hs2_description":"Wadding, Felt And Nonwovens; Special Yarns; Twine,",
+    "direction":"I",
+    "teus":25.06
+  },
+  {
+    "year":2023,
+    "hs2":"57",
+    "hs2_description":"Carpets And Other Textile Floor Coverings",
+    "direction":"E",
+    "teus":2.0
+  },
+  {
+    "year":2023,
+    "hs2":"57",
+    "hs2_description":"Carpets And Other Textile Floor Coverings",
+    "direction":"I",
+    "teus":17.03
+  },
+  {
+    "year":2023,
+    "hs2":"58",
+    "hs2_description":"Special Woven Fabrics; Tufted Textile Fabrics; Lac",
+    "direction":"E",
+    "teus":1.0
+  },
+  {
+    "year":2023,
+    "hs2":"58",
+    "hs2_description":"Special Woven Fabrics; Tufted Textile Fabrics; Lac",
+    "direction":"I",
+    "teus":1.22
+  },
+  {
+    "year":2023,
+    "hs2":"59",
+    "hs2_description":"Impregnated, Coated, Covered Or Laminated Textile",
+    "direction":"E",
+    "teus":35.0
+  },
+  {
+    "year":2023,
+    "hs2":"59",
+    "hs2_description":"Impregnated, Coated, Covered Or Laminated Textile",
+    "direction":"I",
+    "teus":29.75
+  },
+  {
+    "year":2023,
+    "hs2":"60",
+    "hs2_description":"Knitted Or Crocheted Fabrics",
+    "direction":"E",
+    "teus":4.0
+  },
+  {
+    "year":2023,
+    "hs2":"60",
+    "hs2_description":"Knitted Or Crocheted Fabrics",
+    "direction":"I",
+    "teus":2.5
+  },
+  {
+    "year":2023,
+    "hs2":"61",
+    "hs2_description":"Articles Of Apparel And Clothing Accessories, Knit",
+    "direction":"E",
+    "teus":30.0
+  },
+  {
+    "year":2023,
+    "hs2":"61",
+    "hs2_description":"Articles Of Apparel And Clothing Accessories, Knit",
+    "direction":"I",
+    "teus":4831.27
+  },
+  {
+    "year":2023,
+    "hs2":"62",
+    "hs2_description":"Articles Of Apparel And Clothing Accessories, Not",
+    "direction":"E",
+    "teus":150.78
+  },
+  {
+    "year":2023,
+    "hs2":"62",
+    "hs2_description":"Articles Of Apparel And Clothing Accessories, Not",
+    "direction":"I",
+    "teus":739.5
+  },
+  {
+    "year":2023,
+    "hs2":"63",
+    "hs2_description":"Made-up Textile Articles Nesoi; Needlecraft Sets;",
+    "direction":"E",
+    "teus":176.55
+  },
+  {
+    "year":2023,
+    "hs2":"63",
+    "hs2_description":"Made-up Textile Articles Nesoi; Needlecraft Sets;",
+    "direction":"I",
+    "teus":325.36
+  },
+  {
+    "year":2023,
+    "hs2":"64",
+    "hs2_description":"Footwear, Gaiters And The Like; Parts Of Such Arti",
+    "direction":"E",
+    "teus":15.0
+  },
+  {
+    "year":2023,
+    "hs2":"64",
+    "hs2_description":"Footwear, Gaiters And The Like; Parts Of Such Arti",
+    "direction":"I",
+    "teus":258.81
+  },
+  {
+    "year":2023,
+    "hs2":"65",
+    "hs2_description":"Headgear And Parts Thereof",
+    "direction":"E",
+    "teus":2.0
+  },
+  {
+    "year":2023,
+    "hs2":"65",
+    "hs2_description":"Headgear And Parts Thereof",
+    "direction":"I",
+    "teus":1.0
+  },
+  {
+    "year":2023,
+    "hs2":"66",
+    "hs2_description":"Umbrellas, Sun Umbrellas, Walking-sticks, Seat-sti",
+    "direction":"E",
+    "teus":1.75
+  },
+  {
+    "year":2023,
+    "hs2":"66",
+    "hs2_description":"Umbrellas, Sun Umbrellas, Walking-sticks, Seat-sti",
+    "direction":"I",
+    "teus":1.0
+  },
+  {
+    "year":2023,
+    "hs2":"67",
+    "hs2_description":"Prepared Feathers And Down And Articles Thereof; A",
+    "direction":"I",
+    "teus":10.84
+  },
+  {
+    "year":2023,
+    "hs2":"68",
+    "hs2_description":"Articles Of Stone, Plaster, Cement, Asbestos, Mica",
+    "direction":"E",
+    "teus":101.99
+  },
+  {
+    "year":2023,
+    "hs2":"68",
+    "hs2_description":"Articles Of Stone, Plaster, Cement, Asbestos, Mica",
+    "direction":"I",
+    "teus":1136.5
+  },
+  {
+    "year":2023,
+    "hs2":"69",
+    "hs2_description":"Ceramic Products",
+    "direction":"E",
+    "teus":10.0
+  },
+  {
+    "year":2023,
+    "hs2":"69",
+    "hs2_description":"Ceramic Products",
+    "direction":"I",
+    "teus":301.37
+  },
+  {
+    "year":2023,
+    "hs2":"70",
+    "hs2_description":"Glass And Glassware",
+    "direction":"E",
+    "teus":829.32
+  },
+  {
+    "year":2023,
+    "hs2":"70",
+    "hs2_description":"Glass And Glassware",
+    "direction":"I",
+    "teus":143.42
+  },
+  {
+    "year":2023,
+    "hs2":"71",
+    "hs2_description":"Natural Or Cultured Pearls, Precious Or Semiprecio",
+    "direction":"E",
+    "teus":1.75
+  },
+  {
+    "year":2023,
+    "hs2":"71",
+    "hs2_description":"Natural Or Cultured Pearls, Precious Or Semiprecio",
+    "direction":"I",
+    "teus":10.03
+  },
+  {
+    "year":2023,
+    "hs2":"72",
+    "hs2_description":"Iron And Steel",
+    "direction":"E",
+    "teus":64.0
+  },
+  {
+    "year":2023,
+    "hs2":"72",
+    "hs2_description":"Iron And Steel",
+    "direction":"I",
+    "teus":85.16
+  },
+  {
+    "year":2023,
+    "hs2":"73",
+    "hs2_description":"Articles Of Iron Or Steel",
+    "direction":"E",
+    "teus":2187.83
+  },
+  {
+    "year":2023,
+    "hs2":"73",
+    "hs2_description":"Articles Of Iron Or Steel",
+    "direction":"I",
+    "teus":465.95
+  },
+  {
+    "year":2023,
+    "hs2":"74",
+    "hs2_description":"Copper And Articles Thereof",
+    "direction":"E",
+    "teus":220.0
+  },
+  {
+    "year":2023,
+    "hs2":"74",
+    "hs2_description":"Copper And Articles Thereof",
+    "direction":"I",
+    "teus":69.16
+  },
+  {
+    "year":2023,
+    "hs2":"76",
+    "hs2_description":"Aluminum And Articles Thereof",
+    "direction":"E",
+    "teus":96.57
+  },
+  {
+    "year":2023,
+    "hs2":"76",
+    "hs2_description":"Aluminum And Articles Thereof",
+    "direction":"I",
+    "teus":727.59
+  },
+  {
+    "year":2023,
+    "hs2":"78",
+    "hs2_description":"Lead And Articles Thereof",
+    "direction":"I",
+    "teus":0.28
+  },
+  {
+    "year":2023,
+    "hs2":"79",
+    "hs2_description":"Zinc And Articles Thereof",
+    "direction":"I",
+    "teus":0.5
+  },
+  {
+    "year":2023,
+    "hs2":"80",
+    "hs2_description":"Tin And Articles Thereof",
+    "direction":"I",
+    "teus":4.5
+  },
+  {
+    "year":2023,
+    "hs2":"81",
+    "hs2_description":"Base Metals Nesoi; Cermets; Articles Thereof",
+    "direction":"E",
+    "teus":110.0
+  },
+  {
+    "year":2023,
+    "hs2":"82",
+    "hs2_description":"Tools, Implements, Cutlery, Spoons And Forks, Of B",
+    "direction":"E",
+    "teus":107.65
+  },
+  {
+    "year":2023,
+    "hs2":"82",
+    "hs2_description":"Tools, Implements, Cutlery, Spoons And Forks, Of B",
+    "direction":"I",
+    "teus":19.08
+  },
+  {
+    "year":2023,
+    "hs2":"83",
+    "hs2_description":"Miscellaneous Articles Of Base Metal",
+    "direction":"E",
+    "teus":211.13
+  },
+  {
+    "year":2023,
+    "hs2":"83",
+    "hs2_description":"Miscellaneous Articles Of Base Metal",
+    "direction":"I",
+    "teus":44.19
+  },
+  {
+    "year":2023,
+    "hs2":"84",
+    "hs2_description":"Nuclear Reactors, Boilers, Machinery And Mechanica",
+    "direction":"E",
+    "teus":8807.74
+  },
+  {
+    "year":2023,
+    "hs2":"84",
+    "hs2_description":"Nuclear Reactors, Boilers, Machinery And Mechanica",
+    "direction":"I",
+    "teus":955.68
+  },
+  {
+    "year":2023,
+    "hs2":"85",
+    "hs2_description":"Electrical Machinery And Equipment And Parts There",
+    "direction":"E",
+    "teus":375.14
+  },
+  {
+    "year":2023,
+    "hs2":"85",
+    "hs2_description":"Electrical Machinery And Equipment And Parts There",
+    "direction":"I",
+    "teus":1007.22
+  },
+  {
+    "year":2023,
+    "hs2":"86",
+    "hs2_description":"Railway Or Tramway Locomotives, Rolling Stock, Tra",
+    "direction":"E",
+    "teus":6.0
+  },
+  {
+    "year":2023,
+    "hs2":"87",
+    "hs2_description":"Vehicles, Other Than Railway Or Tramway Rolling St",
+    "direction":"E",
+    "teus":3197.8
+  },
+  {
+    "year":2023,
+    "hs2":"87",
+    "hs2_description":"Vehicles, Other Than Railway Or Tramway Rolling St",
+    "direction":"I",
+    "teus":76.37
+  },
+  {
+    "year":2023,
+    "hs2":"88",
+    "hs2_description":"Aircraft, Spacecraft, And Parts Thereof",
+    "direction":"E",
+    "teus":13.75
+  },
+  {
+    "year":2023,
+    "hs2":"88",
+    "hs2_description":"Aircraft, Spacecraft, And Parts Thereof",
+    "direction":"I",
+    "teus":49.25
+  },
+  {
+    "year":2023,
+    "hs2":"89",
+    "hs2_description":"Ships, Boats And Floating Structures",
+    "direction":"E",
+    "teus":11.0
+  },
+  {
+    "year":2023,
+    "hs2":"89",
+    "hs2_description":"Ships, Boats And Floating Structures",
+    "direction":"I",
+    "teus":2.5
+  },
+  {
+    "year":2023,
+    "hs2":"90",
+    "hs2_description":"Optical, Photographic, Cinematographic, Measuring,",
+    "direction":"E",
+    "teus":1264.39
+  },
+  {
+    "year":2023,
+    "hs2":"90",
+    "hs2_description":"Optical, Photographic, Cinematographic, Measuring,",
+    "direction":"I",
+    "teus":1674.75
+  },
+  {
+    "year":2023,
+    "hs2":"93",
+    "hs2_description":"Arms And Ammunition; Parts And Accessories Thereof",
+    "direction":"I",
+    "teus":1.0
+  },
+  {
+    "year":2023,
+    "hs2":"94",
+    "hs2_description":"Furniture; Bedding, Cushions Etc.; Lamps And Light",
+    "direction":"E",
+    "teus":874.69
+  },
+  {
+    "year":2023,
+    "hs2":"94",
+    "hs2_description":"Furniture; Bedding, Cushions Etc.; Lamps And Light",
+    "direction":"I",
+    "teus":2834.79
+  },
+  {
+    "year":2023,
+    "hs2":"95",
+    "hs2_description":"Toys, Games And Sports Equipment; Parts And Access",
+    "direction":"E",
+    "teus":185.0
+  },
+  {
+    "year":2023,
+    "hs2":"95",
+    "hs2_description":"Toys, Games And Sports Equipment; Parts And Access",
+    "direction":"I",
+    "teus":270.68
+  },
+  {
+    "year":2023,
+    "hs2":"96",
+    "hs2_description":"Miscellaneous Manufactured Articles",
+    "direction":"E",
+    "teus":316.61
+  },
+  {
+    "year":2023,
+    "hs2":"96",
+    "hs2_description":"Miscellaneous Manufactured Articles",
+    "direction":"I",
+    "teus":115.52
+  },
+  {
+    "year":2023,
+    "hs2":"97",
+    "hs2_description":"Works Of Art, Collectors' Pieces And Antiques",
+    "direction":"E",
+    "teus":4.0
+  },
+  {
+    "year":2023,
+    "hs2":"97",
+    "hs2_description":"Works Of Art, Collectors' Pieces And Antiques",
+    "direction":"I",
+    "teus":10.09
+  },
+  {
+    "year":2023,
+    "hs2":"98",
+    "hs2_description":"Special Classification Provisions, Nesoi",
+    "direction":"E",
+    "teus":1.6
+  },
+  {
+    "year":2023,
+    "hs2":"98",
+    "hs2_description":"Special Classification Provisions, Nesoi",
+    "direction":"I",
+    "teus":307.64
+  },
+  {
+    "year":2024,
+    "hs2":"00",
+    "hs2_description":"Miscellaneous Cargo",
+    "direction":"E",
+    "teus":733.26
+  },
+  {
+    "year":2024,
+    "hs2":"00",
+    "hs2_description":"Miscellaneous Cargo",
+    "direction":"I",
+    "teus":167.94
+  },
+  {
+    "year":2024,
+    "hs2":"02",
+    "hs2_description":"Meat And Edible Meat Offal",
+    "direction":"E",
+    "teus":6779.78
+  },
+  {
+    "year":2024,
+    "hs2":"02",
+    "hs2_description":"Meat And Edible Meat Offal",
+    "direction":"I",
+    "teus":151.75
+  },
+  {
+    "year":2024,
+    "hs2":"03",
+    "hs2_description":"Fish And Crustaceans, Molluscs And Other Aquatic I",
+    "direction":"E",
+    "teus":22.0
+  },
+  {
+    "year":2024,
+    "hs2":"03",
+    "hs2_description":"Fish And Crustaceans, Molluscs And Other Aquatic I",
+    "direction":"I",
+    "teus":1685.25
+  },
+  {
+    "year":2024,
+    "hs2":"04",
+    "hs2_description":"Dairy Produce; Birds' Eggs; Natural Honey; Edible",
+    "direction":"E",
+    "teus":749.75
+  },
+  {
+    "year":2024,
+    "hs2":"04",
+    "hs2_description":"Dairy Produce; Birds' Eggs; Natural Honey; Edible",
+    "direction":"I",
+    "teus":253.0
+  },
+  {
+    "year":2024,
+    "hs2":"05",
+    "hs2_description":"Products Of Animal Origin, Nesoi",
+    "direction":"E",
+    "teus":16.0
+  },
+  {
+    "year":2024,
+    "hs2":"05",
+    "hs2_description":"Products Of Animal Origin, Nesoi",
+    "direction":"I",
+    "teus":12.0
+  },
+  {
+    "year":2024,
+    "hs2":"06",
+    "hs2_description":"Live Trees And Other Plants; Bulbs, Roots And The",
+    "direction":"E",
+    "teus":40.0
+  },
+  {
+    "year":2024,
+    "hs2":"06",
+    "hs2_description":"Live Trees And Other Plants; Bulbs, Roots And The",
+    "direction":"I",
+    "teus":7.67
+  },
+  {
+    "year":2024,
+    "hs2":"07",
+    "hs2_description":"Edible Vegetables And Certain Roots And Tubers",
+    "direction":"E",
+    "teus":15.0
+  },
+  {
+    "year":2024,
+    "hs2":"07",
+    "hs2_description":"Edible Vegetables And Certain Roots And Tubers",
+    "direction":"I",
+    "teus":248.0
+  },
+  {
+    "year":2024,
+    "hs2":"08",
+    "hs2_description":"Edible Fruit And Nuts; Peel Of Citrus Fruit Or Mel",
+    "direction":"E",
+    "teus":761.98
+  },
+  {
+    "year":2024,
+    "hs2":"08",
+    "hs2_description":"Edible Fruit And Nuts; Peel Of Citrus Fruit Or Mel",
+    "direction":"I",
+    "teus":5266.79
+  },
+  {
+    "year":2024,
+    "hs2":"09",
+    "hs2_description":"Coffee, Tea, Mate And Spices",
+    "direction":"E",
+    "teus":11.25
+  },
+  {
+    "year":2024,
+    "hs2":"09",
+    "hs2_description":"Coffee, Tea, Mate And Spices",
+    "direction":"I",
+    "teus":2223.44
+  },
+  {
+    "year":2024,
+    "hs2":"10",
+    "hs2_description":"Cereals",
+    "direction":"E",
+    "teus":29.75
+  },
+  {
+    "year":2024,
+    "hs2":"10",
+    "hs2_description":"Cereals",
+    "direction":"I",
+    "teus":333.75
+  },
+  {
+    "year":2024,
+    "hs2":"11",
+    "hs2_description":"Milling Industry Products; Malt; Starches; Inulin;",
+    "direction":"I",
+    "teus":76.0
+  },
+  {
+    "year":2024,
+    "hs2":"12",
+    "hs2_description":"Oil Seeds And Oleaginous Fruits; Miscellaneous Gra",
+    "direction":"E",
+    "teus":471.67
+  },
+  {
+    "year":2024,
+    "hs2":"13",
+    "hs2_description":"Lac; Gums; Resins And Other Vegetable Saps And Ext",
+    "direction":"E",
+    "teus":4.0
+  },
+  {
+    "year":2024,
+    "hs2":"13",
+    "hs2_description":"Lac; Gums; Resins And Other Vegetable Saps And Ext",
+    "direction":"I",
+    "teus":2.0
+  },
+  {
+    "year":2024,
+    "hs2":"15",
+    "hs2_description":"Animal Or Vegetable Fats And Oils And Their Cleava",
+    "direction":"E",
+    "teus":53.3
+  },
+  {
+    "year":2024,
+    "hs2":"15",
+    "hs2_description":"Animal Or Vegetable Fats And Oils And Their Cleava",
+    "direction":"I",
+    "teus":98.75
+  },
+  {
+    "year":2024,
+    "hs2":"16",
+    "hs2_description":"Edible Preparations Of Meat, Fish, Crustaceans, Mo",
+    "direction":"E",
+    "teus":13.75
+  },
+  {
+    "year":2024,
+    "hs2":"16",
+    "hs2_description":"Edible Preparations Of Meat, Fish, Crustaceans, Mo",
+    "direction":"I",
+    "teus":232.0
+  },
+  {
+    "year":2024,
+    "hs2":"17",
+    "hs2_description":"Sugars And Sugar Confectionary",
+    "direction":"E",
+    "teus":110.5
+  },
+  {
+    "year":2024,
+    "hs2":"17",
+    "hs2_description":"Sugars And Sugar Confectionary",
+    "direction":"I",
+    "teus":474.33
+  },
+  {
+    "year":2024,
+    "hs2":"18",
+    "hs2_description":"Cocoa And Cocoa Preparations",
+    "direction":"E",
+    "teus":6.0
+  },
+  {
+    "year":2024,
+    "hs2":"18",
+    "hs2_description":"Cocoa And Cocoa Preparations",
+    "direction":"I",
+    "teus":4.0
+  },
+  {
+    "year":2024,
+    "hs2":"19",
+    "hs2_description":"Preparations Of Cereals, Flour, Starch Or Milk; Ba",
+    "direction":"E",
+    "teus":457.01
+  },
+  {
+    "year":2024,
+    "hs2":"19",
+    "hs2_description":"Preparations Of Cereals, Flour, Starch Or Milk; Ba",
+    "direction":"I",
+    "teus":331.25
+  },
+  {
+    "year":2024,
+    "hs2":"20",
+    "hs2_description":"Preparations Of Vegetables, Fruit, Nuts, Or Other",
+    "direction":"E",
+    "teus":104.98
+  },
+  {
+    "year":2024,
+    "hs2":"20",
+    "hs2_description":"Preparations Of Vegetables, Fruit, Nuts, Or Other",
+    "direction":"I",
+    "teus":3679.59
+  },
+  {
+    "year":2024,
+    "hs2":"21",
+    "hs2_description":"Miscellaneous Edible Preparations",
+    "direction":"E",
+    "teus":1879.91
+  },
+  {
+    "year":2024,
+    "hs2":"21",
+    "hs2_description":"Miscellaneous Edible Preparations",
+    "direction":"I",
+    "teus":99.34
+  },
+  {
+    "year":2024,
+    "hs2":"22",
+    "hs2_description":"Beverages, Spirits And Vinegar",
+    "direction":"E",
+    "teus":698.97
+  },
+  {
+    "year":2024,
+    "hs2":"22",
+    "hs2_description":"Beverages, Spirits And Vinegar",
+    "direction":"I",
+    "teus":4087.81
+  },
+  {
+    "year":2024,
+    "hs2":"23",
+    "hs2_description":"Residues And Waste From The Food Industries; Prepa",
+    "direction":"E",
+    "teus":282.25
+  },
+  {
+    "year":2024,
+    "hs2":"23",
+    "hs2_description":"Residues And Waste From The Food Industries; Prepa",
+    "direction":"I",
+    "teus":54.0
+  },
+  {
+    "year":2024,
+    "hs2":"24",
+    "hs2_description":"Tobacco And Manufactured Tobacco Substitutes",
+    "direction":"E",
+    "teus":67.2
+  },
+  {
+    "year":2024,
+    "hs2":"24",
+    "hs2_description":"Tobacco And Manufactured Tobacco Substitutes",
+    "direction":"I",
+    "teus":62.5
+  },
+  {
+    "year":2024,
+    "hs2":"25",
+    "hs2_description":"Salt; Sulfur; Earths And Stone; Plastering Materia",
+    "direction":"E",
+    "teus":473.0
+  },
+  {
+    "year":2024,
+    "hs2":"25",
+    "hs2_description":"Salt; Sulfur; Earths And Stone; Plastering Materia",
+    "direction":"I",
+    "teus":297.38
+  },
+  {
+    "year":2024,
+    "hs2":"26",
+    "hs2_description":"Ores, Slag And Ash",
+    "direction":"E",
+    "teus":9.0
+  },
+  {
+    "year":2024,
+    "hs2":"26",
+    "hs2_description":"Ores, Slag And Ash",
+    "direction":"I",
+    "teus":3.75
+  },
+  {
+    "year":2024,
+    "hs2":"27",
+    "hs2_description":"Mineral Fuels, Mineral Oils And Products Of Their",
+    "direction":"E",
+    "teus":116.25
+  },
+  {
+    "year":2024,
+    "hs2":"27",
+    "hs2_description":"Mineral Fuels, Mineral Oils And Products Of Their",
+    "direction":"I",
+    "teus":13.85
+  },
+  {
+    "year":2024,
+    "hs2":"28",
+    "hs2_description":"Inorganic Chemicals; Organic Or Inorganic Compound",
+    "direction":"E",
+    "teus":334.7
+  },
+  {
+    "year":2024,
+    "hs2":"28",
+    "hs2_description":"Inorganic Chemicals; Organic Or Inorganic Compound",
+    "direction":"I",
+    "teus":210.0
+  },
+  {
+    "year":2024,
+    "hs2":"29",
+    "hs2_description":"Organic Chemicals",
+    "direction":"E",
+    "teus":417.02
+  },
+  {
+    "year":2024,
+    "hs2":"29",
+    "hs2_description":"Organic Chemicals",
+    "direction":"I",
+    "teus":382.68
+  },
+  {
+    "year":2024,
+    "hs2":"30",
+    "hs2_description":"Pharmaceutical Products",
+    "direction":"E",
+    "teus":1108.31
+  },
+  {
+    "year":2024,
+    "hs2":"30",
+    "hs2_description":"Pharmaceutical Products",
+    "direction":"I",
+    "teus":277.3
+  },
+  {
+    "year":2024,
+    "hs2":"31",
+    "hs2_description":"Fertilizers",
+    "direction":"E",
+    "teus":31.75
+  },
+  {
+    "year":2024,
+    "hs2":"31",
+    "hs2_description":"Fertilizers",
+    "direction":"I",
+    "teus":161.25
+  },
+  {
+    "year":2024,
+    "hs2":"32",
+    "hs2_description":"Tanning Or Dyeing Extracts; Tannins And Derivative",
+    "direction":"E",
+    "teus":98.34
+  },
+  {
+    "year":2024,
+    "hs2":"32",
+    "hs2_description":"Tanning Or Dyeing Extracts; Tannins And Derivative",
+    "direction":"I",
+    "teus":30.87
+  },
+  {
+    "year":2024,
+    "hs2":"33",
+    "hs2_description":"Essential Oils And Resinoids; Perfumery, Cosmetic",
+    "direction":"E",
+    "teus":226.09
+  },
+  {
+    "year":2024,
+    "hs2":"33",
+    "hs2_description":"Essential Oils And Resinoids; Perfumery, Cosmetic",
+    "direction":"I",
+    "teus":1741.9
+  },
+  {
+    "year":2024,
+    "hs2":"34",
+    "hs2_description":"Soap Etc.; Lubricating Products; Waxes, Polishing",
+    "direction":"E",
+    "teus":714.16
+  },
+  {
+    "year":2024,
+    "hs2":"34",
+    "hs2_description":"Soap Etc.; Lubricating Products; Waxes, Polishing",
+    "direction":"I",
+    "teus":18.27
+  },
+  {
+    "year":2024,
+    "hs2":"35",
+    "hs2_description":"Albuminoidal Substances; Modified Starches; Glues;",
+    "direction":"E",
+    "teus":154.01
+  },
+  {
+    "year":2024,
+    "hs2":"35",
+    "hs2_description":"Albuminoidal Substances; Modified Starches; Glues;",
+    "direction":"I",
+    "teus":35.0
+  },
+  {
+    "year":2024,
+    "hs2":"36",
+    "hs2_description":"Explosives; Pyrotechnic Products; Matches; Pyropho",
+    "direction":"E",
+    "teus":5.0
+  },
+  {
+    "year":2024,
+    "hs2":"36",
+    "hs2_description":"Explosives; Pyrotechnic Products; Matches; Pyropho",
+    "direction":"I",
+    "teus":0.6
+  },
+  {
+    "year":2024,
+    "hs2":"38",
+    "hs2_description":"Miscellaneous Chemical Products",
+    "direction":"E",
+    "teus":2062.56
+  },
+  {
+    "year":2024,
+    "hs2":"38",
+    "hs2_description":"Miscellaneous Chemical Products",
+    "direction":"I",
+    "teus":331.0
+  },
+  {
+    "year":2024,
+    "hs2":"39",
+    "hs2_description":"Plastics And Articles Thereof",
+    "direction":"E",
+    "teus":1417.36
+  },
+  {
+    "year":2024,
+    "hs2":"39",
+    "hs2_description":"Plastics And Articles Thereof",
+    "direction":"I",
+    "teus":1727.6
+  },
+  {
+    "year":2024,
+    "hs2":"40",
+    "hs2_description":"Rubber And Articles Thereof",
+    "direction":"E",
+    "teus":367.75
+  },
+  {
+    "year":2024,
+    "hs2":"40",
+    "hs2_description":"Rubber And Articles Thereof",
+    "direction":"I",
+    "teus":3144.08
+  },
+  {
+    "year":2024,
+    "hs2":"41",
+    "hs2_description":"Raw Hides And Skins (other Than Furskins) And Leat",
+    "direction":"E",
+    "teus":5.3
+  },
+  {
+    "year":2024,
+    "hs2":"41",
+    "hs2_description":"Raw Hides And Skins (other Than Furskins) And Leat",
+    "direction":"I",
+    "teus":9.35
+  },
+  {
+    "year":2024,
+    "hs2":"42",
+    "hs2_description":"Articles Of Leather; Saddlery And Harness; Travel",
+    "direction":"E",
+    "teus":1053.39
+  },
+  {
+    "year":2024,
+    "hs2":"42",
+    "hs2_description":"Articles Of Leather; Saddlery And Harness; Travel",
+    "direction":"I",
+    "teus":585.6
+  },
+  {
+    "year":2024,
+    "hs2":"44",
+    "hs2_description":"Wood And Articles Of Wood; Wood Charcoal",
+    "direction":"E",
+    "teus":319.76
+  },
+  {
+    "year":2024,
+    "hs2":"44",
+    "hs2_description":"Wood And Articles Of Wood; Wood Charcoal",
+    "direction":"I",
+    "teus":12193.32
+  },
+  {
+    "year":2024,
+    "hs2":"46",
+    "hs2_description":"Manufactures Of Straw, Esparto Or Other Plaiting M",
+    "direction":"E",
+    "teus":2.25
+  },
+  {
+    "year":2024,
+    "hs2":"47",
+    "hs2_description":"Pulp Of Wood Or Other Fibrous Cellulosic Material;",
+    "direction":"E",
+    "teus":477.75
+  },
+  {
+    "year":2024,
+    "hs2":"47",
+    "hs2_description":"Pulp Of Wood Or Other Fibrous Cellulosic Material;",
+    "direction":"I",
+    "teus":291.5
+  },
+  {
+    "year":2024,
+    "hs2":"48",
+    "hs2_description":"Paper And Paperboard; Articles Of Paper Pulp, Pape",
+    "direction":"E",
+    "teus":303.94
+  },
+  {
+    "year":2024,
+    "hs2":"48",
+    "hs2_description":"Paper And Paperboard; Articles Of Paper Pulp, Pape",
+    "direction":"I",
+    "teus":1709.89
+  },
+  {
+    "year":2024,
+    "hs2":"49",
+    "hs2_description":"Printed Books, Newspapers, Pictures And Other Prin",
+    "direction":"E",
+    "teus":22.5
+  },
+  {
+    "year":2024,
+    "hs2":"49",
+    "hs2_description":"Printed Books, Newspapers, Pictures And Other Prin",
+    "direction":"I",
+    "teus":12.4
+  },
+  {
+    "year":2024,
+    "hs2":"52",
+    "hs2_description":"Cotton, Including Yarns And Woven Fabrics Thereof",
+    "direction":"E",
+    "teus":121.0
+  },
+  {
+    "year":2024,
+    "hs2":"52",
+    "hs2_description":"Cotton, Including Yarns And Woven Fabrics Thereof",
+    "direction":"I",
+    "teus":254.0
+  },
+  {
+    "year":2024,
+    "hs2":"53",
+    "hs2_description":"Vegetable Textile Fibers Nesoi; Yarns And Woven Fa",
+    "direction":"I",
+    "teus":6.0
+  },
+  {
+    "year":2024,
+    "hs2":"54",
+    "hs2_description":"Manmade Filaments, Including Yarns And Woven Fabri",
+    "direction":"I",
+    "teus":5.71
+  },
+  {
+    "year":2024,
+    "hs2":"55",
+    "hs2_description":"Manmade Staple Fibers, Including Yarns And Woven F",
+    "direction":"E",
+    "teus":276.75
+  },
+  {
+    "year":2024,
+    "hs2":"55",
+    "hs2_description":"Manmade Staple Fibers, Including Yarns And Woven F",
+    "direction":"I",
+    "teus":104.33
+  },
+  {
+    "year":2024,
+    "hs2":"56",
+    "hs2_description":"Wadding, Felt And Nonwovens; Special Yarns; Twine,",
+    "direction":"I",
+    "teus":50.4
+  },
+  {
+    "year":2024,
+    "hs2":"57",
+    "hs2_description":"Carpets And Other Textile Floor Coverings",
+    "direction":"I",
+    "teus":16.14
+  },
+  {
+    "year":2024,
+    "hs2":"59",
+    "hs2_description":"Impregnated, Coated, Covered Or Laminated Textile",
+    "direction":"E",
+    "teus":11.67
+  },
+  {
+    "year":2024,
+    "hs2":"59",
+    "hs2_description":"Impregnated, Coated, Covered Or Laminated Textile",
+    "direction":"I",
+    "teus":9.0
+  },
+  {
+    "year":2024,
+    "hs2":"60",
+    "hs2_description":"Knitted Or Crocheted Fabrics",
+    "direction":"E",
+    "teus":2.0
+  },
+  {
+    "year":2024,
+    "hs2":"60",
+    "hs2_description":"Knitted Or Crocheted Fabrics",
+    "direction":"I",
+    "teus":3.0
+  },
+  {
+    "year":2024,
+    "hs2":"61",
+    "hs2_description":"Articles Of Apparel And Clothing Accessories, Knit",
+    "direction":"E",
+    "teus":44.75
+  },
+  {
+    "year":2024,
+    "hs2":"61",
+    "hs2_description":"Articles Of Apparel And Clothing Accessories, Knit",
+    "direction":"I",
+    "teus":5938.81
+  },
+  {
+    "year":2024,
+    "hs2":"62",
+    "hs2_description":"Articles Of Apparel And Clothing Accessories, Not",
+    "direction":"E",
+    "teus":185.5
+  },
+  {
+    "year":2024,
+    "hs2":"62",
+    "hs2_description":"Articles Of Apparel And Clothing Accessories, Not",
+    "direction":"I",
+    "teus":620.96
+  },
+  {
+    "year":2024,
+    "hs2":"63",
+    "hs2_description":"Made-up Textile Articles Nesoi; Needlecraft Sets;",
+    "direction":"E",
+    "teus":109.45
+  },
+  {
+    "year":2024,
+    "hs2":"63",
+    "hs2_description":"Made-up Textile Articles Nesoi; Needlecraft Sets;",
+    "direction":"I",
+    "teus":148.33
+  },
+  {
+    "year":2024,
+    "hs2":"64",
+    "hs2_description":"Footwear, Gaiters And The Like; Parts Of Such Arti",
+    "direction":"E",
+    "teus":6.3
+  },
+  {
+    "year":2024,
+    "hs2":"64",
+    "hs2_description":"Footwear, Gaiters And The Like; Parts Of Such Arti",
+    "direction":"I",
+    "teus":268.35
+  },
+  {
+    "year":2024,
+    "hs2":"65",
+    "hs2_description":"Headgear And Parts Thereof",
+    "direction":"E",
+    "teus":8.0
+  },
+  {
+    "year":2024,
+    "hs2":"65",
+    "hs2_description":"Headgear And Parts Thereof",
+    "direction":"I",
+    "teus":2.0
+  },
+  {
+    "year":2024,
+    "hs2":"68",
+    "hs2_description":"Articles Of Stone, Plaster, Cement, Asbestos, Mica",
+    "direction":"E",
+    "teus":65.64
+  },
+  {
+    "year":2024,
+    "hs2":"68",
+    "hs2_description":"Articles Of Stone, Plaster, Cement, Asbestos, Mica",
+    "direction":"I",
+    "teus":1642.8
+  },
+  {
+    "year":2024,
+    "hs2":"69",
+    "hs2_description":"Ceramic Products",
+    "direction":"E",
+    "teus":419.49
+  },
+  {
+    "year":2024,
+    "hs2":"69",
+    "hs2_description":"Ceramic Products",
+    "direction":"I",
+    "teus":407.66
+  },
+  {
+    "year":2024,
+    "hs2":"70",
+    "hs2_description":"Glass And Glassware",
+    "direction":"E",
+    "teus":1568.51
+  },
+  {
+    "year":2024,
+    "hs2":"70",
+    "hs2_description":"Glass And Glassware",
+    "direction":"I",
+    "teus":139.66
+  },
+  {
+    "year":2024,
+    "hs2":"71",
+    "hs2_description":"Natural Or Cultured Pearls, Precious Or Semiprecio",
+    "direction":"E",
+    "teus":0.14
+  },
+  {
+    "year":2024,
+    "hs2":"71",
+    "hs2_description":"Natural Or Cultured Pearls, Precious Or Semiprecio",
+    "direction":"I",
+    "teus":11.75
+  },
+  {
+    "year":2024,
+    "hs2":"72",
+    "hs2_description":"Iron And Steel",
+    "direction":"E",
+    "teus":100.27
+  },
+  {
+    "year":2024,
+    "hs2":"72",
+    "hs2_description":"Iron And Steel",
+    "direction":"I",
+    "teus":89.49
+  },
+  {
+    "year":2024,
+    "hs2":"73",
+    "hs2_description":"Articles Of Iron Or Steel",
+    "direction":"E",
+    "teus":5191.04
+  },
+  {
+    "year":2024,
+    "hs2":"73",
+    "hs2_description":"Articles Of Iron Or Steel",
+    "direction":"I",
+    "teus":980.37
+  },
+  {
+    "year":2024,
+    "hs2":"74",
+    "hs2_description":"Copper And Articles Thereof",
+    "direction":"E",
+    "teus":83.34
+  },
+  {
+    "year":2024,
+    "hs2":"74",
+    "hs2_description":"Copper And Articles Thereof",
+    "direction":"I",
+    "teus":124.64
+  },
+  {
+    "year":2024,
+    "hs2":"75",
+    "hs2_description":"Nickel And Articles Thereof",
+    "direction":"E",
+    "teus":1.0
+  },
+  {
+    "year":2024,
+    "hs2":"76",
+    "hs2_description":"Aluminum And Articles Thereof",
+    "direction":"E",
+    "teus":206.2
+  },
+  {
+    "year":2024,
+    "hs2":"76",
+    "hs2_description":"Aluminum And Articles Thereof",
+    "direction":"I",
+    "teus":752.99
+  },
+  {
+    "year":2024,
+    "hs2":"78",
+    "hs2_description":"Lead And Articles Thereof",
+    "direction":"I",
+    "teus":1.0
+  },
+  {
+    "year":2024,
+    "hs2":"80",
+    "hs2_description":"Tin And Articles Thereof",
+    "direction":"I",
+    "teus":1.75
+  },
+  {
+    "year":2024,
+    "hs2":"81",
+    "hs2_description":"Base Metals Nesoi; Cermets; Articles Thereof",
+    "direction":"E",
+    "teus":69.27
+  },
+  {
+    "year":2024,
+    "hs2":"81",
+    "hs2_description":"Base Metals Nesoi; Cermets; Articles Thereof",
+    "direction":"I",
+    "teus":7.99
+  },
+  {
+    "year":2024,
+    "hs2":"82",
+    "hs2_description":"Tools, Implements, Cutlery, Spoons And Forks, Of B",
+    "direction":"E",
+    "teus":11.5
+  },
+  {
+    "year":2024,
+    "hs2":"82",
+    "hs2_description":"Tools, Implements, Cutlery, Spoons And Forks, Of B",
+    "direction":"I",
+    "teus":38.0
+  },
+  {
+    "year":2024,
+    "hs2":"83",
+    "hs2_description":"Miscellaneous Articles Of Base Metal",
+    "direction":"E",
+    "teus":37.76
+  },
+  {
+    "year":2024,
+    "hs2":"83",
+    "hs2_description":"Miscellaneous Articles Of Base Metal",
+    "direction":"I",
+    "teus":9.0
+  },
+  {
+    "year":2024,
+    "hs2":"84",
+    "hs2_description":"Nuclear Reactors, Boilers, Machinery And Mechanica",
+    "direction":"E",
+    "teus":4709.27
+  },
+  {
+    "year":2024,
+    "hs2":"84",
+    "hs2_description":"Nuclear Reactors, Boilers, Machinery And Mechanica",
+    "direction":"I",
+    "teus":914.55
+  },
+  {
+    "year":2024,
+    "hs2":"85",
+    "hs2_description":"Electrical Machinery And Equipment And Parts There",
+    "direction":"E",
+    "teus":98.06
+  },
+  {
+    "year":2024,
+    "hs2":"85",
+    "hs2_description":"Electrical Machinery And Equipment And Parts There",
+    "direction":"I",
+    "teus":1668.07
+  },
+  {
+    "year":2024,
+    "hs2":"86",
+    "hs2_description":"Railway Or Tramway Locomotives, Rolling Stock, Tra",
+    "direction":"E",
+    "teus":28.0
+  },
+  {
+    "year":2024,
+    "hs2":"86",
+    "hs2_description":"Railway Or Tramway Locomotives, Rolling Stock, Tra",
+    "direction":"I",
+    "teus":2.0
+  },
+  {
+    "year":2024,
+    "hs2":"87",
+    "hs2_description":"Vehicles, Other Than Railway Or Tramway Rolling St",
+    "direction":"E",
+    "teus":3094.21
+  },
+  {
+    "year":2024,
+    "hs2":"87",
+    "hs2_description":"Vehicles, Other Than Railway Or Tramway Rolling St",
+    "direction":"I",
+    "teus":89.34
+  },
+  {
+    "year":2024,
+    "hs2":"88",
+    "hs2_description":"Aircraft, Spacecraft, And Parts Thereof",
+    "direction":"E",
+    "teus":2.0
+  },
+  {
+    "year":2024,
+    "hs2":"88",
+    "hs2_description":"Aircraft, Spacecraft, And Parts Thereof",
+    "direction":"I",
+    "teus":18.09
+  },
+  {
+    "year":2024,
+    "hs2":"89",
+    "hs2_description":"Ships, Boats And Floating Structures",
+    "direction":"E",
+    "teus":10.0
+  },
+  {
+    "year":2024,
+    "hs2":"90",
+    "hs2_description":"Optical, Photographic, Cinematographic, Measuring,",
+    "direction":"E",
+    "teus":824.95
+  },
+  {
+    "year":2024,
+    "hs2":"90",
+    "hs2_description":"Optical, Photographic, Cinematographic, Measuring,",
+    "direction":"I",
+    "teus":808.0
+  },
+  {
+    "year":2024,
+    "hs2":"92",
+    "hs2_description":"Musical Instruments; Parts And Accessories Thereof",
+    "direction":"E",
+    "teus":4.0
+  },
+  {
+    "year":2024,
+    "hs2":"94",
+    "hs2_description":"Furniture; Bedding, Cushions Etc.; Lamps And Light",
+    "direction":"E",
+    "teus":1985.79
+  },
+  {
+    "year":2024,
+    "hs2":"94",
+    "hs2_description":"Furniture; Bedding, Cushions Etc.; Lamps And Light",
+    "direction":"I",
+    "teus":1739.16
+  },
+  {
+    "year":2024,
+    "hs2":"95",
+    "hs2_description":"Toys, Games And Sports Equipment; Parts And Access",
+    "direction":"E",
+    "teus":250.65
+  },
+  {
+    "year":2024,
+    "hs2":"95",
+    "hs2_description":"Toys, Games And Sports Equipment; Parts And Access",
+    "direction":"I",
+    "teus":259.19
+  },
+  {
+    "year":2024,
+    "hs2":"96",
+    "hs2_description":"Miscellaneous Manufactured Articles",
+    "direction":"E",
+    "teus":69.82
+  },
+  {
+    "year":2024,
+    "hs2":"96",
+    "hs2_description":"Miscellaneous Manufactured Articles",
+    "direction":"I",
+    "teus":135.83
+  },
+  {
+    "year":2024,
+    "hs2":"97",
+    "hs2_description":"Works Of Art, Collectors' Pieces And Antiques",
+    "direction":"I",
+    "teus":15.4
+  },
+  {
+    "year":2024,
+    "hs2":"98",
+    "hs2_description":"Special Classification Provisions, Nesoi",
+    "direction":"E",
+    "teus":62.0
+  },
+  {
+    "year":2024,
+    "hs2":"98",
+    "hs2_description":"Special Classification Provisions, Nesoi",
+    "direction":"I",
+    "teus":8.68
+  },
+  {
+    "year":2025,
+    "hs2":"00",
+    "hs2_description":"Miscellaneous Cargo",
+    "direction":"E",
+    "teus":177.85
+  },
+  {
+    "year":2025,
+    "hs2":"00",
+    "hs2_description":"Miscellaneous Cargo",
+    "direction":"I",
+    "teus":325.4
+  },
+  {
+    "year":2025,
+    "hs2":"02",
+    "hs2_description":"Meat And Edible Meat Offal",
+    "direction":"E",
+    "teus":7260.28
+  },
+  {
+    "year":2025,
+    "hs2":"02",
+    "hs2_description":"Meat And Edible Meat Offal",
+    "direction":"I",
+    "teus":1778.25
+  },
+  {
+    "year":2025,
+    "hs2":"03",
+    "hs2_description":"Fish And Crustaceans, Molluscs And Other Aquatic I",
+    "direction":"E",
+    "teus":53.0
+  },
+  {
+    "year":2025,
+    "hs2":"03",
+    "hs2_description":"Fish And Crustaceans, Molluscs And Other Aquatic I",
+    "direction":"I",
+    "teus":2560.0
+  },
+  {
+    "year":2025,
+    "hs2":"04",
+    "hs2_description":"Dairy Produce; Birds' Eggs; Natural Honey; Edible",
+    "direction":"E",
+    "teus":285.38
+  },
+  {
+    "year":2025,
+    "hs2":"04",
+    "hs2_description":"Dairy Produce; Birds' Eggs; Natural Honey; Edible",
+    "direction":"I",
+    "teus":296.67
+  },
+  {
+    "year":2025,
+    "hs2":"05",
+    "hs2_description":"Products Of Animal Origin, Nesoi",
+    "direction":"I",
+    "teus":4.0
+  },
+  {
+    "year":2025,
+    "hs2":"06",
+    "hs2_description":"Live Trees And Other Plants; Bulbs, Roots And The",
+    "direction":"E",
+    "teus":26.0
+  },
+  {
+    "year":2025,
+    "hs2":"06",
+    "hs2_description":"Live Trees And Other Plants; Bulbs, Roots And The",
+    "direction":"I",
+    "teus":0.88
+  },
+  {
+    "year":2025,
+    "hs2":"07",
+    "hs2_description":"Edible Vegetables And Certain Roots And Tubers",
+    "direction":"E",
+    "teus":34.35
+  },
+  {
+    "year":2025,
+    "hs2":"07",
+    "hs2_description":"Edible Vegetables And Certain Roots And Tubers",
+    "direction":"I",
+    "teus":408.65
+  },
+  {
+    "year":2025,
+    "hs2":"08",
+    "hs2_description":"Edible Fruit And Nuts; Peel Of Citrus Fruit Or Mel",
+    "direction":"E",
+    "teus":64.18
+  },
+  {
+    "year":2025,
+    "hs2":"08",
+    "hs2_description":"Edible Fruit And Nuts; Peel Of Citrus Fruit Or Mel",
+    "direction":"I",
+    "teus":5516.6
+  },
+  {
+    "year":2025,
+    "hs2":"09",
+    "hs2_description":"Coffee, Tea, Mate And Spices",
+    "direction":"E",
+    "teus":17.5
+  },
+  {
+    "year":2025,
+    "hs2":"09",
+    "hs2_description":"Coffee, Tea, Mate And Spices",
+    "direction":"I",
+    "teus":1984.44
+  },
+  {
+    "year":2025,
+    "hs2":"10",
+    "hs2_description":"Cereals",
+    "direction":"E",
+    "teus":30.89
+  },
+  {
+    "year":2025,
+    "hs2":"10",
+    "hs2_description":"Cereals",
+    "direction":"I",
+    "teus":411.99
+  },
+  {
+    "year":2025,
+    "hs2":"11",
+    "hs2_description":"Milling Industry Products; Malt; Starches; Inulin;",
+    "direction":"E",
+    "teus":7.0
+  },
+  {
+    "year":2025,
+    "hs2":"11",
+    "hs2_description":"Milling Industry Products; Malt; Starches; Inulin;",
+    "direction":"I",
+    "teus":49.0
+  },
+  {
+    "year":2025,
+    "hs2":"12",
+    "hs2_description":"Oil Seeds And Oleaginous Fruits; Miscellaneous Gra",
+    "direction":"E",
+    "teus":165.0
+  },
+  {
+    "year":2025,
+    "hs2":"12",
+    "hs2_description":"Oil Seeds And Oleaginous Fruits; Miscellaneous Gra",
+    "direction":"I",
+    "teus":9.0
+  },
+  {
+    "year":2025,
+    "hs2":"13",
+    "hs2_description":"Lac; Gums; Resins And Other Vegetable Saps And Ext",
+    "direction":"E",
+    "teus":4.66
+  },
+  {
+    "year":2025,
+    "hs2":"13",
+    "hs2_description":"Lac; Gums; Resins And Other Vegetable Saps And Ext",
+    "direction":"I",
+    "teus":15.0
+  },
+  {
+    "year":2025,
+    "hs2":"14",
+    "hs2_description":"Vegetable Plaiting Materials And Vegetable Product",
+    "direction":"E",
+    "teus":16.0
+  },
+  {
+    "year":2025,
+    "hs2":"15",
+    "hs2_description":"Animal Or Vegetable Fats And Oils And Their Cleava",
+    "direction":"E",
+    "teus":201.33
+  },
+  {
+    "year":2025,
+    "hs2":"15",
+    "hs2_description":"Animal Or Vegetable Fats And Oils And Their Cleava",
+    "direction":"I",
+    "teus":200.41
+  },
+  {
+    "year":2025,
+    "hs2":"16",
+    "hs2_description":"Edible Preparations Of Meat, Fish, Crustaceans, Mo",
+    "direction":"E",
+    "teus":18.0
+  },
+  {
+    "year":2025,
+    "hs2":"16",
+    "hs2_description":"Edible Preparations Of Meat, Fish, Crustaceans, Mo",
+    "direction":"I",
+    "teus":248.0
+  },
+  {
+    "year":2025,
+    "hs2":"17",
+    "hs2_description":"Sugars And Sugar Confectionary",
+    "direction":"E",
+    "teus":119.42
+  },
+  {
+    "year":2025,
+    "hs2":"17",
+    "hs2_description":"Sugars And Sugar Confectionary",
+    "direction":"I",
+    "teus":392.75
+  },
+  {
+    "year":2025,
+    "hs2":"18",
+    "hs2_description":"Cocoa And Cocoa Preparations",
+    "direction":"E",
+    "teus":17.0
+  },
+  {
+    "year":2025,
+    "hs2":"18",
+    "hs2_description":"Cocoa And Cocoa Preparations",
+    "direction":"I",
+    "teus":11.0
+  },
+  {
+    "year":2025,
+    "hs2":"19",
+    "hs2_description":"Preparations Of Cereals, Flour, Starch Or Milk; Ba",
+    "direction":"E",
+    "teus":282.91
+  },
+  {
+    "year":2025,
+    "hs2":"19",
+    "hs2_description":"Preparations Of Cereals, Flour, Starch Or Milk; Ba",
+    "direction":"I",
+    "teus":435.75
+  },
+  {
+    "year":2025,
+    "hs2":"20",
+    "hs2_description":"Preparations Of Vegetables, Fruit, Nuts, Or Other",
+    "direction":"E",
+    "teus":408.51
+  },
+  {
+    "year":2025,
+    "hs2":"20",
+    "hs2_description":"Preparations Of Vegetables, Fruit, Nuts, Or Other",
+    "direction":"I",
+    "teus":4242.75
+  },
+  {
+    "year":2025,
+    "hs2":"21",
+    "hs2_description":"Miscellaneous Edible Preparations",
+    "direction":"E",
+    "teus":2229.86
+  },
+  {
+    "year":2025,
+    "hs2":"21",
+    "hs2_description":"Miscellaneous Edible Preparations",
+    "direction":"I",
+    "teus":168.68
+  },
+  {
+    "year":2025,
+    "hs2":"22",
+    "hs2_description":"Beverages, Spirits And Vinegar",
+    "direction":"E",
+    "teus":1257.37
+  },
+  {
+    "year":2025,
+    "hs2":"22",
+    "hs2_description":"Beverages, Spirits And Vinegar",
+    "direction":"I",
+    "teus":5479.53
+  },
+  {
+    "year":2025,
+    "hs2":"23",
+    "hs2_description":"Residues And Waste From The Food Industries; Prepa",
+    "direction":"E",
+    "teus":423.49
+  },
+  {
+    "year":2025,
+    "hs2":"23",
+    "hs2_description":"Residues And Waste From The Food Industries; Prepa",
+    "direction":"I",
+    "teus":84.67
+  },
+  {
+    "year":2025,
+    "hs2":"24",
+    "hs2_description":"Tobacco And Manufactured Tobacco Substitutes",
+    "direction":"E",
+    "teus":61.07
+  },
+  {
+    "year":2025,
+    "hs2":"24",
+    "hs2_description":"Tobacco And Manufactured Tobacco Substitutes",
+    "direction":"I",
+    "teus":27.5
+  },
+  {
+    "year":2025,
+    "hs2":"25",
+    "hs2_description":"Salt; Sulfur; Earths And Stone; Plastering Materia",
+    "direction":"E",
+    "teus":596.81
+  },
+  {
+    "year":2025,
+    "hs2":"25",
+    "hs2_description":"Salt; Sulfur; Earths And Stone; Plastering Materia",
+    "direction":"I",
+    "teus":893.0
+  },
+  {
+    "year":2025,
+    "hs2":"26",
+    "hs2_description":"Ores, Slag And Ash",
+    "direction":"E",
+    "teus":5.0
+  },
+  {
+    "year":2025,
+    "hs2":"26",
+    "hs2_description":"Ores, Slag And Ash",
+    "direction":"I",
+    "teus":16.0
+  },
+  {
+    "year":2025,
+    "hs2":"27",
+    "hs2_description":"Mineral Fuels, Mineral Oils And Products Of Their",
+    "direction":"E",
+    "teus":138.93
+  },
+  {
+    "year":2025,
+    "hs2":"27",
+    "hs2_description":"Mineral Fuels, Mineral Oils And Products Of Their",
+    "direction":"I",
+    "teus":22.75
+  },
+  {
+    "year":2025,
+    "hs2":"28",
+    "hs2_description":"Inorganic Chemicals; Organic Or Inorganic Compound",
+    "direction":"E",
+    "teus":584.47
+  },
+  {
+    "year":2025,
+    "hs2":"28",
+    "hs2_description":"Inorganic Chemicals; Organic Or Inorganic Compound",
+    "direction":"I",
+    "teus":357.23
+  },
+  {
+    "year":2025,
+    "hs2":"29",
+    "hs2_description":"Organic Chemicals",
+    "direction":"E",
+    "teus":514.95
+  },
+  {
+    "year":2025,
+    "hs2":"29",
+    "hs2_description":"Organic Chemicals",
+    "direction":"I",
+    "teus":481.21
+  },
+  {
+    "year":2025,
+    "hs2":"30",
+    "hs2_description":"Pharmaceutical Products",
+    "direction":"E",
+    "teus":1097.4
+  },
+  {
+    "year":2025,
+    "hs2":"30",
+    "hs2_description":"Pharmaceutical Products",
+    "direction":"I",
+    "teus":137.09
+  },
+  {
+    "year":2025,
+    "hs2":"31",
+    "hs2_description":"Fertilizers",
+    "direction":"E",
+    "teus":58.25
+  },
+  {
+    "year":2025,
+    "hs2":"31",
+    "hs2_description":"Fertilizers",
+    "direction":"I",
+    "teus":241.75
+  },
+  {
+    "year":2025,
+    "hs2":"32",
+    "hs2_description":"Tanning Or Dyeing Extracts; Tannins And Derivative",
+    "direction":"E",
+    "teus":133.42
+  },
+  {
+    "year":2025,
+    "hs2":"32",
+    "hs2_description":"Tanning Or Dyeing Extracts; Tannins And Derivative",
+    "direction":"I",
+    "teus":167.36
+  },
+  {
+    "year":2025,
+    "hs2":"33",
+    "hs2_description":"Essential Oils And Resinoids; Perfumery, Cosmetic",
+    "direction":"E",
+    "teus":361.26
+  },
+  {
+    "year":2025,
+    "hs2":"33",
+    "hs2_description":"Essential Oils And Resinoids; Perfumery, Cosmetic",
+    "direction":"I",
+    "teus":963.57
+  },
+  {
+    "year":2025,
+    "hs2":"34",
+    "hs2_description":"Soap Etc.; Lubricating Products; Waxes, Polishing",
+    "direction":"E",
+    "teus":378.81
+  },
+  {
+    "year":2025,
+    "hs2":"34",
+    "hs2_description":"Soap Etc.; Lubricating Products; Waxes, Polishing",
+    "direction":"I",
+    "teus":174.0
+  },
+  {
+    "year":2025,
+    "hs2":"35",
+    "hs2_description":"Albuminoidal Substances; Modified Starches; Glues;",
+    "direction":"E",
+    "teus":179.64
+  },
+  {
+    "year":2025,
+    "hs2":"35",
+    "hs2_description":"Albuminoidal Substances; Modified Starches; Glues;",
+    "direction":"I",
+    "teus":101.75
+  },
+  {
+    "year":2025,
+    "hs2":"36",
+    "hs2_description":"Explosives; Pyrotechnic Products; Matches; Pyropho",
+    "direction":"E",
+    "teus":1.51
+  },
+  {
+    "year":2025,
+    "hs2":"36",
+    "hs2_description":"Explosives; Pyrotechnic Products; Matches; Pyropho",
+    "direction":"I",
+    "teus":1.0
+  },
+  {
+    "year":2025,
+    "hs2":"37",
+    "hs2_description":"Photographic Or Cinematographic Goods",
+    "direction":"E",
+    "teus":9.0
+  },
+  {
+    "year":2025,
+    "hs2":"38",
+    "hs2_description":"Miscellaneous Chemical Products",
+    "direction":"E",
+    "teus":3296.1
+  },
+  {
+    "year":2025,
+    "hs2":"38",
+    "hs2_description":"Miscellaneous Chemical Products",
+    "direction":"I",
+    "teus":210.02
+  },
+  {
+    "year":2025,
+    "hs2":"39",
+    "hs2_description":"Plastics And Articles Thereof",
+    "direction":"E",
+    "teus":4202.72
+  },
+  {
+    "year":2025,
+    "hs2":"39",
+    "hs2_description":"Plastics And Articles Thereof",
+    "direction":"I",
+    "teus":2959.34
+  },
+  {
+    "year":2025,
+    "hs2":"40",
+    "hs2_description":"Rubber And Articles Thereof",
+    "direction":"E",
+    "teus":539.96
+  },
+  {
+    "year":2025,
+    "hs2":"40",
+    "hs2_description":"Rubber And Articles Thereof",
+    "direction":"I",
+    "teus":5946.74
+  },
+  {
+    "year":2025,
+    "hs2":"41",
+    "hs2_description":"Raw Hides And Skins (other Than Furskins) And Leat",
+    "direction":"E",
+    "teus":45.0
+  },
+  {
+    "year":2025,
+    "hs2":"41",
+    "hs2_description":"Raw Hides And Skins (other Than Furskins) And Leat",
+    "direction":"I",
+    "teus":10.07
+  },
+  {
+    "year":2025,
+    "hs2":"42",
+    "hs2_description":"Articles Of Leather; Saddlery And Harness; Travel",
+    "direction":"E",
+    "teus":2070.19
+  },
+  {
+    "year":2025,
+    "hs2":"42",
+    "hs2_description":"Articles Of Leather; Saddlery And Harness; Travel",
+    "direction":"I",
+    "teus":1427.34
+  },
+  {
+    "year":2025,
+    "hs2":"44",
+    "hs2_description":"Wood And Articles Of Wood; Wood Charcoal",
+    "direction":"E",
+    "teus":194.06
+  },
+  {
+    "year":2025,
+    "hs2":"44",
+    "hs2_description":"Wood And Articles Of Wood; Wood Charcoal",
+    "direction":"I",
+    "teus":12371.13
+  },
+  {
+    "year":2025,
+    "hs2":"46",
+    "hs2_description":"Manufactures Of Straw, Esparto Or Other Plaiting M",
+    "direction":"I",
+    "teus":8.25
+  },
+  {
+    "year":2025,
+    "hs2":"47",
+    "hs2_description":"Pulp Of Wood Or Other Fibrous Cellulosic Material;",
+    "direction":"E",
+    "teus":2023.24
+  },
+  {
+    "year":2025,
+    "hs2":"47",
+    "hs2_description":"Pulp Of Wood Or Other Fibrous Cellulosic Material;",
+    "direction":"I",
+    "teus":189.51
+  },
+  {
+    "year":2025,
+    "hs2":"48",
+    "hs2_description":"Paper And Paperboard; Articles Of Paper Pulp, Pape",
+    "direction":"E",
+    "teus":1690.05
+  },
+  {
+    "year":2025,
+    "hs2":"48",
+    "hs2_description":"Paper And Paperboard; Articles Of Paper Pulp, Pape",
+    "direction":"I",
+    "teus":1953.02
+  },
+  {
+    "year":2025,
+    "hs2":"49",
+    "hs2_description":"Printed Books, Newspapers, Pictures And Other Prin",
+    "direction":"E",
+    "teus":21.34
+  },
+  {
+    "year":2025,
+    "hs2":"49",
+    "hs2_description":"Printed Books, Newspapers, Pictures And Other Prin",
+    "direction":"I",
+    "teus":19.26
+  },
+  {
+    "year":2025,
+    "hs2":"51",
+    "hs2_description":"Wool And Fine Or Coarse Animal Hair, Including Yar",
+    "direction":"E",
+    "teus":2.0
+  },
+  {
+    "year":2025,
+    "hs2":"51",
+    "hs2_description":"Wool And Fine Or Coarse Animal Hair, Including Yar",
+    "direction":"I",
+    "teus":12.0
+  },
+  {
+    "year":2025,
+    "hs2":"52",
+    "hs2_description":"Cotton, Including Yarns And Woven Fabrics Thereof",
+    "direction":"E",
+    "teus":228.89
+  },
+  {
+    "year":2025,
+    "hs2":"52",
+    "hs2_description":"Cotton, Including Yarns And Woven Fabrics Thereof",
+    "direction":"I",
+    "teus":34.25
+  },
+  {
+    "year":2025,
+    "hs2":"53",
+    "hs2_description":"Vegetable Textile Fibers Nesoi; Yarns And Woven Fa",
+    "direction":"E",
+    "teus":9.0
+  },
+  {
+    "year":2025,
+    "hs2":"53",
+    "hs2_description":"Vegetable Textile Fibers Nesoi; Yarns And Woven Fa",
+    "direction":"I",
+    "teus":4.0
+  },
+  {
+    "year":2025,
+    "hs2":"54",
+    "hs2_description":"Manmade Filaments, Including Yarns And Woven Fabri",
+    "direction":"E",
+    "teus":18.75
+  },
+  {
+    "year":2025,
+    "hs2":"54",
+    "hs2_description":"Manmade Filaments, Including Yarns And Woven Fabri",
+    "direction":"I",
+    "teus":5.67
+  },
+  {
+    "year":2025,
+    "hs2":"55",
+    "hs2_description":"Manmade Staple Fibers, Including Yarns And Woven F",
+    "direction":"I",
+    "teus":151.5
+  },
+  {
+    "year":2025,
+    "hs2":"56",
+    "hs2_description":"Wadding, Felt And Nonwovens; Special Yarns; Twine,",
+    "direction":"E",
+    "teus":103.75
+  },
+  {
+    "year":2025,
+    "hs2":"56",
+    "hs2_description":"Wadding, Felt And Nonwovens; Special Yarns; Twine,",
+    "direction":"I",
+    "teus":134.0
+  },
+  {
+    "year":2025,
+    "hs2":"57",
+    "hs2_description":"Carpets And Other Textile Floor Coverings",
+    "direction":"I",
+    "teus":53.85
+  },
+  {
+    "year":2025,
+    "hs2":"58",
+    "hs2_description":"Special Woven Fabrics; Tufted Textile Fabrics; Lac",
+    "direction":"E",
+    "teus":9.0
+  },
+  {
+    "year":2025,
+    "hs2":"58",
+    "hs2_description":"Special Woven Fabrics; Tufted Textile Fabrics; Lac",
+    "direction":"I",
+    "teus":6.0
+  },
+  {
+    "year":2025,
+    "hs2":"59",
+    "hs2_description":"Impregnated, Coated, Covered Or Laminated Textile",
+    "direction":"E",
+    "teus":25.79
+  },
+  {
+    "year":2025,
+    "hs2":"59",
+    "hs2_description":"Impregnated, Coated, Covered Or Laminated Textile",
+    "direction":"I",
+    "teus":2.0
+  },
+  {
+    "year":2025,
+    "hs2":"60",
+    "hs2_description":"Knitted Or Crocheted Fabrics",
+    "direction":"E",
+    "teus":30.75
+  },
+  {
+    "year":2025,
+    "hs2":"60",
+    "hs2_description":"Knitted Or Crocheted Fabrics",
+    "direction":"I",
+    "teus":10.5
+  },
+  {
+    "year":2025,
+    "hs2":"61",
+    "hs2_description":"Articles Of Apparel And Clothing Accessories, Knit",
+    "direction":"E",
+    "teus":187.17
+  },
+  {
+    "year":2025,
+    "hs2":"61",
+    "hs2_description":"Articles Of Apparel And Clothing Accessories, Knit",
+    "direction":"I",
+    "teus":6497.26
+  },
+  {
+    "year":2025,
+    "hs2":"62",
+    "hs2_description":"Articles Of Apparel And Clothing Accessories, Not",
+    "direction":"E",
+    "teus":43.27
+  },
+  {
+    "year":2025,
+    "hs2":"62",
+    "hs2_description":"Articles Of Apparel And Clothing Accessories, Not",
+    "direction":"I",
+    "teus":908.97
+  },
+  {
+    "year":2025,
+    "hs2":"63",
+    "hs2_description":"Made-up Textile Articles Nesoi; Needlecraft Sets;",
+    "direction":"E",
+    "teus":209.61
+  },
+  {
+    "year":2025,
+    "hs2":"63",
+    "hs2_description":"Made-up Textile Articles Nesoi; Needlecraft Sets;",
+    "direction":"I",
+    "teus":1265.29
+  },
+  {
+    "year":2025,
+    "hs2":"64",
+    "hs2_description":"Footwear, Gaiters And The Like; Parts Of Such Arti",
+    "direction":"E",
+    "teus":5.06
+  },
+  {
+    "year":2025,
+    "hs2":"64",
+    "hs2_description":"Footwear, Gaiters And The Like; Parts Of Such Arti",
+    "direction":"I",
+    "teus":482.94
+  },
+  {
+    "year":2025,
+    "hs2":"65",
+    "hs2_description":"Headgear And Parts Thereof",
+    "direction":"I",
+    "teus":25.58
+  },
+  {
+    "year":2025,
+    "hs2":"66",
+    "hs2_description":"Umbrellas, Sun Umbrellas, Walking-sticks, Seat-sti",
+    "direction":"I",
+    "teus":29.75
+  },
+  {
+    "year":2025,
+    "hs2":"67",
+    "hs2_description":"Prepared Feathers And Down And Articles Thereof; A",
+    "direction":"E",
+    "teus":0.05
+  },
+  {
+    "year":2025,
+    "hs2":"67",
+    "hs2_description":"Prepared Feathers And Down And Articles Thereof; A",
+    "direction":"I",
+    "teus":16.67
+  },
+  {
+    "year":2025,
+    "hs2":"68",
+    "hs2_description":"Articles Of Stone, Plaster, Cement, Asbestos, Mica",
+    "direction":"E",
+    "teus":694.2
+  },
+  {
+    "year":2025,
+    "hs2":"68",
+    "hs2_description":"Articles Of Stone, Plaster, Cement, Asbestos, Mica",
+    "direction":"I",
+    "teus":1639.61
+  },
+  {
+    "year":2025,
+    "hs2":"69",
+    "hs2_description":"Ceramic Products",
+    "direction":"E",
+    "teus":137.1
+  },
+  {
+    "year":2025,
+    "hs2":"69",
+    "hs2_description":"Ceramic Products",
+    "direction":"I",
+    "teus":765.03
+  },
+  {
+    "year":2025,
+    "hs2":"70",
+    "hs2_description":"Glass And Glassware",
+    "direction":"E",
+    "teus":332.05
+  },
+  {
+    "year":2025,
+    "hs2":"70",
+    "hs2_description":"Glass And Glassware",
+    "direction":"I",
+    "teus":2664.4
+  },
+  {
+    "year":2025,
+    "hs2":"71",
+    "hs2_description":"Natural Or Cultured Pearls, Precious Or Semiprecio",
+    "direction":"E",
+    "teus":36.38
+  },
+  {
+    "year":2025,
+    "hs2":"71",
+    "hs2_description":"Natural Or Cultured Pearls, Precious Or Semiprecio",
+    "direction":"I",
+    "teus":52.8
+  },
+  {
+    "year":2025,
+    "hs2":"72",
+    "hs2_description":"Iron And Steel",
+    "direction":"E",
+    "teus":256.72
+  },
+  {
+    "year":2025,
+    "hs2":"72",
+    "hs2_description":"Iron And Steel",
+    "direction":"I",
+    "teus":190.74
+  },
+  {
+    "year":2025,
+    "hs2":"73",
+    "hs2_description":"Articles Of Iron Or Steel",
+    "direction":"E",
+    "teus":12768.66
+  },
+  {
+    "year":2025,
+    "hs2":"73",
+    "hs2_description":"Articles Of Iron Or Steel",
+    "direction":"I",
+    "teus":1692.34
+  },
+  {
+    "year":2025,
+    "hs2":"74",
+    "hs2_description":"Copper And Articles Thereof",
+    "direction":"E",
+    "teus":269.88
+  },
+  {
+    "year":2025,
+    "hs2":"74",
+    "hs2_description":"Copper And Articles Thereof",
+    "direction":"I",
+    "teus":120.75
+  },
+  {
+    "year":2025,
+    "hs2":"75",
+    "hs2_description":"Nickel And Articles Thereof",
+    "direction":"E",
+    "teus":2.26
+  },
+  {
+    "year":2025,
+    "hs2":"76",
+    "hs2_description":"Aluminum And Articles Thereof",
+    "direction":"E",
+    "teus":930.63
+  },
+  {
+    "year":2025,
+    "hs2":"76",
+    "hs2_description":"Aluminum And Articles Thereof",
+    "direction":"I",
+    "teus":786.95
+  },
+  {
+    "year":2025,
+    "hs2":"78",
+    "hs2_description":"Lead And Articles Thereof",
+    "direction":"E",
+    "teus":38.0
+  },
+  {
+    "year":2025,
+    "hs2":"78",
+    "hs2_description":"Lead And Articles Thereof",
+    "direction":"I",
+    "teus":3.0
+  },
+  {
+    "year":2025,
+    "hs2":"79",
+    "hs2_description":"Zinc And Articles Thereof",
+    "direction":"E",
+    "teus":2.0
+  },
+  {
+    "year":2025,
+    "hs2":"79",
+    "hs2_description":"Zinc And Articles Thereof",
+    "direction":"I",
+    "teus":1.0
+  },
+  {
+    "year":2025,
+    "hs2":"81",
+    "hs2_description":"Base Metals Nesoi; Cermets; Articles Thereof",
+    "direction":"E",
+    "teus":2.26
+  },
+  {
+    "year":2025,
+    "hs2":"81",
+    "hs2_description":"Base Metals Nesoi; Cermets; Articles Thereof",
+    "direction":"I",
+    "teus":27.42
+  },
+  {
+    "year":2025,
+    "hs2":"82",
+    "hs2_description":"Tools, Implements, Cutlery, Spoons And Forks, Of B",
+    "direction":"E",
+    "teus":33.61
+  },
+  {
+    "year":2025,
+    "hs2":"82",
+    "hs2_description":"Tools, Implements, Cutlery, Spoons And Forks, Of B",
+    "direction":"I",
+    "teus":51.37
+  },
+  {
+    "year":2025,
+    "hs2":"83",
+    "hs2_description":"Miscellaneous Articles Of Base Metal",
+    "direction":"E",
+    "teus":49.93
+  },
+  {
+    "year":2025,
+    "hs2":"83",
+    "hs2_description":"Miscellaneous Articles Of Base Metal",
+    "direction":"I",
+    "teus":40.63
+  },
+  {
+    "year":2025,
+    "hs2":"84",
+    "hs2_description":"Nuclear Reactors, Boilers, Machinery And Mechanica",
+    "direction":"E",
+    "teus":1756.68
+  },
+  {
+    "year":2025,
+    "hs2":"84",
+    "hs2_description":"Nuclear Reactors, Boilers, Machinery And Mechanica",
+    "direction":"I",
+    "teus":3883.4
+  },
+  {
+    "year":2025,
+    "hs2":"85",
+    "hs2_description":"Electrical Machinery And Equipment And Parts There",
+    "direction":"E",
+    "teus":401.46
+  },
+  {
+    "year":2025,
+    "hs2":"85",
+    "hs2_description":"Electrical Machinery And Equipment And Parts There",
+    "direction":"I",
+    "teus":1021.25
+  },
+  {
+    "year":2025,
+    "hs2":"86",
+    "hs2_description":"Railway Or Tramway Locomotives, Rolling Stock, Tra",
+    "direction":"E",
+    "teus":43.08
+  },
+  {
+    "year":2025,
+    "hs2":"87",
+    "hs2_description":"Vehicles, Other Than Railway Or Tramway Rolling St",
+    "direction":"E",
+    "teus":2043.26
+  },
+  {
+    "year":2025,
+    "hs2":"87",
+    "hs2_description":"Vehicles, Other Than Railway Or Tramway Rolling St",
+    "direction":"I",
+    "teus":355.65
+  },
+  {
+    "year":2025,
+    "hs2":"88",
+    "hs2_description":"Aircraft, Spacecraft, And Parts Thereof",
+    "direction":"I",
+    "teus":29.75
+  },
+  {
+    "year":2025,
+    "hs2":"89",
+    "hs2_description":"Ships, Boats And Floating Structures",
+    "direction":"E",
+    "teus":0.18
+  },
+  {
+    "year":2025,
+    "hs2":"89",
+    "hs2_description":"Ships, Boats And Floating Structures",
+    "direction":"I",
+    "teus":3.5
+  },
+  {
+    "year":2025,
+    "hs2":"90",
+    "hs2_description":"Optical, Photographic, Cinematographic, Measuring,",
+    "direction":"E",
+    "teus":794.4
+  },
+  {
+    "year":2025,
+    "hs2":"90",
+    "hs2_description":"Optical, Photographic, Cinematographic, Measuring,",
+    "direction":"I",
+    "teus":451.46
+  },
+  {
+    "year":2025,
+    "hs2":"92",
+    "hs2_description":"Musical Instruments; Parts And Accessories Thereof",
+    "direction":"E",
+    "teus":3.0
+  },
+  {
+    "year":2025,
+    "hs2":"92",
+    "hs2_description":"Musical Instruments; Parts And Accessories Thereof",
+    "direction":"I",
+    "teus":2.0
+  },
+  {
+    "year":2025,
+    "hs2":"93",
+    "hs2_description":"Arms And Ammunition; Parts And Accessories Thereof",
+    "direction":"E",
+    "teus":5.0
+  },
+  {
+    "year":2025,
+    "hs2":"94",
+    "hs2_description":"Furniture; Bedding, Cushions Etc.; Lamps And Light",
+    "direction":"E",
+    "teus":919.4
+  },
+  {
+    "year":2025,
+    "hs2":"94",
+    "hs2_description":"Furniture; Bedding, Cushions Etc.; Lamps And Light",
+    "direction":"I",
+    "teus":4668.14
+  },
+  {
+    "year":2025,
+    "hs2":"95",
+    "hs2_description":"Toys, Games And Sports Equipment; Parts And Access",
+    "direction":"E",
+    "teus":76.69
+  },
+  {
+    "year":2025,
+    "hs2":"95",
+    "hs2_description":"Toys, Games And Sports Equipment; Parts And Access",
+    "direction":"I",
+    "teus":2568.06
+  },
+  {
+    "year":2025,
+    "hs2":"96",
+    "hs2_description":"Miscellaneous Manufactured Articles",
+    "direction":"E",
+    "teus":63.4
+  },
+  {
+    "year":2025,
+    "hs2":"96",
+    "hs2_description":"Miscellaneous Manufactured Articles",
+    "direction":"I",
+    "teus":421.05
+  },
+  {
+    "year":2025,
+    "hs2":"97",
+    "hs2_description":"Works Of Art, Collectors' Pieces And Antiques",
+    "direction":"E",
+    "teus":5.0
+  },
+  {
+    "year":2025,
+    "hs2":"97",
+    "hs2_description":"Works Of Art, Collectors' Pieces And Antiques",
+    "direction":"I",
+    "teus":12.51
+  },
+  {
+    "year":2025,
+    "hs2":"98",
+    "hs2_description":"Special Classification Provisions, Nesoi",
+    "direction":"E",
+    "teus":13.25
+  },
+  {
+    "year":2025,
+    "hs2":"98",
+    "hs2_description":"Special Classification Provisions, Nesoi",
+    "direction":"I",
+    "teus":59.61
+  }
+]

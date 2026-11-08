@@ -239,3 +239,160 @@ loadTradeDirections().catch(error => {
     document.getElementById("direction-finding").textContent =
         "Trade direction data could not be loaded.";
 });
+
+
+async function loadCommodityAnalysis() {
+    const response = await fetch("data/jaxport_commodities.json");
+
+    if (!response.ok) {
+        throw new Error("Unable to load commodity data");
+    }
+
+    const data = await response.json();
+
+    const yearFilter = document.getElementById("commodity-year-filter");
+    const directionFilter = document.getElementById("commodity-direction-filter");
+    const finding = document.getElementById("commodity-finding");
+
+    const years = [...new Set(data.map(row => Number(row.year)))]
+        .sort((a, b) => a - b);
+
+    years.forEach(year => {
+        const option = document.createElement("option");
+        option.value = String(year);
+        option.textContent = year;
+        yearFilter.appendChild(option);
+    });
+
+    // Group commodity volumes by HS2 code for the selected filters.
+    function updateCommodityChart() {
+        const selectedYear = yearFilter.value;
+        const selectedDirection = directionFilter.value;
+
+        const filtered = data.filter(row => {
+            const yearMatches = selectedYear === "all" ||
+                String(row.year) === selectedYear;
+
+            const directionMatches = selectedDirection === "all" ||
+                row.direction === selectedDirection;
+
+            return yearMatches && directionMatches;
+        });
+
+        const commodityTotals = new Map();
+
+        filtered.forEach(row => {
+            const code = String(row.hs2).padStart(2, "0");
+            const description = row.hs2_description || "Unknown commodity";
+
+            if (!commodityTotals.has(code)) {
+                commodityTotals.set(code, {
+                    code,
+                    description,
+                    teus: 0
+                });
+            }
+
+            commodityTotals.get(code).teus += Number(row.teus) || 0;
+        });
+
+        const ranked = [...commodityTotals.values()]
+            .sort((a, b) => b.teus - a.teus);
+
+        const top10 = ranked.slice(0, 10);
+
+        if (top10.length === 0) {
+            Plotly.purge("commodity-chart");
+            finding.textContent = "No commodity data for this selection.";
+            return;
+        }
+
+        // Reverse so the largest commodity appears at the top.
+        const chartData = [...top10].reverse();
+
+        const labels = chartData.map(row =>
+            `HS${row.code} - ${row.description.length > 35
+                ? row.description.slice(0, 35) + "..."
+                : row.description}`
+        );
+
+        const values = chartData.map(row => row.teus);
+
+        Plotly.react("commodity-chart", [{
+            type: "bar",
+            orientation: "h",
+            x: values,
+            y: labels,
+            marker: {
+                color: "#167c9b"
+            },
+            customdata: chartData.map(row => row.description),
+            hovertemplate:
+                "%{customdata}<br>%{x:,.2f} TEUs<extra></extra>"
+        }], {
+            title: "Top 10 Commodity Groups by Container Volume",
+            xaxis: {
+                title: "TEUs",
+                rangemode: "tozero"
+            },
+            yaxis: {
+                automargin: true
+            },
+            margin: {
+                t: 65,
+                b: 70,
+                l: 300,
+                r: 25
+            },
+            height: 540,
+            paper_bgcolor: "white",
+            plot_bgcolor: "white"
+        }, {
+            responsive: true,
+            displaylogo: false
+        });
+
+        const totalTEUs = ranked.reduce(
+            (sum, row) => sum + row.teus, 0
+        );
+
+        const leader = top10[0];
+
+        const leaderShare = totalTEUs > 0
+            ? (leader.teus / totalTEUs * 100).toFixed(1)
+            : "0.0";
+
+        const period = selectedYear === "all"
+            ? "2021–2025"
+            : selectedYear;
+
+        const tradeType = selectedDirection === "I"
+            ? "imports"
+            : selectedDirection === "E"
+                ? "exports"
+                : "combined imports and exports";
+
+        finding.textContent =
+            `For ${period}, ${leader.description} (HS${leader.code}) ` +
+            `was the leading commodity group for ${tradeType}, ` +
+            `with ${leader.teus.toLocaleString(undefined, {
+                maximumFractionDigits: 2
+            })} TEUs. This represents ${leaderShare}% of the ` +
+            `selected commodity volume.`;
+    }
+
+    yearFilter.addEventListener("change", updateCommodityChart);
+    directionFilter.addEventListener("change", updateCommodityChart);
+
+    updateCommodityChart();
+}
+
+loadCommodityAnalysis().catch(error => {
+    console.error(error);
+
+    const finding = document.getElementById("commodity-finding");
+
+    if (finding) {
+        finding.textContent = "Commodity data could not be loaded.";
+    }
+});
