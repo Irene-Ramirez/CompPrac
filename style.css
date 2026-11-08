@@ -87,3 +87,29 @@ select {
         grid-template-columns: 1fr;
     }
 }
+
+
+#trade-direction-section {
+    margin-top: 35px;
+}
+
+#direction-chart {
+    width: 100%;
+    min-height: 450px;
+}
+
+#direction-year-filter {
+    margin: 10px 0 20px;
+    padding: 8px 12px;
+    border: 1px solid #ccd6e2;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+#trade-direction-section .finding {
+    margin-top: 20px;
+    padding: 18px;
+    background: #eef5fa;
+    border-left: 4px solid #167c9b;
+    border-radius: 6px;
+}
