@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>JAXPORT Trade Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    
+    <header>
+        <h1>JAXPORT Trade Analytics</h1>
+        <p>Containerized Trade Analysis | 2021–2025</p>
+    </header>
+
+    <main>
+        <section class="dashboard-section">
+            <h2>1. Trade Overview</h2>
+            <p>
+                Explore how Jacksonville's container
+                volume has changed over time.
+            </p>
+
+            <div class="metrics">
+                <div class="metric">
+                    <h3>Total TEUs</h3>
+                    <p id="total-teus">--</p>
+                </div>
+
+                <div class="metric">
+                    <h3>Selected Year TEUs</h3>
+                    <p id="year-teus">--</p>
+                </div>
+
+                <div class="metric">
+                    <h3>Peak Quarter</h3>
+                    <p id="peak-quarter">--</p>
+                </div>
+            </div>
+
+            <div class="chart-card">
+                <label for="year-filter">
+                    Select year:
+                </label>
+
+                <select id="year-filter">
+                    <option value="all">All Years</option>
+                </select>
+
+                <div id="teu-chart"></div>
+            </div>
+
+            <div class="finding">
+                <h3>Key Finding</h3>
+                <p id="finding-text">
+                    Loading analysis...
+                </p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
