@@ -396,3 +396,199 @@ loadCommodityAnalysis().catch(error => {
         finding.textContent = "Commodity data could not be loaded.";
     }
 });
+
+
+async function loadWeightValueAnalysis() {
+    const response = await fetch("data/jaxport_weight_value.json");
+
+    if (!response.ok) {
+        throw new Error("Unable to load weight-value data");
+    }
+
+    const data = await response.json();
+
+    const yearFilter = document.getElementById("weight-year-filter");
+    const directionFilter = document.getElementById("weight-direction-filter");
+    const commodityFilter = document.getElementById("weight-commodity-filter");
+    const finding = document.getElementById("weight-value-finding");
+
+    const years = [...new Set(data.map(row => Number(row.year)))]
+        .sort((a, b) => a - b);
+
+    years.forEach(year => {
+        const option = document.createElement("option");
+        option.value = String(year);
+        option.textContent = year;
+        yearFilter.appendChild(option);
+    });
+
+    const commodities = [...new Set(data.map(row => String(row.hs2)))]
+        .sort();
+
+    commodities.forEach(code => {
+        const option = document.createElement("option");
+        option.value = code;
+        option.textContent = `HS${code}`;
+        commodityFilter.appendChild(option);
+    });
+
+    function updateWeightValueChart() {
+        const selectedYear = yearFilter.value;
+        const selectedDirection = directionFilter.value;
+        const selectedCommodity = commodityFilter.value;
+
+        const filtered = data.filter(row =>
+            (selectedYear === "all" ||
+                String(row.year) === selectedYear) &&
+            (selectedDirection === "all" ||
+                row.direction === selectedDirection) &&
+            (selectedCommodity === "all" ||
+                String(row.hs2) === selectedCommodity) &&
+            Number.isFinite(Number(row.log_weight)) &&
+            Number.isFinite(Number(row.log_value))
+        );
+
+        if (filtered.length < 3) {
+            Plotly.purge("weight-value-chart");
+            finding.textContent =
+                "Not enough observations for this selection.";
+            return;
+        }
+
+        const x = filtered.map(row => Number(row.log_weight));
+        const y = filtered.map(row => Number(row.log_value));
+        const n = x.length;
+
+        const meanX = x.reduce((a, b) => a + b, 0) / n;
+        const meanY = y.reduce((a, b) => a + b, 0) / n;
+
+        let sxx = 0;
+        let syy = 0;
+        let sxy = 0;
+
+        for (let i = 0; i < n; i++) {
+            const dx = x[i] - meanX;
+            const dy = y[i] - meanY;
+            sxx += dx * dx;
+            syy += dy * dy;
+            sxy += dx * dy;
+        }
+
+        if (sxx === 0 || syy === 0) {
+            Plotly.purge("weight-value-chart");
+            finding.textContent =
+                "The selected observations have insufficient variation.";
+            return;
+        }
+
+        const correlation = sxy / Math.sqrt(sxx * syy);
+        const slope = sxy / sxx;
+        const intercept = meanY - slope * meanX;
+        const rSquared = correlation * correlation;
+
+        const minX = Math.min(...x);
+        const maxX = Math.max(...x);
+
+        const regressionX = [minX, maxX];
+        const regressionY = regressionX.map(
+            value => intercept + slope * value
+        );
+
+        Plotly.react("weight-value-chart", [
+            {
+                type: "scatter",
+                mode: "markers",
+                name: "Shipments",
+                x: x,
+                y: y,
+                marker: {
+                    color: "#167c9b",
+                    size: 5,
+                    opacity: 0.35
+                },
+                customdata: filtered.map(row => [
+                    row.metric_tons,
+                    row.value_usd
+                ]),
+                hovertemplate:
+                    "Weight: %{customdata[0]:,.2f} metric tons" +
+                    "<br>Value: $%{customdata[1]:,.2f}" +
+                    "<extra></extra>"
+            },
+            {
+                type: "scatter",
+                mode: "lines",
+                name: "Log-log regression",
+                x: regressionX,
+                y: regressionY,
+                line: {
+                    color: "#e58b35",
+                    width: 3
+                },
+                hovertemplate:
+                    "Log weight: %{x:.2f}" +
+                    "<br>Predicted log value: %{y:.2f}" +
+                    "<extra></extra>"
+            }
+        ], {
+            title: "Cargo Weight and Trade Value (Log10 Scale)",
+            xaxis: {
+                title: "Log10 Cargo Weight (Metric Tons)"
+            },
+            yaxis: {
+                title: "Log10 Trade Value (USD)"
+            },
+            margin: {
+                t: 65,
+                b: 75,
+                l: 85,
+                r: 25
+            },
+            height: 530,
+            paper_bgcolor: "white",
+            plot_bgcolor: "white",
+            legend: {
+                orientation: "h",
+                y: 1.12
+            }
+        }, {
+            responsive: true,
+            displaylogo: false
+        });
+
+        const strength = Math.abs(correlation) >= 0.7
+            ? "strong"
+            : Math.abs(correlation) >= 0.4
+                ? "moderate"
+                : "weak";
+
+        const direction = correlation >= 0
+            ? "positive"
+            : "negative";
+
+        finding.textContent =
+            `Based on ${n.toLocaleString()} sampled observations, ` +
+            `the log-transformed cargo weight and trade value ` +
+            `have a ${strength} ${direction} linear relationship ` +
+            `(Pearson r = ${correlation.toFixed(3)}, ` +
+            `R² = ${rSquared.toFixed(3)}). ` +
+            `The fitted log-log regression slope is ` +
+            `${slope.toFixed(3)}.`;
+    }
+
+    yearFilter.addEventListener("change", updateWeightValueChart);
+    directionFilter.addEventListener("change", updateWeightValueChart);
+    commodityFilter.addEventListener("change", updateWeightValueChart);
+
+    updateWeightValueChart();
+}
+
+loadWeightValueAnalysis().catch(error => {
+    console.error(error);
+
+    const finding = document.getElementById("weight-value-finding");
+
+    if (finding) {
+        finding.textContent = "Weight-value data could not be loaded.";
+    }
+});

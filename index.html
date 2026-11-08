@@ -138,6 +138,60 @@
 
     </section>
 
+<!-- SECTION 4: Trade Value and Weight -->
+<section class="dashboard-section" id="weight-value-section">
+
+    <h2>4. Cargo Weight vs. Trade Value</h2>
+
+    <p>
+        Examine the relationship between shipment weight and
+        monetary value for Jacksonville trade records.
+        Both axes use logarithmic scales.
+    </p>
+
+    <div class="weight-value-filters">
+        <div>
+            <label for="weight-year-filter">Select Year:</label>
+            <select id="weight-year-filter">
+                <option value="all">All Years</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="weight-direction-filter">Trade Direction:</label>
+            <select id="weight-direction-filter">
+                <option value="all">Imports + Exports</option>
+                <option value="I">Imports</option>
+                <option value="E">Exports</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="weight-commodity-filter">Commodity:</label>
+            <select id="weight-commodity-filter">
+                <option value="all">All Commodities</option>
+            </select>
+        </div>
+    </div>
+
+    <div id="weight-value-chart"></div>
+
+    <div class="finding">
+        <h3>Statistical Finding</h3>
+        <p id="weight-value-finding">
+            Loading weight and value analysis...
+        </p>
+    </div>
+
+    <p class="data-note">
+        The visualization uses a reproducible sample of up to
+        10,000 valid observations. Statistics shown for filtered
+        selections are calculated from the displayed sample.
+        Results represent the Jacksonville subset of the trade dataset.
+    </p>
+
+</section>
+
     </main>
 </body>
 </html>
