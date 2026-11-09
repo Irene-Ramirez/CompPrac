@@ -1,0 +1,802 @@
+[
+  {
+    "foreign_initial_country": "GUATEMALA",
+    "hs2": "08",
+    "direction": "I",
+    "top_port": "WILMINGTON DE",
+    "top_port_share_pct": 19.94,
+    "ports_handling": 21
+  },
+  {
+    "foreign_initial_country": "PANAMA",
+    "hs2": "08",
+    "direction": "I",
+    "top_port": "PHILADELPHIA",
+    "top_port_share_pct": 39.89,
+    "ports_handling": 21
+  },
+  {
+    "foreign_initial_country": "PERU",
+    "hs2": "08",
+    "direction": "I",
+    "top_port": "PHILADELPHIA",
+    "top_port_share_pct": 46.13,
+    "ports_handling": 14
+  },
+  {
+    "foreign_initial_country": "PANAMA",
+    "hs2": "39",
+    "direction": "E",
+    "top_port": "HOUSTON",
+    "top_port_share_pct": 69.62,
+    "ports_handling": 18
+  },
+  {
+    "foreign_initial_country": "COLOMBIA",
+    "hs2": "39",
+    "direction": "E",
+    "top_port": "HOUSTON",
+    "top_port_share_pct": 72.4,
+    "ports_handling": 18
+  },
+  {
+    "foreign_initial_country": "HONDURAS",
+    "hs2": "08",
+    "direction": "I",
+    "top_port": "WILMINGTON DE",
+    "top_port_share_pct": 35.72,
+    "ports_handling": 15
+  },
+  {
+    "foreign_initial_country": "PANAMA",
+    "hs2": "08",
+    "direction": "E",
+    "top_port": "OAKLAND",
+    "top_port_share_pct": 62.58,
+    "ports_handling": 16
+  },
+  {
+    "foreign_initial_country": "ECUADOR",
+    "hs2": "08",
+    "direction": "I",
+    "top_port": "SAN DIEGO",
+    "top_port_share_pct": 57.47,
+    "ports_handling": 10
+  },
+  {
+    "foreign_initial_country": "COLOMBIA",
+    "hs2": "08",
+    "direction": "I",
+    "top_port": "WILMINGTON DE",
+    "top_port_share_pct": 44.21,
+    "ports_handling": 15
+  },
+  {
+    "foreign_initial_country": "PANAMA",
+    "hs2": "44",
+    "direction": "I",
+    "top_port": "BALTIMORE",
+    "top_port_share_pct": 18.37,
+    "ports_handling": 17
+  },
+  {
+    "foreign_initial_country": "COLOMBIA",
+    "hs2": "22",
+    "direction": "I",
+    "top_port": "LOS ANGELES",
+    "top_port_share_pct": 34.95,
+    "ports_handling": 15
+  },
+  {
+    "foreign_initial_country": "COLOMBIA",
+    "hs2": "42",
+    "direction": "E",
+    "top_port": "HOUSTON",
+    "top_port_share_pct": 56.82,
+    "ports_handling": 20
+  },
+  {
+    "foreign_initial_country": "MEXICO",
+    "hs2": "47",
+    "direction": "E",
+    "top_port": "MANATEE",
+    "top_port_share_pct": 21.76,
+    "ports_handling": 20
+  },
+  {
+    "foreign_initial_country": "HONDURAS",
+    "hs2": "55",
+    "direction": "E",
+    "top_port": "PT EVERGLADES",
+    "top_port_share_pct": 44.03,
+    "ports_handling": 7
+  },
+  {
+    "foreign_initial_country": "CHILE",
+    "hs2": "08",
+    "direction": "I",
+    "top_port": "PHILADELPHIA",
+    "top_port_share_pct": 55.84,
+    "ports_handling": 16
+  },
+  {
+    "foreign_initial_country": "PANAMA",
+    "hs2": "42",
+    "direction": "E",
+    "top_port": "HOUSTON",
+    "top_port_share_pct": 29.82,
+    "ports_handling": 18
+  },
+  {
+    "foreign_initial_country": "CHILE",
+    "hs2": "42",
+    "direction": "E",
+    "top_port": "PT EVERGLADES",
+    "top_port_share_pct": 42.42,
+    "ports_handling": 17
+  },
+  {
+    "foreign_initial_country": "PANAMA",
+    "hs2": "04",
+    "direction": "E",
+    "top_port": "OAKLAND",
+    "top_port_share_pct": 46.68,
+    "ports_handling": 15
+  },
+  {
+    "foreign_initial_country": "COLOMBIA",
+    "hs2": "44",
+    "direction": "I",
+    "top_port": "MIAMI",
+    "top_port_share_pct": 19.16,
+    "ports_handling": 16
+  },
+  {
+    "foreign_initial_country": "MEXICO",
+    "hs2": "85",
+    "direction": "I",
+    "top_port": "HOUSTON",
+    "top_port_share_pct": 40.69,
+    "ports_handling": 17
+  },
+  {
+    "foreign_initial_country": "GUATEMALA",
+    "hs2": "62",
+    "direction": "E",
+    "top_port": "PHILADELPHIA",
+    "top_port_share_pct": 31.75,
+    "ports_handling": 17
+  },
+  {
+    "foreign_initial_country": "GUATEMALA",
+    "hs2": "42",
+    "direction": "E",
+    "top_port": "PT EVERGLADES",
+    "top_port_share_pct": 21.53,
+    "ports_handling": 18
+  },
+  {
+    "foreign_initial_country": "PANAMA",
+    "hs2": "02",
+    "direction": "I",
+    "top_port": "PHILADELPHIA",
+    "top_port_share_pct": 31.76,
+    "ports_handling": 15
+  },
+  {
+    "foreign_initial_country": "JAMAICA",
+    "hs2": "39",
+    "direction": "E",
+    "top_port": "HOUSTON",
+    "top_port_share_pct": 51.22,
+    "ports_handling": 10
+  },
+  {
+    "foreign_initial_country": "PANAMA",
+    "hs2": "17",
+    "direction": "I",
+    "top_port": "PHILADELPHIA",
+    "top_port_share_pct": 36.64,
+    "ports_handling": 18
+  },
+  {
+    "foreign_initial_country": "MEXICO",
+    "hs2": "95",
+    "direction": "I",
+    "top_port": "SAVANNAH",
+    "top_port_share_pct": 45.58,
+    "ports_handling": 15
+  },
+  {
+    "foreign_initial_country": "COLOMBIA",
+    "hs2": "48",
+    "direction": "I",
+    "top_port": "NEW YORK",
+    "top_port_share_pct": 23.31,
+    "ports_handling": 16
+  },
+  {
+    "foreign_initial_country": "COLOMBIA",
+    "hs2": "85",
+    "direction": "I",
+    "top_port": "HOUSTON",
+    "top_port_share_pct": 22.94,
+    "ports_handling": 16
+  },
+  {
+    "foreign_initial_country": "PANAMA",
+    "hs2": "20",
+    "direction": "E",
+    "top_port": "SEATTLE",
+    "top_port_share_pct": 35.16,
+    "ports_handling": 16
+  },
+  {
+    "foreign_initial_country": "DOMINICAN REPUBLIC",
+    "hs2": "02",
+    "direction": "E",
+    "top_port": "NEW YORK",
+    "top_port_share_pct": 20.85,
+    "ports_handling": 16
+  },
+  {
+    "foreign_initial_country": "PANAMA",
+    "hs2": "25",
+    "direction": "E",
+    "top_port": "OAKLAND",
+    "top_port_share_pct": 38.06,
+    "ports_handling": 16
+  },
+  {
+    "foreign_initial_country": "COLOMBIA",
+    "hs2": "39",
+    "direction": "I",
+    "top_port": "MIAMI",
+    "top_port_share_pct": 20.2,
+    "ports_handling": 18
+  },
+  {
+    "foreign_initial_country": "ECUADOR",
+    "hs2": "48",
+    "direction": "E",
+    "top_port": "SAVANNAH",
+    "top_port_share_pct": 64.77,
+    "ports_handling": 14
+  },
+  {
+    "foreign_initial_country": "PANAMA",
+    "hs2": "61",
+    "direction": "E",
+    "top_port": "OAKLAND",
+    "top_port_share_pct": 28.53,
+    "ports_handling": 15
+  },
+  {
+    "foreign_initial_country": "COLOMBIA",
+    "hs2": "02",
+    "direction": "I",
+    "top_port": "HOUSTON",
+    "top_port_share_pct": 31.0,
+    "ports_handling": 14
+  },
+  {
+    "foreign_initial_country": "COLOMBIA",
+    "hs2": "20",
+    "direction": "I",
+    "top_port": "LOS ANGELES",
+    "top_port_share_pct": 23.0,
+    "ports_handling": 17
+  },
+  {
+    "foreign_initial_country": "ECUADOR",
+    "hs2": "03",
+    "direction": "I",
+    "top_port": "SAN DIEGO",
+    "top_port_share_pct": 46.83,
+    "ports_handling": 13
+  },
+  {
+    "foreign_initial_country": "PANAMA",
+    "hs2": "72",
+    "direction": "E",
+    "top_port": "LOS ANGELES",
+    "top_port_share_pct": 64.63,
+    "ports_handling": 16
+  },
+  {
+    "foreign_initial_country": "PANAMA",
+    "hs2": "07",
+    "direction": "E",
+    "top_port": "SEATTLE",
+    "top_port_share_pct": 77.21,
+    "ports_handling": 16
+  },
+  {
+    "foreign_initial_country": "COLOMBIA",
+    "hs2": "09",
+    "direction": "I",
+    "top_port": "NEW YORK",
+    "top_port_share_pct": 29.9,
+    "ports_handling": 15
+  },
+  {
+    "foreign_initial_country": "ECUADOR",
+    "hs2": "18",
+    "direction": "I",
+    "top_port": "PHILADELPHIA",
+    "top_port_share_pct": 52.79,
+    "ports_handling": 7
+  },
+  {
+    "foreign_initial_country": "PANAMA",
+    "hs2": "28",
+    "direction": "E",
+    "top_port": "LOS ANGELES",
+    "top_port_share_pct": 43.39,
+    "ports_handling": 17
+  },
+  {
+    "foreign_initial_country": "MEXICO",
+    "hs2": "39",
+    "direction": "I",
+    "top_port": "HOUSTON",
+    "top_port_share_pct": 32.07,
+    "ports_handling": 18
+  },
+  {
+    "foreign_initial_country": "COSTA RICA",
+    "hs2": "42",
+    "direction": "E",
+    "top_port": "PHILADELPHIA",
+    "top_port_share_pct": 23.66,
+    "ports_handling": 20
+  },
+  {
+    "foreign_initial_country": "HONDURAS",
+    "hs2": "61",
+    "direction": "E",
+    "top_port": "HOUSTON",
+    "top_port_share_pct": 26.13,
+    "ports_handling": 12
+  },
+  {
+    "foreign_initial_country": "DOMINICAN REPUBLIC",
+    "hs2": "48",
+    "direction": "E",
+    "top_port": "SAVANNAH",
+    "top_port_share_pct": 47.55,
+    "ports_handling": 16
+  },
+  {
+    "foreign_initial_country": "PANAMA",
+    "hs2": "42",
+    "direction": "I",
+    "top_port": "PHILADELPHIA",
+    "top_port_share_pct": 16.15,
+    "ports_handling": 16
+  },
+  {
+    "foreign_initial_country": "CHILE",
+    "hs2": "73",
+    "direction": "E",
+    "top_port": "PT EVERGLADES",
+    "top_port_share_pct": 72.22,
+    "ports_handling": 14
+  },
+  {
+    "foreign_initial_country": "PERU",
+    "hs2": "20",
+    "direction": "I",
+    "top_port": "NEW YORK",
+    "top_port_share_pct": 59.13,
+    "ports_handling": 16
+  },
+  {
+    "foreign_initial_country": "PERU",
+    "hs2": "09",
+    "direction": "I",
+    "top_port": "NEW YORK",
+    "top_port_share_pct": 40.86,
+    "ports_handling": 17
+  },
+  {
+    "foreign_initial_country": "JAMAICA",
+    "hs2": "42",
+    "direction": "E",
+    "top_port": "HOUSTON",
+    "top_port_share_pct": 55.03,
+    "ports_handling": 11
+  },
+  {
+    "foreign_initial_country": "ARGENTINA",
+    "hs2": "44",
+    "direction": "I",
+    "top_port": "CHARLESTON",
+    "top_port_share_pct": 22.39,
+    "ports_handling": 11
+  },
+  {
+    "foreign_initial_country": "JAMAICA",
+    "hs2": "48",
+    "direction": "E",
+    "top_port": "SAVANNAH",
+    "top_port_share_pct": 57.86,
+    "ports_handling": 11
+  },
+  {
+    "foreign_initial_country": "PANAMA",
+    "hs2": "29",
+    "direction": "E",
+    "top_port": "HOUSTON",
+    "top_port_share_pct": 46.4,
+    "ports_handling": 14
+  },
+  {
+    "foreign_initial_country": "DOMINICAN REPUBLIC",
+    "hs2": "47",
+    "direction": "E",
+    "top_port": "SAVANNAH",
+    "top_port_share_pct": 35.89,
+    "ports_handling": 13
+  },
+  {
+    "foreign_initial_country": "GUATEMALA",
+    "hs2": "61",
+    "direction": "E",
+    "top_port": "MIAMI",
+    "top_port_share_pct": 23.75,
+    "ports_handling": 14
+  },
+  {
+    "foreign_initial_country": "JAMAICA",
+    "hs2": "27",
+    "direction": "E",
+    "top_port": "HOUSTON",
+    "top_port_share_pct": 45.23,
+    "ports_handling": 7
+  },
+  {
+    "foreign_initial_country": "DOMINICAN REPUBLIC",
+    "hs2": "39",
+    "direction": "E",
+    "top_port": "HOUSTON",
+    "top_port_share_pct": 25.22,
+    "ports_handling": 17
+  },
+  {
+    "foreign_initial_country": "GUATEMALA",
+    "hs2": "47",
+    "direction": "E",
+    "top_port": "NEW YORK",
+    "top_port_share_pct": 21.53,
+    "ports_handling": 16
+  },
+  {
+    "foreign_initial_country": "DOMINICAN REPUBLIC",
+    "hs2": "55",
+    "direction": "E",
+    "top_port": "PT EVERGLADES",
+    "top_port_share_pct": 92.09,
+    "ports_handling": 8
+  },
+  {
+    "foreign_initial_country": "CHILE",
+    "hs2": "22",
+    "direction": "I",
+    "top_port": "NEW YORK",
+    "top_port_share_pct": 55.43,
+    "ports_handling": 14
+  },
+  {
+    "foreign_initial_country": "JAMAICA",
+    "hs2": "02",
+    "direction": "E",
+    "top_port": "SAVANNAH",
+    "top_port_share_pct": 37.96,
+    "ports_handling": 10
+  },
+  {
+    "foreign_initial_country": "HONDURAS",
+    "hs2": "42",
+    "direction": "E",
+    "top_port": "PT EVERGLADES",
+    "top_port_share_pct": 32.8,
+    "ports_handling": 14
+  },
+  {
+    "foreign_initial_country": "HONDURAS",
+    "hs2": "09",
+    "direction": "I",
+    "top_port": "HOUSTON",
+    "top_port_share_pct": 28.15,
+    "ports_handling": 19
+  },
+  {
+    "foreign_initial_country": "COLOMBIA",
+    "hs2": "29",
+    "direction": "I",
+    "top_port": "NEW ORLEANS",
+    "top_port_share_pct": 34.61,
+    "ports_handling": 17
+  },
+  {
+    "foreign_initial_country": "DOMINICAN REPUBLIC",
+    "hs2": "61",
+    "direction": "I",
+    "top_port": "MIAMI",
+    "top_port_share_pct": 77.6,
+    "ports_handling": 9
+  },
+  {
+    "foreign_initial_country": "COLOMBIA",
+    "hs2": "29",
+    "direction": "E",
+    "top_port": "HOUSTON",
+    "top_port_share_pct": 63.67,
+    "ports_handling": 15
+  },
+  {
+    "foreign_initial_country": "COLOMBIA",
+    "hs2": "18",
+    "direction": "I",
+    "top_port": "PHILADELPHIA",
+    "top_port_share_pct": 41.96,
+    "ports_handling": 13
+  },
+  {
+    "foreign_initial_country": "PANAMA",
+    "hs2": "40",
+    "direction": "I",
+    "top_port": "NEW YORK",
+    "top_port_share_pct": 21.33,
+    "ports_handling": 17
+  },
+  {
+    "foreign_initial_country": "JAMAICA",
+    "hs2": "29",
+    "direction": "E",
+    "top_port": "HOUSTON",
+    "top_port_share_pct": 51.0,
+    "ports_handling": 7
+  },
+  {
+    "foreign_initial_country": "MEXICO",
+    "hs2": "73",
+    "direction": "I",
+    "top_port": "HOUSTON",
+    "top_port_share_pct": 38.0,
+    "ports_handling": 17
+  },
+  {
+    "foreign_initial_country": "VENEZUELA",
+    "hs2": "39",
+    "direction": "E",
+    "top_port": "HOUSTON",
+    "top_port_share_pct": 73.63,
+    "ports_handling": 9
+  },
+  {
+    "foreign_initial_country": "COLOMBIA",
+    "hs2": "38",
+    "direction": "E",
+    "top_port": "HOUSTON",
+    "top_port_share_pct": 45.29,
+    "ports_handling": 15
+  },
+  {
+    "foreign_initial_country": "CHILE",
+    "hs2": "40",
+    "direction": "E",
+    "top_port": "CHARLESTON",
+    "top_port_share_pct": 79.84,
+    "ports_handling": 12
+  },
+  {
+    "foreign_initial_country": "HONDURAS",
+    "hs2": "90",
+    "direction": "I",
+    "top_port": "MIAMI",
+    "top_port_share_pct": 43.32,
+    "ports_handling": 10
+  },
+  {
+    "foreign_initial_country": "COLOMBIA",
+    "hs2": "87",
+    "direction": "I",
+    "top_port": "LOS ANGELES",
+    "top_port_share_pct": 29.68,
+    "ports_handling": 15
+  },
+  {
+    "foreign_initial_country": "PANAMA",
+    "hs2": "20",
+    "direction": "I",
+    "top_port": "NEW YORK",
+    "top_port_share_pct": 30.57,
+    "ports_handling": 19
+  },
+  {
+    "foreign_initial_country": "GUATEMALA",
+    "hs2": "04",
+    "direction": "E",
+    "top_port": "PT HUENEME",
+    "top_port_share_pct": 36.69,
+    "ports_handling": 17
+  },
+  {
+    "foreign_initial_country": "BAHAMAS",
+    "hs2": "24",
+    "direction": "E",
+    "top_port": "W PALM BCH",
+    "top_port_share_pct": 98.38,
+    "ports_handling": 2
+  },
+  {
+    "foreign_initial_country": "COLOMBIA",
+    "hs2": "17",
+    "direction": "I",
+    "top_port": "PHILADELPHIA",
+    "top_port_share_pct": 27.06,
+    "ports_handling": 16
+  },
+  {
+    "foreign_initial_country": "JAMAICA",
+    "hs2": "47",
+    "direction": "I",
+    "top_port": "SAVANNAH",
+    "top_port_share_pct": 98.43,
+    "ports_handling": 6
+  },
+  {
+    "foreign_initial_country": "PERU",
+    "hs2": "42",
+    "direction": "E",
+    "top_port": "HOUSTON",
+    "top_port_share_pct": 18.56,
+    "ports_handling": 17
+  },
+  {
+    "foreign_initial_country": "BAHAMAS",
+    "hs2": "84",
+    "direction": "E",
+    "top_port": "PT EVERGLADES",
+    "top_port_share_pct": 58.15,
+    "ports_handling": 7
+  },
+  {
+    "foreign_initial_country": "GUATEMALA",
+    "hs2": "08",
+    "direction": "E",
+    "top_port": "PT HUENEME",
+    "top_port_share_pct": 75.27,
+    "ports_handling": 13
+  },
+  {
+    "foreign_initial_country": "BRAZIL",
+    "hs2": "19",
+    "direction": "I",
+    "top_port": "PT EVERGLADES",
+    "top_port_share_pct": 39.03,
+    "ports_handling": 12
+  },
+  {
+    "foreign_initial_country": "COLOMBIA",
+    "hs2": "21",
+    "direction": "I",
+    "top_port": "NEW YORK",
+    "top_port_share_pct": 25.67,
+    "ports_handling": 14
+  },
+  {
+    "foreign_initial_country": "COLOMBIA",
+    "hs2": "27",
+    "direction": "E",
+    "top_port": "HOUSTON",
+    "top_port_share_pct": 78.47,
+    "ports_handling": 15
+  },
+  {
+    "foreign_initial_country": "GUATEMALA",
+    "hs2": "40",
+    "direction": "I",
+    "top_port": "HOUSTON",
+    "top_port_share_pct": 62.43,
+    "ports_handling": 16
+  },
+  {
+    "foreign_initial_country": "PANAMA",
+    "hs2": "04",
+    "direction": "I",
+    "top_port": "NEW YORK",
+    "top_port_share_pct": 22.23,
+    "ports_handling": 13
+  },
+  {
+    "foreign_initial_country": "COLOMBIA",
+    "hs2": "74",
+    "direction": "I",
+    "top_port": "NEW ORLEANS",
+    "top_port_share_pct": 53.81,
+    "ports_handling": 14
+  },
+  {
+    "foreign_initial_country": "ARGENTINA",
+    "hs2": "63",
+    "direction": "E",
+    "top_port": "NEW ORLEANS",
+    "top_port_share_pct": 84.26,
+    "ports_handling": 9
+  },
+  {
+    "foreign_initial_country": "GUATEMALA",
+    "hs2": "22",
+    "direction": "I",
+    "top_port": "PT EVERGLADES",
+    "top_port_share_pct": 42.68,
+    "ports_handling": 19
+  },
+  {
+    "foreign_initial_country": "JAMAICA",
+    "hs2": "84",
+    "direction": "E",
+    "top_port": "PT EVERGLADES",
+    "top_port_share_pct": 25.91,
+    "ports_handling": 10
+  },
+  {
+    "foreign_initial_country": "HAITI",
+    "hs2": "84",
+    "direction": "E",
+    "top_port": "PT EVERGLADES",
+    "top_port_share_pct": 98.04,
+    "ports_handling": 5
+  },
+  {
+    "foreign_initial_country": "CHILE",
+    "hs2": "38",
+    "direction": "E",
+    "top_port": "HOUSTON",
+    "top_port_share_pct": 54.18,
+    "ports_handling": 13
+  },
+  {
+    "foreign_initial_country": "PANAMA",
+    "hs2": "03",
+    "direction": "I",
+    "top_port": "NEW YORK",
+    "top_port_share_pct": 29.55,
+    "ports_handling": 18
+  },
+  {
+    "foreign_initial_country": "JAMAICA",
+    "hs2": "03",
+    "direction": "I",
+    "top_port": "HOUSTON",
+    "top_port_share_pct": 46.24,
+    "ports_handling": 8
+  },
+  {
+    "foreign_initial_country": "ECUADOR",
+    "hs2": "39",
+    "direction": "E",
+    "top_port": "HOUSTON",
+    "top_port_share_pct": 65.09,
+    "ports_handling": 14
+  },
+  {
+    "foreign_initial_country": "BRAZIL",
+    "hs2": "42",
+    "direction": "I",
+    "top_port": "NEW YORK",
+    "top_port_share_pct": 49.85,
+    "ports_handling": 11
+  },
+  {
+    "foreign_initial_country": "COLOMBIA",
+    "hs2": "34",
+    "direction": "I",
+    "top_port": "MIAMI",
+    "top_port_share_pct": 27.72,
+    "ports_handling": 15
+  }
+]

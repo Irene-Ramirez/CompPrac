@@ -12,6 +12,11 @@
 
     <script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
     <script src="script.js" defer></script>
+
+    <!-- ADDITION START: Milestone 4 additions (styles and script) -->
+    <link rel="stylesheet" href="additions.css">
+    <script src="additions.js" defer></script>
+    <!-- ADDITION END: Milestone 4 additions (styles and script) -->
 </head>
 
 <body>
@@ -49,7 +54,29 @@
 
 </nav>
 
-        <section class="dashboard-section">
+        <!-- FIX: id added so the tab code can hide this section on other tabs -->
+        <section class="dashboard-section" id="overview-section">
+
+            <!-- ADDITION START: Key takeaways box -->
+            <div class="add-takeaways">
+                <h3>Key Takeaways</h3>
+                <ul>
+                    <li>Jacksonville is small but growing: its 2025 volume rose
+                        34.7%, far faster than the 3.8% growth of the overall
+                        market, and its rank improved from 15th to 13th.</li>
+                    <li>Jacksonville gained share between 2021 and 2025 while
+                        Savannah, Charleston and Miami handled less volume in
+                        2025 than in 2021.</li>
+                    <li>Large, growing trade lanes still largely bypass
+                        Jacksonville, led by fruit imports from Central and
+                        South America and plastics exports to the region.</li>
+                    <li>Lanes whose volume is not concentrated at a single
+                        competing port are the most realistic near-term
+                        targets for outreach (see the Opportunities tab).</li>
+                </ul>
+            </div>
+            <!-- ADDITION END: Key takeaways box -->
+
             <h2>1. Trade Overview</h2>
             <p>
                 Explore how Jacksonville's container
@@ -72,6 +99,22 @@
                     <p id="peak-quarter">--</p>
                 </div>
             </div>
+
+            <!-- ADDITION START: Rank and growth cards -->
+            <div class="add-metrics">
+                <div class="metric">
+                    <h3>2025 Growth: Jacksonville vs. Market</h3>
+                    <p id="add-growth-vs-market">--</p>
+                    <span id="add-growth-note"></span>
+                </div>
+
+                <div class="metric">
+                    <h3>Jacksonville Rank Among U.S. Ports</h3>
+                    <p id="add-jax-rank">--</p>
+                    <span id="add-rank-note"></span>
+                </div>
+            </div>
+            <!-- ADDITION END: Rank and growth cards -->
 
             <div class="chart-card">
                 <label for="year-filter">
@@ -336,6 +379,42 @@
         within that sample.
     </p>
 
+    <!-- ADDITION START: What explains trade value -->
+    <h3>What Explains Trade Value</h3>
+    <p>
+        Earlier regression models show how much each input adds to
+        explaining trade value. Commodity type produced the largest
+        single improvement.
+    </p>
+    <div id="add-model-steps-chart"></div>
+    <p class="data-note">
+        In-sample R² from log–log regressions on all 2021–2025
+        observations (Milestone Report 3).
+    </p>
+    <!-- ADDITION END: What explains trade value -->
+
+    <!-- ADDITION START: Error by group and data-quality caution -->
+    <h3>Prediction Error by Group</h3>
+    <div id="add-error-group-chart"></div>
+
+    <div class="add-caution">
+        <h3>Data-Quality Caution</h3>
+        <p>
+            Precious stones and metals (HS71) and ores (HS26) report
+            extremely high trade values on very little container volume,
+            and they produced prediction errors roughly three times the
+            average. Because trade value in this dataset is an estimate
+            rather than declared customs value, these records likely
+            reflect data-quality issues and should be reviewed or excluded
+            before trade value is used to rank opportunities.
+        </p>
+    </div>
+    <p class="data-note">
+        Commodity-group errors are from the 2025 test-set error analysis
+        in Milestone Report 3.
+    </p>
+    <!-- ADDITION END: Error by group and data-quality caution -->
+
 </section>
 
 
@@ -450,6 +529,9 @@
                     <th>2025 TEUs</th>
                     <th>Growth (%)</th>
                     <th>JAX Share (%)</th>
+                    <!-- ADDITION START: Leading port column header -->
+                    <th id="add-top-port-header">Leading U.S. Port (2025 Share)</th>
+                    <!-- ADDITION END: Leading port column header -->
                 </tr>
             </thead>
             <tbody id="lanes-results-body"></tbody>
@@ -462,6 +544,15 @@
             Loading growing trade lane analysis...
         </p>
     </div>
+
+    <!-- ADDITION START: Port concentration finding -->
+    <div class="finding">
+        <h3>Where These Lanes Currently Move</h3>
+        <p id="add-concentration-finding">
+            Loading port concentration analysis...
+        </p>
+    </div>
+    <!-- ADDITION END: Port concentration finding -->
 
     <p class="data-note">
         Trade lanes are defined by foreign country, HS2 commodity,

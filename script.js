@@ -1674,8 +1674,9 @@ function initializeDashboardTabs() {
     const tabSections = {
         overview: [
             "overview-section",
-            "directions-section",
-            "commodities-section"
+            // FIX: these two ids now match the ids used in index.html
+            "trade-direction-section",
+            "commodity-section"
         ],
 
         analysis: [

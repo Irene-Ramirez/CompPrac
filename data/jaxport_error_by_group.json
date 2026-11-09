@@ -1,0 +1,22 @@
+[
+  {
+    "group": "Jacksonville records",
+    "type": "jacksonville",
+    "mae": 0.6121
+  },
+  {
+    "group": "All 28 ports",
+    "type": "overall",
+    "mae": 0.6378
+  },
+  {
+    "group": "HS26 Ores, slag and ash",
+    "type": "flagged",
+    "mae": 1.7745
+  },
+  {
+    "group": "HS71 Precious stones and metals",
+    "type": "flagged",
+    "mae": 2.1443
+  }
+]

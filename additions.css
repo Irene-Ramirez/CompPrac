@@ -1,0 +1,83 @@
+/* ==========================================================
+   DASHBOARD ADDITIONS (Milestone 4)
+   All styles for the added features live in this file.
+   To remove: delete this file and its <link> in index.html.
+   ========================================================== */
+
+/* Key takeaways box (Overview tab) */
+.add-takeaways {
+    background: #15385b;
+    color: white;
+    padding: 22px 26px;
+    border-radius: 10px;
+    margin: 0 0 25px;
+}
+
+.add-takeaways h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+}
+
+.add-takeaways ul {
+    margin: 0;
+    padding-left: 20px;
+    line-height: 1.55;
+}
+
+.add-takeaways li + li {
+    margin-top: 6px;
+}
+
+/* Rank and growth cards (Overview tab) */
+.add-metrics {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin: -10px 0 25px;
+}
+
+.add-metrics .metric span {
+    display: block;
+    margin-top: 6px;
+    font-size: 13px;
+    color: #53677d;
+}
+
+@media (max-width: 650px) {
+    .add-metrics {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Model steps and error-by-group charts (Predictive Models tab) */
+#add-model-steps-chart,
+#add-error-group-chart {
+    width: 100%;
+    min-height: 380px;
+}
+
+.add-caution {
+    margin-top: 20px;
+    background: #fdf3ea;
+    padding: 18px 20px;
+    border-left: 4px solid #e58b35;
+    border-radius: 6px;
+}
+
+.add-caution h3 {
+    margin: 0 0 8px;
+}
+
+.add-caution p {
+    margin: 0;
+}
+
+/* Leading-port column and concentration finding (Opportunities tab) */
+.lanes-results-table td.add-top-port {
+    white-space: nowrap;
+}
+
+.add-concentrated {
+    color: #b45f1c;
+    font-weight: bold;
+}

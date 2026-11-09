@@ -1,0 +1,17 @@
+[
+  {
+    "step": "Container volume only",
+    "predictors": "log TEUs",
+    "r_squared": 0.5515
+  },
+  {
+    "step": "+ Cargo weight",
+    "predictors": "log TEUs, log weight",
+    "r_squared": 0.6319
+  },
+  {
+    "step": "+ Commodity type (HS2)",
+    "predictors": "log TEUs, log weight, HS2 categories",
+    "r_squared": 0.8095
+  }
+]
