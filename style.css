@@ -210,3 +210,52 @@ select {
         gap: 14px;
     }
 }
+
+
+/* SECTION 5: FORECASTING */
+
+#forecast-section {
+    margin-top: 35px;
+}
+
+#forecast-chart,
+#forecast-accuracy-chart {
+    width: 100%;
+    min-height: 420px;
+}
+
+.forecast-metrics {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+    margin: 25px 0;
+}
+
+.forecast-metric-card {
+    background: #eef5fa;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+.forecast-metric-card h4 {
+    margin: 0 0 12px;
+}
+
+.forecast-metric-card p {
+    font-size: 28px;
+    font-weight: bold;
+    color: #167c9b;
+    margin: 10px 0;
+}
+
+.forecast-metric-card span {
+    font-size: 13px;
+    color: #53657a;
+}
+
+@media (max-width: 600px) {
+    .forecast-metrics {
+        grid-template-columns: 1fr;
+    }
+}

@@ -592,3 +592,183 @@ loadWeightValueAnalysis().catch(error => {
         finding.textContent = "Weight-value data could not be loaded.";
     }
 });
+
+
+async function loadForecastAnalysis() {
+    const response = await fetch("data/jaxport_forecast.json");
+
+    if (!response.ok) {
+        throw new Error("Unable to load forecasting data");
+    }
+
+    const data = await response.json();
+
+    data.sort((a, b) =>
+        Number(a.year) - Number(b.year) ||
+        Number(a.quarter) - Number(b.quarter)
+    );
+
+    const quarters = data.map(
+        row => `Q${row.quarter} ${row.year}`
+    );
+
+    const actual = data.map(row => Number(row.total_teus));
+    const naive = data.map(row => Number(row.naive_forecast));
+    const seasonal = data.map(
+        row => Number(row.seasonal_naive_forecast)
+    );
+
+    // ==========================================
+    // CHART 1: ACTUAL VS FORECAST
+    // ==========================================
+
+    Plotly.newPlot("forecast-chart", [
+        {
+            x: quarters,
+            y: actual,
+            type: "scatter",
+            mode: "lines+markers",
+            name: "Actual TEUs",
+            line: { color: "#167c9b", width: 3 },
+            marker: { size: 9 }
+        },
+        {
+            x: quarters,
+            y: naive,
+            type: "scatter",
+            mode: "lines+markers",
+            name: "Naive Forecast",
+            line: { color: "#e58b35", width: 3, dash: "dash" },
+            marker: { size: 8 }
+        },
+        {
+            x: quarters,
+            y: seasonal,
+            type: "scatter",
+            mode: "lines+markers",
+            name: "Seasonal Naive Forecast",
+            line: { color: "#7b61a8", width: 3, dash: "dot" },
+            marker: { size: 8 }
+        }
+    ], {
+        title: "2025 Actual vs. Forecasted TEUs",
+        xaxis: { title: "Quarter" },
+        yaxis: {
+            title: "TEUs",
+            rangemode: "tozero"
+        },
+        hovermode: "x unified",
+        legend: {
+            orientation: "h",
+            y: 1.16
+        },
+        margin: { t: 95, b: 70, l: 85, r: 25 },
+        paper_bgcolor: "white",
+        plot_bgcolor: "white"
+    }, {
+        responsive: true,
+        displaylogo: false
+    });
+
+    // ==========================================
+    // CALCULATE FORECAST ACCURACY
+    // ==========================================
+
+    function calculateMetrics(predicted) {
+        const errors = actual.map(
+            (value, i) => value - predicted[i]
+        );
+
+        const mae = errors.reduce(
+            (sum, error) => sum + Math.abs(error), 0
+        ) / errors.length;
+
+        const rmse = Math.sqrt(
+            errors.reduce(
+                (sum, error) => sum + error ** 2, 0
+            ) / errors.length
+        );
+
+        const mape = errors.reduce(
+            (sum, error, i) =>
+                sum + Math.abs(error / actual[i]), 0
+        ) / errors.length * 100;
+
+        return { mae, rmse, mape };
+    }
+
+    const naiveMetrics = calculateMetrics(naive);
+    const seasonalMetrics = calculateMetrics(seasonal);
+
+    document.getElementById("naive-mae").textContent =
+        naiveMetrics.mae.toLocaleString("en-US", {
+            maximumFractionDigits: 2
+        });
+
+    document.getElementById("seasonal-mae").textContent =
+        seasonalMetrics.mae.toLocaleString("en-US", {
+            maximumFractionDigits: 2
+        });
+
+    // ==========================================
+    // CHART 2: FORECAST ERROR COMPARISON
+    // ==========================================
+
+    Plotly.newPlot("forecast-accuracy-chart", [
+        {
+            type: "bar",
+            name: "Naive",
+            x: ["MAE", "RMSE"],
+            y: [naiveMetrics.mae, naiveMetrics.rmse],
+            marker: { color: "#e58b35" }
+        },
+        {
+            type: "bar",
+            name: "Seasonal Naive",
+            x: ["MAE", "RMSE"],
+            y: [seasonalMetrics.mae, seasonalMetrics.rmse],
+            marker: { color: "#7b61a8" }
+        }
+    ], {
+        title: "Forecast Error Comparison",
+        barmode: "group",
+        xaxis: { title: "Error Metric" },
+        yaxis: { title: "Error (TEUs)" },
+        margin: { t: 65, b: 70, l: 85, r: 25 },
+        paper_bgcolor: "white",
+        plot_bgcolor: "white"
+    }, {
+        responsive: true,
+        displaylogo: false
+    });
+
+    // ==========================================
+    // DYNAMIC STATISTICAL FINDING
+    // ==========================================
+
+    const betterModel =
+        naiveMetrics.mae < seasonalMetrics.mae
+            ? "naive"
+            : "seasonal naive";
+
+    const finding = document.getElementById("forecast-finding");
+
+    finding.textContent =
+        `For the four quarters of 2025, the ${betterModel} ` +
+        `forecast achieved the lower mean absolute error. ` +
+        `The naive model had an MAE of ` +
+        `${naiveMetrics.mae.toFixed(2)} TEUs and a MAPE of ` +
+        `${naiveMetrics.mape.toFixed(2)}%, while the seasonal ` +
+        `naive model had an MAE of ` +
+        `${seasonalMetrics.mae.toFixed(2)} TEUs and a MAPE of ` +
+        `${seasonalMetrics.mape.toFixed(2)}%. ` +
+        `These results describe one-quarter-ahead historical ` +
+        `benchmark forecasts, not future predictions.`;
+}
+
+loadForecastAnalysis().catch(error => {
+    console.error(error);
+
+    document.getElementById("forecast-finding").textContent =
+        "Forecasting data could not be loaded.";
+});

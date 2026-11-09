@@ -1,0 +1,30 @@
+[
+  {
+    "year":2025,
+    "quarter":1,
+    "total_teus":31938.61,
+    "naive_forecast":29755.18,
+    "seasonal_naive_forecast":24807.09
+  },
+  {
+    "year":2025,
+    "quarter":2,
+    "total_teus":39554.7,
+    "naive_forecast":31938.61,
+    "seasonal_naive_forecast":23699.23
+  },
+  {
+    "year":2025,
+    "quarter":3,
+    "total_teus":34348.08,
+    "naive_forecast":39554.7,
+    "seasonal_naive_forecast":24446.52
+  },
+  {
+    "year":2025,
+    "quarter":4,
+    "total_teus":32468.3,
+    "naive_forecast":34348.08,
+    "seasonal_naive_forecast":29755.18
+  }
+]

@@ -192,6 +192,53 @@
 
 </section>
 
+<!-- SECTION 5: Quarterly TEU Forecasting -->
+<section class="dashboard-section" id="forecast-section">
+
+    <h2>5. Quarterly TEU Forecasting</h2>
+
+    <p>
+        Compare Jacksonville's actual container volumes in 2025
+        with predictions from two forecasting methods:
+        naive and seasonal naive.
+    </p>
+
+    <div id="forecast-chart"></div>
+
+    <h3>Forecast Accuracy Comparison</h3>
+
+    <div class="forecast-metrics">
+        <div class="forecast-metric-card">
+            <h4>Naive Forecast</h4>
+            <p id="naive-mae">--</p>
+            <span>Mean Absolute Error (TEUs)</span>
+        </div>
+
+        <div class="forecast-metric-card">
+            <h4>Seasonal Naive Forecast</h4>
+            <p id="seasonal-mae">--</p>
+            <span>Mean Absolute Error (TEUs)</span>
+        </div>
+    </div>
+
+    <div id="forecast-accuracy-chart"></div>
+
+    <div class="finding">
+        <h3>Statistical Finding</h3>
+        <p id="forecast-finding">
+            Loading forecasting analysis...
+        </p>
+    </div>
+
+    <p class="data-note">
+        Forecasts are evaluated against the four quarters of
+        2025 using the Jacksonville subset of U.S.–Latin America
+        trade records. These figures do not represent total
+        official JAXPORT throughput.
+    </p>
+
+</section>
+
     </main>
 </body>
 </html>
