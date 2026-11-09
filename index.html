@@ -370,6 +370,85 @@
 
 </section>
 
+
+<!-- SECTION 8: UNDERREPRESENTED GROWING TRADE LANES -->
+<section class="dashboard-section" id="lanes-section">
+
+    <h2>8. Underrepresented Growing Trade Lanes</h2>
+
+    <p>
+        Identify country–commodity trade combinations that are
+        growing across the 28-port dataset but have relatively
+        low participation through Jacksonville.
+        These results highlight candidates for further research,
+        not guaranteed commercial opportunities.
+    </p>
+
+    <div class="lanes-filters">
+        <div>
+            <label for="lanes-direction-filter">
+                Trade Direction:
+            </label>
+            <select id="lanes-direction-filter">
+                <option value="all">Imports &amp; Exports</option>
+                <option value="I">Imports</option>
+                <option value="E">Exports</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="lanes-country-filter">
+                Foreign Country:
+            </label>
+            <select id="lanes-country-filter">
+                <option value="all">All Countries</option>
+            </select>
+        </div>
+    </div>
+
+    <h3>Growing Trade Lanes: Growth vs. Jacksonville Share</h3>
+    <div id="lanes-opportunity-chart"></div>
+
+    <h3>Top Growing Trade Lanes</h3>
+
+    <div class="lanes-table-wrapper">
+        <table class="lanes-results-table">
+            <thead>
+                <tr>
+                    <th>Country</th>
+                    <th>Commodity (HS2)</th>
+                    <th>Direction</th>
+                    <th>2025 TEUs</th>
+                    <th>Growth (%)</th>
+                    <th>JAX Share (%)</th>
+                </tr>
+            </thead>
+            <tbody id="lanes-results-body"></tbody>
+        </table>
+    </div>
+
+    <div class="finding">
+        <h3>Research Finding</h3>
+        <p id="lanes-finding">
+            Loading growing trade lane analysis...
+        </p>
+    </div>
+
+    <p class="data-note">
+        Trade lanes are defined by foreign country, HS2 commodity,
+        and import/export direction. Screening requires at least
+        100 TEUs in 2021, at least 500 TEUs in 2025,
+        positive growth, and less than 5% Jacksonville share
+        in 2025. Only the top 100 qualifying lanes by absolute
+        TEU increase are displayed. These are exploratory
+        screening criteria, not established industry benchmarks.
+        Foreign initial country does not necessarily indicate
+        a direct vessel route.
+    </p>
+
+</section>
+
+
     </main>
 </body>
 </html>

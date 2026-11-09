@@ -370,3 +370,70 @@ select {
         gap: 14px;
     }
 }
+
+
+/* SECTION 8: GROWING TRADE LANES */
+
+#lanes-section {
+    margin-top: 35px;
+}
+
+.lanes-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin: 25px 0;
+}
+
+.lanes-filters > div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.lanes-filters select {
+    padding: 9px 12px;
+    border: 1px solid #ccd6e2;
+    border-radius: 6px;
+    background: white;
+    color: #243247;
+    font-size: 15px;
+}
+
+#lanes-opportunity-chart {
+    width: 100%;
+    min-height: 520px;
+}
+
+.lanes-table-wrapper {
+    overflow-x: auto;
+    margin: 20px 0 35px;
+}
+
+.lanes-results-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.lanes-results-table th,
+.lanes-results-table td {
+    padding: 12px;
+    border-bottom: 1px solid #dce4ec;
+    text-align: left;
+}
+
+.lanes-results-table th {
+    background: #eef5fa;
+    font-weight: 600;
+}
+
+.lanes-results-table tbody tr:hover {
+    background: #f5f9fc;
+}
+
+@media (max-width: 600px) {
+    .lanes-filters {
+        flex-direction: column;
+        gap: 14px;
+    }
+}

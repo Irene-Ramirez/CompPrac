@@ -1392,3 +1392,271 @@ loadPortCompetition().catch(error => {
             "Port competition data could not be loaded.";
     }
 });
+
+
+/* ==========================================
+   SECTION 8: UNDERREPRESENTED GROWING LANES
+   ========================================== */
+
+async function loadGrowingTradeLanes() {
+
+    const response = await fetch(
+        "data/jaxport_growing_lanes.json"
+    );
+
+    if (!response.ok) {
+        throw new Error("Could not load growing trade lanes data");
+    }
+
+    const rawData = await response.json();
+
+    const data = rawData.map(row => ({
+        country: String(row.foreign_initial_country),
+        hs2: String(row.hs2).padStart(2, "0"),
+        direction: String(row.direction),
+        teus_2021: Number(row.teus_2021),
+        teus_2025: Number(row.teus_2025),
+        growth_pct: Number(row.growth_pct),
+        jax_share_pct: Number(row.jax_share_pct),
+        teu_increase: Number(row.teu_increase)
+    }));
+
+    const directionFilter = document.getElementById(
+        "lanes-direction-filter"
+    );
+
+    const countryFilter = document.getElementById(
+        "lanes-country-filter"
+    );
+
+    const tableBody = document.getElementById(
+        "lanes-results-body"
+    );
+
+    const finding = document.getElementById(
+        "lanes-finding"
+    );
+
+    // Populate country dropdown from the exported data
+    const countries = [...new Set(
+        data.map(row => row.country)
+    )].sort();
+
+    countries.forEach(country => {
+        const option = document.createElement("option");
+        option.value = country;
+        option.textContent = country;
+        countryFilter.appendChild(option);
+    });
+
+    function updateGrowingLanes() {
+
+        const selectedDirection = directionFilter.value;
+        const selectedCountry = countryFilter.value;
+
+        const filtered = data.filter(row => {
+
+            const directionMatches =
+                selectedDirection === "all" ||
+                row.direction === selectedDirection;
+
+            const countryMatches =
+                selectedCountry === "all" ||
+                row.country === selectedCountry;
+
+            return directionMatches && countryMatches;
+        });
+
+        // Sort by absolute TEU increase
+        filtered.sort((a, b) =>
+            b.teu_increase - a.teu_increase
+        );
+
+        // ======================================
+        // BUBBLE CHART
+        // ======================================
+
+        const maxVolume = Math.max(
+            1,
+            ...filtered.map(row => row.teus_2025)
+        );
+
+        const bubbleSizes = filtered.map(row =>
+            Math.max(
+                7,
+                Math.sqrt(row.teus_2025 / maxVolume) * 35
+            )
+        );
+
+        const chartTraces = [
+            {
+                type: "scatter",
+                mode: "markers",
+                name: "Growing Trade Lanes",
+                x: filtered.map(row => row.growth_pct),
+                y: filtered.map(row => row.jax_share_pct),
+                text: filtered.map(row =>
+                    `${row.country} | HS${row.hs2} | ` +
+                    `${row.direction === "I"
+                        ? "Imports"
+                        : "Exports"}`
+                ),
+                customdata: filtered.map(row => [
+                    row.teus_2025,
+                    row.teu_increase
+                ]),
+                marker: {
+                    size: bubbleSizes,
+                    color: filtered.map(row => row.teus_2025),
+                    colorscale: "Blues",
+                    showscale: true,
+                    colorbar: {
+                        title: "2025 TEUs"
+                    },
+                    opacity: 0.75,
+                    line: {
+                        color: "#ffffff",
+                        width: 1
+                    }
+                },
+                hovertemplate:
+                    "%{text}" +
+                    "<br>Growth: %{x:.2f}%" +
+                    "<br>Jacksonville Share: %{y:.2f}%" +
+                    "<br>2025 TEUs: %{customdata[0]:,.0f}" +
+                    "<br>TEU Increase: %{customdata[1]:,.0f}" +
+                    "<extra></extra>"
+            }
+        ];
+
+        Plotly.react("lanes-opportunity-chart", chartTraces, {
+            title: "Growing Lanes with Low Jacksonville Participation",
+            xaxis: {
+                title: "TEU Growth, 2021–2025 (%)",
+                zeroline: false
+            },
+            yaxis: {
+                title: "Jacksonville Share of 2025 TEUs (%)",
+                range: [0, 5]
+            },
+            margin: {
+                t: 70,
+                b: 80,
+                l: 90,
+                r: 95
+            },
+            height: 520,
+            paper_bgcolor: "white",
+            plot_bgcolor: "white",
+            annotations: filtered.length === 0
+                ? [{
+                    text: "No qualifying lanes for this selection",
+                    xref: "paper",
+                    yref: "paper",
+                    x: 0.5,
+                    y: 0.5,
+                    showarrow: false
+                }]
+                : []
+        }, {
+            responsive: true,
+            displaylogo: false
+        });
+
+        // ======================================
+        // TOP 20 TRADE LANES TABLE
+        // ======================================
+
+        tableBody.innerHTML = "";
+
+        filtered.slice(0, 20).forEach(row => {
+
+            const tr = document.createElement("tr");
+
+            const values = [
+                row.country,
+                `HS ${row.hs2}`,
+                row.direction === "I"
+                    ? "Imports"
+                    : "Exports",
+                row.teus_2025.toLocaleString(
+                    undefined, {
+                        maximumFractionDigits: 0
+                    }
+                ),
+                row.growth_pct.toFixed(1) + "%",
+                row.jax_share_pct.toFixed(2) + "%"
+            ];
+
+            values.forEach(value => {
+                const td = document.createElement("td");
+                td.textContent = value;
+                tr.appendChild(td);
+            });
+
+            tableBody.appendChild(tr);
+        });
+
+        // ======================================
+        // DYNAMIC RESEARCH FINDING
+        // ======================================
+
+        if (filtered.length > 0) {
+
+            const top = filtered[0];
+
+            const directionText = top.direction === "I"
+                ? "imports"
+                : "exports";
+
+            finding.textContent =
+                `${filtered.length} qualifying trade lanes ` +
+                `match the selected filters within the ` +
+                `exported top-100 candidates. ` +
+                `The largest absolute TEU increase among ` +
+                `these lanes was observed for ${directionText} ` +
+                `associated with ${top.country}, HS${top.hs2}. ` +
+                `Observed volume increased from ` +
+                `${top.teus_2021.toLocaleString(undefined, {
+                    maximumFractionDigits: 0
+                })} TEUs in 2021 to ` +
+                `${top.teus_2025.toLocaleString(undefined, {
+                    maximumFractionDigits: 0
+                })} TEUs in 2025, while Jacksonville ` +
+                `accounted for ${top.jax_share_pct.toFixed(2)}% ` +
+                `of the lane's 2025 dataset volume.`;
+
+        } else {
+
+            finding.textContent =
+                "No qualifying trade lanes match the " +
+                "selected filters within the exported " +
+                "top-100 candidates.";
+        }
+    }
+
+    directionFilter.addEventListener(
+        "change",
+        updateGrowingLanes
+    );
+
+    countryFilter.addEventListener(
+        "change",
+        updateGrowingLanes
+    );
+
+    updateGrowingLanes();
+}
+
+loadGrowingTradeLanes().catch(error => {
+    console.error(error);
+
+    const finding = document.getElementById(
+        "lanes-finding"
+    );
+
+    if (finding) {
+        finding.textContent =
+            "Growing trade lane data could not be loaded.";
+    }
+});
