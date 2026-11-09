@@ -327,3 +327,46 @@ select {
         gap: 14px;
     }
 }
+
+
+
+/* SECTION 7: PORT COMPETITION */
+
+#competition-section {
+    margin-top: 35px;
+}
+
+.competition-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin: 25px 0;
+}
+
+.competition-filters > div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.competition-filters select {
+    padding: 9px 12px;
+    border: 1px solid #ccd6e2;
+    border-radius: 6px;
+    background: white;
+    color: #243247;
+    font-size: 15px;
+}
+
+#competition-trend-chart,
+#competition-growth-chart {
+    width: 100%;
+    min-height: 450px;
+}
+
+@media (max-width: 600px) {
+    .competition-filters {
+        flex-direction: column;
+        gap: 14px;
+    }
+}

@@ -1085,3 +1085,310 @@ loadMachineLearningAnalysis().catch(error => {
             "Machine learning results could not be loaded.";
     }
 });
+
+
+
+/* ==========================================
+   SECTION 7: SHIFTING PORT COMPETITION
+   ========================================== */
+
+async function loadPortCompetition() {
+
+    const response = await fetch(
+        "data/jaxport_port_competition.json"
+    );
+
+    if (!response.ok) {
+        throw new Error("Could not load port competition data");
+    }
+
+    const rawData = await response.json();
+
+    const data = rawData.map(row => ({
+        year: Number(row.year),
+        us_port: String(row.us_port).trim().toUpperCase(),
+        teus: Number(row.teus),
+        market_share: Number(row.market_share)
+    }));
+
+    const portFilter = document.getElementById(
+        "competition-port-filter"
+    );
+
+    const metricFilter = document.getElementById(
+        "competition-metric-filter"
+    );
+
+    const finding = document.getElementById(
+        "competition-finding"
+    );
+
+    // Populate the port dropdown using actual dataset ports.
+    // Preserve the initial Savannah selection.
+    const ports = [...new Set(
+        data.map(row => row.us_port)
+    )]
+        .filter(port => port !== "JACKSONVILLE")
+        .sort();
+
+    portFilter.innerHTML = "";
+
+    ports.forEach(port => {
+        const option = document.createElement("option");
+        option.value = port;
+        option.textContent = port;
+        portFilter.appendChild(option);
+    });
+
+    portFilter.value = ports.includes("SAVANNAH")
+        ? "SAVANNAH"
+        : ports[0];
+
+    const years = [...new Set(
+        data.map(row => row.year)
+    )].sort((a, b) => a - b);
+
+    function getPortData(port) {
+        return years.map(year => {
+            return data.find(row =>
+                row.us_port === port &&
+                row.year === year
+            );
+        });
+    }
+
+    function updateCompetition() {
+
+        const selectedPort = portFilter.value;
+        const metric = metricFilter.value;
+
+        const jaxRows = getPortData("JACKSONVILLE");
+        const competitorRows = getPortData(selectedPort);
+
+        const metricLabel = metric === "market_share"
+            ? "Share of Dataset TEUs (%)"
+            : "Annual TEUs";
+
+        const traces = [
+            {
+                type: "scatter",
+                mode: "lines+markers",
+                name: "Jacksonville",
+                x: years,
+                y: jaxRows.map(row =>
+                    row ? row[metric] : null
+                ),
+                line: {
+                    color: "#167c9b",
+                    width: 3
+                },
+                marker: {
+                    size: 9
+                }
+            },
+            {
+                type: "scatter",
+                mode: "lines+markers",
+                name: selectedPort,
+                x: years,
+                y: competitorRows.map(row =>
+                    row ? row[metric] : null
+                ),
+                line: {
+                    color: "#e58b35",
+                    width: 3
+                },
+                marker: {
+                    size: 9
+                }
+            }
+        ];
+
+        Plotly.react("competition-trend-chart", traces, {
+            title: "Jacksonville vs. " + selectedPort,
+            xaxis: {
+                title: "Year",
+                tickmode: "array",
+                tickvals: years
+            },
+            yaxis: {
+                title: metricLabel,
+                rangemode: "tozero"
+            },
+            hovermode: "x unified",
+            margin: {
+                t: 70,
+                b: 65,
+                l: 90,
+                r: 30
+            },
+            paper_bgcolor: "white",
+            plot_bgcolor: "white"
+        }, {
+            responsive: true,
+            displaylogo: false
+        });
+
+        // ======================================
+        // CHART 2: PORT GROWTH 2021-2025
+        // ======================================
+
+        const startYear = 2021;
+        const endYear = 2025;
+
+        const growthData = [];
+
+        const allPorts = [...new Set(
+            data.map(row => row.us_port)
+        )];
+
+        allPorts.forEach(port => {
+
+            const start = data.find(row =>
+                row.us_port === port &&
+                row.year === startYear
+            );
+
+            const end = data.find(row =>
+                row.us_port === port &&
+                row.year === endYear
+            );
+
+            if (!start || !end || start.teus <= 0) {
+                return;
+            }
+
+            const growth =
+                (end.teus - start.teus) /
+                start.teus * 100;
+
+            if (Number.isFinite(growth)) {
+                growthData.push({
+                    port,
+                    growth
+                });
+            }
+        });
+
+        growthData.sort((a, b) =>
+            a.growth - b.growth
+        );
+
+        Plotly.react("competition-growth-chart", [{
+            type: "bar",
+            orientation: "h",
+            x: growthData.map(row => row.growth),
+            y: growthData.map(row => row.port),
+            marker: {
+                color: growthData.map(row =>
+                    row.port === "JACKSONVILLE"
+                        ? "#167c9b"
+                        : "#a8b7c7"
+                )
+            },
+            hovertemplate:
+                "%{y}<br>Growth: %{x:.2f}%" +
+                "<extra></extra>"
+        }], {
+            title: "Change in Observed TEUs (2021–2025)",
+            xaxis: {
+                title: "TEU Growth (%)",
+                zeroline: true
+            },
+            yaxis: {
+                automargin: true
+            },
+            margin: {
+                t: 70,
+                b: 70,
+                l: 140,
+                r: 30
+            },
+            height: Math.max(
+                500,
+                growthData.length * 24 + 130
+            ),
+            paper_bgcolor: "white",
+            plot_bgcolor: "white"
+        }, {
+            responsive: true,
+            displaylogo: false
+        });
+
+        // ======================================
+        // DYNAMIC RESEARCH FINDING
+        // ======================================
+
+        const firstJax = data.find(row =>
+            row.us_port === "JACKSONVILLE" &&
+            row.year === startYear
+        );
+
+        const lastJax = data.find(row =>
+            row.us_port === "JACKSONVILLE" &&
+            row.year === endYear
+        );
+
+        const competitorEnd = data.find(row =>
+            row.us_port === selectedPort &&
+            row.year === endYear
+        );
+
+        if (firstJax && lastJax && competitorEnd) {
+
+            const shareChange =
+                lastJax.market_share -
+                firstJax.market_share;
+
+            const direction = shareChange > 0
+                ? "increased"
+                : shareChange < 0
+                    ? "decreased"
+                    : "remained unchanged";
+
+            finding.textContent =
+                `Between ${startYear} and ${endYear}, ` +
+                `Jacksonville's share of observed TEUs ` +
+                `${direction} from ` +
+                `${firstJax.market_share.toFixed(2)}% to ` +
+                `${lastJax.market_share.toFixed(2)}% ` +
+                `(${shareChange >= 0 ? "+" : ""}` +
+                `${shareChange.toFixed(2)} percentage points). ` +
+                `In ${endYear}, ${selectedPort} represented ` +
+                `${competitorEnd.market_share.toFixed(2)}% ` +
+                `of the dataset, compared with ` +
+                `${lastJax.market_share.toFixed(2)}% ` +
+                `for Jacksonville.`;
+
+        } else {
+            finding.textContent =
+                "Insufficient observations to calculate " +
+                "the selected comparison.";
+        }
+    }
+
+    portFilter.addEventListener(
+        "change",
+        updateCompetition
+    );
+
+    metricFilter.addEventListener(
+        "change",
+        updateCompetition
+    );
+
+    updateCompetition();
+}
+
+loadPortCompetition().catch(error => {
+    console.error(error);
+
+    const finding = document.getElementById(
+        "competition-finding"
+    );
+
+    if (finding) {
+        finding.textContent =
+            "Port competition data could not be loaded.";
+    }
+});

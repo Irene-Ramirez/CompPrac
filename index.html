@@ -309,6 +309,67 @@
 
 </section>
 
+
+<!-- SECTION 7: SHIFTING PORT COMPETITION -->
+<section class="dashboard-section" id="competition-section">
+
+    <h2>7. Shifting Port Competition</h2>
+
+    <p>
+        Explore how Jacksonville's position has changed relative
+        to other U.S. ports in the dataset between 2021 and 2025.
+        Compare annual container volumes, relative trade shares,
+        and changes in port activity.
+    </p>
+
+    <div class="competition-filters">
+        <div>
+            <label for="competition-port-filter">
+                Compare Jacksonville With:
+            </label>
+            <select id="competition-port-filter">
+                <option value="SAVANNAH">Savannah</option>
+                <option value="MIAMI">Miami</option>
+                <option value="CHARLESTON">Charleston</option>
+                <option value="HOUSTON">Houston</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="competition-metric-filter">
+                Comparison Metric:
+            </label>
+            <select id="competition-metric-filter">
+                <option value="market_share">Dataset Share (%)</option>
+                <option value="teus">Annual TEUs</option>
+            </select>
+        </div>
+    </div>
+
+    <h3>Jacksonville vs. Competing Ports</h3>
+    <div id="competition-trend-chart"></div>
+
+    <h3>Port Growth: 2021–2025</h3>
+    <div id="competition-growth-chart"></div>
+
+    <div class="finding">
+        <h3>Research Finding</h3>
+        <p id="competition-finding">
+            Loading port competition analysis...
+        </p>
+    </div>
+
+    <p class="data-note">
+        Comparisons represent only the U.S.–Latin America trade
+        observations included in this dataset. Dataset share
+        should not be interpreted as a port's share of all
+        U.S. maritime trade or its official total throughput.
+        Growth rates describe changes in observed TEUs,
+        not necessarily changes in overall port activity.
+    </p>
+
+</section>
+
     </main>
 </body>
 </html>
