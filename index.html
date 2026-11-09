@@ -239,6 +239,76 @@
 
 </section>
 
+
+<!-- SECTION 6: MACHINE LEARNING -->
+<section class="dashboard-section" id="ml-section">
+
+    <h2>6. Neural Network vs. Linear Regression</h2>
+
+    <p>
+        Compare two models trained to predict trade value using
+        container volume, cargo weight, and commodity classification.
+        The models were trained on 2021–2023 data, validated on
+        2024 data, and evaluated on 2025 observations.
+    </p>
+
+    <div class="ml-filters">
+        <div>
+            <label for="ml-scope-filter">Performance Dataset:</label>
+            <select id="ml-scope-filter">
+                <option value="overall">All 28 Ports in Dataset</option>
+                <option value="jacksonville">Jacksonville Only</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="ml-model-filter">Prediction Model:</label>
+            <select id="ml-model-filter">
+                <option value="both">Both Models</option>
+                <option value="nn">Neural Network</option>
+                <option value="linear">Linear Regression</option>
+            </select>
+        </div>
+    </div>
+
+    <h3>Model Performance</h3>
+    <div id="ml-performance-chart"></div>
+
+    <div class="ml-table-wrapper">
+        <table class="ml-results-table">
+            <thead>
+                <tr>
+                    <th>Model</th>
+                    <th>R²</th>
+                    <th>MAE</th>
+                    <th>RMSE</th>
+                </tr>
+            </thead>
+            <tbody id="ml-results-body"></tbody>
+        </table>
+    </div>
+
+    <h3>Actual vs. Predicted Trade Value</h3>
+    <div id="ml-predictions-chart"></div>
+
+    <div class="finding">
+        <h3>Statistical Finding</h3>
+        <p id="ml-finding">
+            Loading machine learning results...
+        </p>
+    </div>
+
+    <p class="data-note">
+        Results use 2025 held-out test observations.
+        Prediction values and errors are expressed on the
+        natural log(1 + USD) scale. The scatter plot uses
+        a reproducible sample from the full test dataset;
+        Jacksonville-only plots use the Jacksonville records
+        within that sample.
+    </p>
+
+</section>
+
     </main>
 </body>
 </html>

@@ -1,0 +1,14 @@
+[
+  {
+    "Model":"Neural Network",
+    "R-squared":0.8673166633,
+    "MAE":0.6378371716,
+    "RMSE":0.847837543
+  },
+  {
+    "Model":"Linear Regression",
+    "R-squared":0.8087267472,
+    "MAE":0.7347683825,
+    "RMSE":1.0179619716
+  }
+]

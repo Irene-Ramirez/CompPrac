@@ -772,3 +772,316 @@ loadForecastAnalysis().catch(error => {
     document.getElementById("forecast-finding").textContent =
         "Forecasting data could not be loaded.";
 });
+
+
+async function loadMachineLearningAnalysis() {
+
+    const [overallResponse, jaxResponse, predictionsResponse] =
+        await Promise.all([
+            fetch("data/jaxport_model_comparison.json"),
+            fetch("data/jaxport_jacksonville_performance.json"),
+            fetch("data/jaxport_model_predictions.json")
+        ]);
+
+    if (
+        !overallResponse.ok ||
+        !jaxResponse.ok ||
+        !predictionsResponse.ok
+    ) {
+        throw new Error("Unable to load machine learning data");
+    }
+
+    const overallResults = await overallResponse.json();
+    const jaxResults = await jaxResponse.json();
+    const predictions = await predictionsResponse.json();
+
+    const scopeFilter = document.getElementById("ml-scope-filter");
+    const modelFilter = document.getElementById("ml-model-filter");
+    const tableBody = document.getElementById("ml-results-body");
+    const finding = document.getElementById("ml-finding");
+
+    const colors = {
+        "Neural Network": "#167c9b",
+        "Linear Regression": "#e58b35"
+    };
+
+    const format = value =>
+        Number(value).toFixed(4);
+
+    function selectedModels() {
+        if (modelFilter.value === "nn") {
+            return ["Neural Network"];
+        }
+
+        if (modelFilter.value === "linear") {
+            return ["Linear Regression"];
+        }
+
+        return ["Neural Network", "Linear Regression"];
+    }
+
+    function updateMLCharts() {
+
+        const isJacksonville =
+            scopeFilter.value === "jacksonville";
+
+        const results = isJacksonville
+            ? jaxResults
+            : overallResults;
+
+        const models = selectedModels();
+
+        const selectedResults = results.filter(
+            row => models.includes(row.Model)
+        );
+
+        // ======================================
+        // PERFORMANCE TABLE
+        // ======================================
+
+        tableBody.innerHTML = "";
+
+        selectedResults.forEach(row => {
+
+            const tr = document.createElement("tr");
+
+            [
+                row.Model,
+                format(row["R-squared"]),
+                format(row.MAE),
+                format(row.RMSE)
+            ].forEach(value => {
+                const td = document.createElement("td");
+                td.textContent = value;
+                tr.appendChild(td);
+            });
+
+            tableBody.appendChild(tr);
+        });
+
+        // ======================================
+        // PERFORMANCE CHART
+        // ======================================
+
+        // MAE and RMSE are displayed together.
+        // R-squared remains in the table because
+        // it measures something different.
+
+        const performanceTraces = selectedResults.map(row => ({
+            type: "bar",
+            name: row.Model,
+            x: ["MAE", "RMSE"],
+            y: [
+                Number(row.MAE),
+                Number(row.RMSE)
+            ],
+            marker: {
+                color: colors[row.Model]
+            },
+            text: [
+                format(row.MAE),
+                format(row.RMSE)
+            ],
+            textposition: "auto"
+        }));
+
+        Plotly.react("ml-performance-chart", performanceTraces, {
+            title: isJacksonville
+                ? "Jacksonville: 2025 Model Errors"
+                : "All U.S. Ports: 2025 Model Errors",
+            barmode: "group",
+            xaxis: {
+                title: "Error Metric"
+            },
+            yaxis: {
+                title: "Error (Natural Log Scale)",
+                rangemode: "tozero"
+            },
+            margin: {
+                t: 70,
+                b: 70,
+                l: 85,
+                r: 25
+            },
+            paper_bgcolor: "white",
+            plot_bgcolor: "white"
+        }, {
+            responsive: true,
+            displaylogo: false
+        });
+
+        // ======================================
+        // ACTUAL VS PREDICTED SCATTER PLOT
+        // ======================================
+
+        const filtered = predictions.filter(row =>
+            !isJacksonville ||
+            String(row.us_port).trim().toUpperCase()
+                === "JACKSONVILLE"
+        );
+
+        const scatterTraces = [];
+
+        const configurations = [
+            {
+                name: "Neural Network",
+                column: "nn_predicted"
+            },
+            {
+                name: "Linear Regression",
+                column: "linear_predicted"
+            }
+        ];
+
+        configurations.forEach(config => {
+
+            if (!models.includes(config.name)) {
+                return;
+            }
+
+            scatterTraces.push({
+                type: "scatter",
+                mode: "markers",
+                name: config.name,
+                x: filtered.map(
+                    row => Number(row.actual_log_value)
+                ),
+                y: filtered.map(
+                    row => Number(row[config.column])
+                ),
+                marker: {
+                    color: colors[config.name],
+                    size: 5,
+                    opacity: 0.3
+                },
+                hovertemplate:
+                    "Actual: %{x:.3f}" +
+                    "<br>Predicted: %{y:.3f}" +
+                    "<extra></extra>"
+            });
+        });
+
+        const values = filtered.flatMap(row => [
+            Number(row.actual_log_value),
+            ...(models.includes("Neural Network")
+                ? [Number(row.nn_predicted)]
+                : []),
+            ...(models.includes("Linear Regression")
+                ? [Number(row.linear_predicted)]
+                : [])
+        ]).filter(Number.isFinite);
+
+        if (values.length > 0) {
+
+            const minimum = Math.min(...values);
+            const maximum = Math.max(...values);
+
+            scatterTraces.push({
+                type: "scatter",
+                mode: "lines",
+                name: "Perfect Prediction",
+                x: [minimum, maximum],
+                y: [minimum, maximum],
+                line: {
+                    color: "#333333",
+                    width: 2,
+                    dash: "dash"
+                }
+            });
+        }
+
+        Plotly.react("ml-predictions-chart", scatterTraces, {
+            title: isJacksonville
+                ? "Jacksonville: Actual vs. Predicted"
+                : "All U.S. Ports: Actual vs. Predicted",
+            xaxis: {
+                title: "Actual Log(1 + Trade Value)",
+                zeroline: false
+            },
+            yaxis: {
+                title: "Predicted Log(1 + Trade Value)",
+                zeroline: false
+            },
+            legend: {
+                orientation: "h",
+                y: 1.16
+            },
+            margin: {
+                t: 95,
+                b: 75,
+                l: 85,
+                r: 25
+            },
+            paper_bgcolor: "white",
+            plot_bgcolor: "white",
+            annotations: filtered.length === 0
+                ? [{
+                    text: "No sampled observations for this selection",
+                    showarrow: false,
+                    xref: "paper",
+                    yref: "paper",
+                    x: 0.5,
+                    y: 0.5
+                }]
+                : []
+        }, {
+            responsive: true,
+            displaylogo: false
+        });
+
+        // ======================================
+        // STATISTICAL FINDING
+        // ======================================
+
+        const nn = results.find(
+            row => row.Model === "Neural Network"
+        );
+
+        const linear = results.find(
+            row => row.Model === "Linear Regression"
+        );
+
+        const scopeText = isJacksonville
+            ? "Jacksonville"
+            : "the overall trade dataset";
+
+        if (nn && linear) {
+
+            const winner = Number(nn.MAE) < Number(linear.MAE)
+                ? "neural network"
+                : "linear regression";
+
+            finding.textContent =
+                `For ${scopeText}, the ${winner} achieved ` +
+                `the lower mean absolute error. ` +
+                `The neural network obtained R² = ` +
+                `${format(nn["R-squared"])} and MAE = ` +
+                `${format(nn.MAE)}, compared with R² = ` +
+                `${format(linear["R-squared"])} and MAE = ` +
+                `${format(linear.MAE)} for linear regression. ` +
+                `The scatter plot displays ` +
+                `${filtered.length.toLocaleString()} sampled ` +
+                `2025 observations.`;
+
+        } else {
+            finding.textContent =
+                "Model performance results are unavailable.";
+        }
+    }
+
+    scopeFilter.addEventListener("change", updateMLCharts);
+    modelFilter.addEventListener("change", updateMLCharts);
+
+    updateMLCharts();
+}
+
+loadMachineLearningAnalysis().catch(error => {
+    console.error(error);
+
+    const finding = document.getElementById("ml-finding");
+
+    if (finding) {
+        finding.textContent =
+            "Machine learning results could not be loaded.";
+    }
+});

@@ -259,3 +259,71 @@ select {
         grid-template-columns: 1fr;
     }
 }
+
+
+/* SECTION 6: MACHINE LEARNING */
+
+#ml-section {
+    margin-top: 35px;
+}
+
+.ml-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin: 25px 0;
+}
+
+.ml-filters > div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.ml-filters select {
+    padding: 9px 12px;
+    border: 1px solid #ccd6e2;
+    border-radius: 6px;
+    background: white;
+    color: #243247;
+    font-size: 15px;
+}
+
+#ml-performance-chart,
+#ml-predictions-chart {
+    width: 100%;
+    min-height: 450px;
+}
+
+.ml-table-wrapper {
+    overflow-x: auto;
+    margin: 20px 0 35px;
+}
+
+.ml-results-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.ml-results-table th,
+.ml-results-table td {
+    padding: 14px;
+    border-bottom: 1px solid #dce4ec;
+    text-align: left;
+}
+
+.ml-results-table th {
+    background: #eef5fa;
+    font-weight: 600;
+}
+
+.ml-results-table tbody tr:hover {
+    background: #f5f9fc;
+}
+
+@media (max-width: 600px) {
+    .ml-filters {
+        flex-direction: column;
+        gap: 14px;
+    }
+}
