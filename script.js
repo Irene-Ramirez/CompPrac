@@ -1660,3 +1660,112 @@ loadGrowingTradeLanes().catch(error => {
             "Growing trade lane data could not be loaded.";
     }
 });
+
+
+/* ==========================================
+   DASHBOARD TAB NAVIGATION
+   ========================================== */
+
+function initializeDashboardTabs() {
+
+    const tabs = document.querySelectorAll(".dashboard-tab");
+
+    // Organize the eight existing research sections
+    const tabSections = {
+        overview: [
+            "overview-section",
+            "directions-section",
+            "commodities-section"
+        ],
+
+        analysis: [
+            "weight-value-section",
+            "competition-section"
+        ],
+
+        models: [
+            "forecast-section",
+            "ml-section"
+        ],
+
+        opportunities: [
+            "lanes-section"
+        ]
+    };
+
+    // Collect all sections managed by the tabs
+    const allSectionIds = Object.values(tabSections).flat();
+
+    function showTab(tabName) {
+
+        // Hide all dashboard sections
+        allSectionIds.forEach(sectionId => {
+
+            const section = document.getElementById(sectionId);
+
+            if (section) {
+                section.style.display = "none";
+            }
+        });
+
+        // Show sections belonging to selected tab
+        (tabSections[tabName] || []).forEach(sectionId => {
+
+            const section = document.getElementById(sectionId);
+
+            if (section) {
+                section.style.display = "";
+            }
+        });
+
+        // Update active tab styling
+        tabs.forEach(tab => {
+
+            const isActive = tab.dataset.tab === tabName;
+
+            tab.classList.toggle("active", isActive);
+            tab.setAttribute("aria-pressed", String(isActive));
+        });
+
+        // Plotly charts need to resize after
+        // previously hidden sections become visible.
+        requestAnimationFrame(() => {
+
+            (tabSections[tabName] || []).forEach(sectionId => {
+
+                const section = document.getElementById(sectionId);
+
+                if (!section) return;
+
+                section.querySelectorAll(".js-plotly-plot")
+                    .forEach(chart => {
+
+                        Plotly.Plots.resize(chart);
+                    });
+            });
+        });
+    }
+
+    // Connect each navigation button
+    tabs.forEach(tab => {
+
+        tab.addEventListener("click", () => {
+            showTab(tab.dataset.tab);
+        });
+    });
+
+    // Open the Overview tab by default
+    showTab("overview");
+}
+
+if (document.readyState === "loading") {
+
+    document.addEventListener(
+        "DOMContentLoaded",
+        initializeDashboardTabs
+    );
+
+} else {
+
+    initializeDashboardTabs();
+}

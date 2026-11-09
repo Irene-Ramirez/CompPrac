@@ -437,3 +437,60 @@ select {
         gap: 14px;
     }
 }
+
+
+/* ==========================================
+   DASHBOARD TAB NAVIGATION
+   ========================================== */
+
+.dashboard-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 30px 0;
+    padding: 10px;
+    background: #eef3f8;
+    border-radius: 12px;
+}
+
+.dashboard-tab {
+    flex: 1;
+    min-width: 145px;
+    padding: 14px 18px;
+    background: transparent;
+    border: none;
+    border-radius: 8px;
+    color: #34495e;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}
+
+.dashboard-tab:hover {
+    background: #dce8f2;
+}
+
+.dashboard-tab.active {
+    background: #167c9b;
+    color: white;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
+}
+
+.dashboard-tab:focus-visible {
+    outline: 3px solid #e58b35;
+    outline-offset: 2px;
+}
+
+@media (max-width: 600px) {
+    .dashboard-tabs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .dashboard-tab {
+        min-width: 0;
+        padding: 12px 8px;
+        font-size: 13px;
+    }
+}
